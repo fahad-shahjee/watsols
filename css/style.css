@@ -1500,17 +1500,20 @@ body.lightmode .digital-process-banner{
     display: inline-block;
     -webkit-background-clip: text;
     background-clip: text;
+    background-clip: text;
+    background-clip: text;
+    background-clip: text;
     background-color: transparent;
-    background-image: linear-gradient(340deg, var(--accent-transparent) 30%, var(--accent-color) 100%);
+    background-image: linear-gradient(340deg, var(--accent-transparent) 30%, var(--primary) 100%);
     -webkit-text-fill-color: transparent;
     -webkit-tap-highlight-color: transparent;
 }
 
 .title-heading{
-    display: inline-block;
+     display: inline-block;
     -webkit-background-clip: text;
     background-color: transparent;
-    background-image: linear-gradient(284deg, var(--accent-transparent) 3%, var(--accent-color) 100%);
+    background-image: linear-gradient(284deg, var(--accent-transparent) 3%, var(--primary) 100%);
     -webkit-text-fill-color: transparent;
     -webkit-tap-highlight-color: transparent;
 }
@@ -2569,7 +2572,7 @@ body.lightmode .case-studies-content::before{
     display: flex;
     flex-direction: column;
     padding: 2px 2px 0px 2px;
-    border-radius: 25px  25px 0px 0px;
+    border-radius: 25px 25px 0px 0px;
     overflow: hidden;
     position: relative;
     z-index: 1;
@@ -4730,7 +4733,7 @@ body.lightmode .cta-service-banner::before{
         font-size: var(--font-size-sm);
     }
     .service-details{
-        padding: 0em 0em 2em 0em;
+        padding: 0em 2em 0em 0em;
     }
     .number-box{
         margin: 0;
