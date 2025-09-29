@@ -26,6 +26,8 @@ Promise.all([
   });
       
 function initBannerVideo() {
+    var loopStart = 10;   // 00:10 in seconds
+    var loopEnd = 130;    // 02:10 in seconds
     var player;
 
     var $tag = $('<script>', { src: "https://www.youtube.com/iframe_api" });
@@ -33,74 +35,73 @@ function initBannerVideo() {
 
     window.onYouTubeIframeAPIReady = function() {
         player = new YT.Player('banner-video-background', {
-            videoId: 'P68V3iH4TeE',
+            videoId: 'c3abfWsQk-M',
             playerVars: {
-                'autoplay': 1,
-                'controls': 0,
-                'mute': 1,
-                'loop': 1,
-                'playlist': 'P68V3iH4TeE',
-                'showinfo': 0,
-                'rel': 0,
-                'enablejsapi': 1,
-                'disablekb': 1,
-                'modestbranding': 1,
-                'iv_load_policy': 3,
-                'origin': window.location.origin
+                autoplay: 1,
+                controls: 0,
+                mute: 1,
+                loop: 1,
+                playlist: 'c3abfWsQk-M',
+                start: loopStart,
+                end: loopEnd,
+                rel: 0,
+                showinfo: 0,
+                modestbranding: 1,
+                iv_load_policy: 3,
+                origin: window.location.origin
             },
             events: {
-                'onReady': onPlayerReady,
-                'onStateChange': onPlayerStateChange
+                onReady: function(event) {
+                    event.target.playVideo();
+                },
+                onStateChange: function(event) {
+                    if (event.data == YT.PlayerState.PLAYING) {
+                        setInterval(function() {
+                            var currentTime = event.target.getCurrentTime();
+                            if (currentTime >= loopEnd) {
+                                event.target.seekTo(loopStart);
+                            }
+                        }, 500);
+                    }
+                }
             }
         });
     };
+}
 
-    function onPlayerReady(event) {
-        event.target.playVideo();
-        setYoutubeSize();
-        $(window).on('resize', setYoutubeSize);
+function setYoutubeSize() {
+    var $container = $('.banner-video-container');
+    var containerWidth = $container.outerWidth();
+    var containerHeight = $container.outerHeight();
+    var aspectRatio = 16 / 9;
+    var newWidth, newHeight;
+
+    if (containerWidth / containerHeight > aspectRatio) {
+        newWidth = containerWidth;
+        newHeight = containerWidth / aspectRatio;
+    } else {
+        newWidth = containerHeight * aspectRatio;
+        newHeight = containerHeight;
     }
 
-    function onPlayerStateChange(event) {
-        if (event.data === YT.PlayerState.ENDED) {
-            player.playVideo();
-        }
-    }
-
-    function setYoutubeSize() {
-        var $container = $('.banner-video-container');
-        var containerWidth = $container.outerWidth();
-        var containerHeight = $container.outerHeight();
-        var aspectRatio = 16 / 9;
-        var newWidth, newHeight;
-
-        if (containerWidth / containerHeight > aspectRatio) {
-            newWidth = containerWidth;
-            newHeight = containerWidth / aspectRatio;
-        } else {
-            newWidth = containerHeight * aspectRatio;
-            newHeight = containerHeight;
-        }
-
-        if (player && player.getIframe) {
-            var $iframe = $(player.getIframe());
-            $iframe.width(newWidth).height(newHeight);
-        }
-    }
-
-    function handleYouTubeErrors() {
-        window.addEventListener('message', function(event) {
-            if (event.origin !== 'https://www.youtube.com') return;
-        
-            try {
-                var data = JSON.parse(event.data);
-               
-            } catch (e) {
-     
-            }
-        });
+    if (player && player.getIframe) {
+        var $iframe = $(player.getIframe());
+        $iframe.width(newWidth).height(newHeight);
     }
 }
+
+function handleYouTubeErrors() {
+    window.addEventListener('message', function(event) {
+        if (event.origin !== 'https://www.youtube.com') return;
+        try {
+            var data = JSON.parse(event.data);
+            // Handle data if needed
+        } catch (e) {
+            // Silently ignore
+        }
+    });
+}
+
 
 function initThemeSwitch() {
     let lightMode = false;

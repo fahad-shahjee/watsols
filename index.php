@@ -38,13 +38,12 @@
                         <div class="banner-heading">
                             <div class="banner-video-content order-xl-1 order-2 animate-box animated animate__animated" data-animate="animate__fadeInUp">
                                 <div class="d-flex flex-column flex-xl-row text-xl-start text-center align-items-center gspace-5">
-                                    <button class="request-loader" data-video="https://www.youtube.com/embed/VhBl3dHT5SY?autoplay=1"><i class="fa-solid fa-play"></i></button>
                                     <p>
                                         Watch our video reviews and see how businesses achieve success with Marko's digital marketing solutions.
                                     </p>
                                 </div>
                             </div>
-                            <div class="banner-content order-xl-2 order-1  animate-box animated animate__animated" data-animate="animate__fadeInRight">
+                            <div class="banner-content order-xl-2 order-1  animate-box animated animate__animated" data-animate="animate__fadeInRight" style="color: white;"> 
                                 <p>Marko empowers businesses to grow online with data driven digital marketing, innovative branding, and performance focused strategies trusted by top brands lorem ipsum dolor sit amet consectetur.</p>
                                 <div class="d-flex flex-md-row flex-column justify-content-center justify-content-xl-start align-self-center align-self-xl-start gspace-3">
                                     <a href="./about.php" class="btn btn-accent">
@@ -80,7 +79,7 @@
                 <div class="d-flex flex-column flex-xl-row gspace-5">
                     <div class="expertise-img-layout">
                         <div class="image-container expertise-img">
-                            <img src="./image/dummy-img-600x400.jpg" alt="Expertise Image" class="img-fluid  animate-box animated animate__animated" data-animate="animate__fadeInUp">
+                            <img src="./image/about/about-sec.png" alt="Expertise Image" class="img-fluid  animate-box animated animate__animated" data-animate="animate__fadeInUp">
                             <div class="expertise-layout">
                                 <div class="d-flex flex-column">
                                     <div class="card-expertise-wrapper">
