@@ -39,12 +39,12 @@
                             <div class="banner-video-content order-xl-1 order-2 animate-box animated animate__animated" data-animate="animate__fadeInUp">
                                 <div class="d-flex flex-column flex-xl-row text-xl-start text-center align-items-center gspace-5">
                                     <p>
-                                        Watch our video reviews and see how businesses achieve success with Marko's digital marketing solutions.
+                                        Watch our video reviews and see how businesses achieve success with Watsols's digital marketing solutions.
                                     </p>
                                 </div>
                             </div>
                             <div class="banner-content order-xl-2 order-1  animate-box animated animate__animated" data-animate="animate__fadeInRight" style="color: white;"> 
-                                <p>Marko empowers businesses to grow online with data driven digital marketing, innovative branding, and performance focused strategies trusted by top brands lorem ipsum dolor sit amet consectetur.</p>
+                                <p>Watsols empowers businesses to grow online with data driven digital marketing, innovative branding, and performance focused strategies trusted by top brands lorem ipsum dolor sit amet consectetur.</p>
                                 <div class="d-flex flex-md-row flex-column justify-content-center justify-content-xl-start align-self-center align-self-xl-start gspace-3">
                                     <a href="./about.php" class="btn btn-accent">
                                         <div class="btn-title">
@@ -79,7 +79,7 @@
                 <div class="d-flex flex-column flex-xl-row gspace-5">
                     <div class="expertise-img-layout">
                         <div class="image-container expertise-img">
-                            <img src="./image/about/about-sec.png" alt="Expertise Image" class="img-fluid  animate-box animated animate__animated" data-animate="animate__fadeInUp">
+                            <img src="./image/home/about-sec.png" alt="Expertise Image" class="img-fluid  animate-box animated animate__animated" data-animate="animate__fadeInUp">
                             <div class="expertise-layout">
                                 <div class="d-flex flex-column">
                                     <div class="card-expertise-wrapper">
@@ -104,7 +104,7 @@
                             <span>Our Expertise</span>
                         </div>
                         <h2 class="title-heading animate-box animated animate__animated" data-animate="animate__fadeInRight">Data Driven Strategies, Measurable Results</h2>
-                        <p>At Marko, we specialize in crafting innovative digital marketing strategies that drive real business growth. Our expertise ensures your brand stays ahead in the competitive digital landscape.</p>
+                        <p>At Watsols, we specialize in crafting innovative digital marketing strategies that drive real business growth. Our expertise ensures your brand stays ahead in the competitive digital landscape.</p>
                         <div class="d-flex flex-column flex-md-row gspace-2">
                             <div class="expertise-list">
                                 <h5>What We Do Best</h5>
@@ -276,125 +276,6 @@
             </div>
         </div>
 
-        <!-- Section Why Choose Us -->
-        <div class="section">
-            <div class="hero-container">
-                <div class="d-flex flex-column flex-xl-row gspace-5">
-                    <div class="chooseus-card-container">
-                        <div class="d-flex flex-column gspace-2">
-                            <div class="card card-chooseus animate-box animated fast animate__animated" data-animate="animate__fadeInLeft">
-                                <div class="chooseus-icon-wrapper">
-                                    <div class="chooseus-spacer above"></div>
-                                    <div class="chooseus-icon-layout">
-                                        <div class="chooseus-icon">
-                                            <img src="./image/Icon-2.png" alt="Why Choose Us Icon" class="img-fluid">
-                                        </div>
-                                    </div>
-                                    <div class="chooseus-spacer below"></div>
-                                </div>
-                                <div class="chooseus-content">
-                                    <h4 class="chooseus-title">Data-Driven Approach</h4>
-                                    <p>Every decision is backed by real-time analytics for maximum impact lorem ipsum dolor sit  consectetur adipiscing elit ut elit tellus luctus nec.</p>
-                                    <div class="link-wrapper">
-                                        <a href="#">Read More</a>
-                                        <i class="fa-solid fa-arrow-circle-right accent-color"></i>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="card card-chooseus  animate-box animated animate__animated" data-animate="animate__fadeInLeft">
-                                <div class="chooseus-icon-wrapper">
-                                    <div class="chooseus-spacer above"></div>
-                                    <div class="chooseus-icon-layout">
-                                        <div class="chooseus-icon">
-                                            <img src="./image/icon-1.png" alt="Why Choose Us Icon" class="img-fluid">
-                                        </div>
-                                    </div>
-                                    <div class="chooseus-spacer below"></div>
-                                </div>
-                                <div class="chooseus-content">
-                                    <h4 class="chooseus-title">Creative & Innovative</h4>
-                                    <p>Cutting-edge marketing techniques to keep you ahead of the competition lorem ipsum dolor sit awsa consectetur adipiscing elit ut elit.</p>
-                                    <div class="link-wrapper">
-                                        <a href="#">Read More</a>
-                                        <i class="fa-solid fa-arrow-circle-right accent-color"></i>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="card card-chooseus  animate-box animated slow animate__animated" data-animate="animate__fadeInLeft">
-                                <div class="chooseus-icon-wrapper">
-                                    <div class="chooseus-spacer above"></div>
-                                    <div class="chooseus-icon-layout">
-                                        <div class="chooseus-icon">
-                                            <img src="./image/Icon-3.png" alt="Why Choose Us Icon" class="img-fluid">
-                                        </div>
-                                    </div>
-                                    <div class="chooseus-spacer below"></div>
-                                </div>
-                                <div class="chooseus-content">
-                                    <h4 class="chooseus-title">Transparent Reporting</h4>
-                                    <p>Clear insights and performance tracking, so you always know your ROI lorem ipsum dolo consectetur adipiscing elit ut elit tellus luctus nec.</p>
-                                    <div class="link-wrapper">
-                                        <a href="#">Read More</a>
-                                        <i class="fa-solid fa-arrow-circle-right accent-color"></i>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="chooseus-content-container">
-                        <div class="d-flex flex-column gspace-5">
-                            <div class="d-flex flex-column gspace-2">
-                                <div class="sub-heading  animate-box animated animate__animated" data-animate="animate__fadeInDown">
-                                    <i class="fa-regular fa-circle-dot"></i>
-                                    <span>Why Choose Marko</span>
-                                </div>
-                                <h2 class="title-heading  animate-box animated animate__animated" data-animate="animate__fadeInDown">Your Success is Our Mission</h2>
-                                <p class="mb-0 animate-box animated animate__animated" data-animate="animate__fadeInDown">In the fast-paced digital world, choosing the right marketing partner makes all the difference. At Marko, we don’t just create campaigns—we craft strategies that deliver measurable success.</p>
-                            </div>
-                            <div class="image-container">
-                                <img src="./image/dummy-img-600x400.jpg" alt="Why Choose Us Image" class="chooseus-img">
-                                <div class="card-chooseus-cta-layout">
-                                    <div class="chooseus-cta-spacer"></div>
-                                    <div class="d-flex flex-column align-items-end">
-                                        <div class="chooseus-cta-spacer"></div>    
-                                        <div class="card-chooseus-cta-wrapper">
-                                            <div class="card card-chooseus-cta animate-box animated animate__animated" data-animate="animate__fadeInUp">
-                                                <h5>Partner with Marko & take your brand to the next level.</h5>
-                                                <div class="link-wrapper">
-                                                    <a href="./contact.php">Let's Talk Strategy</a>
-                                                    <i class="fa-solid fa-circle-arrow-right"></i>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- Section Guide -->
-        <div class="section-guide">
-            <div class="guide-banner">
-                <div class="hero-container">
-                    <div class="guide-content  animate-box animated animate__animated" data-animate="animate__fadeInUp">
-                        <div class="guide-video-container">
-                            <button class="request-loader" data-video="https://www.youtube.com/embed/VhBl3dHT5SY?autoplay=1"><i class="fa-solid fa-play"></i></button>
-                            <p>
-                                See How We Help Brands Grow
-                            </p>
-                        </div>
-                        <div class="d-flex flex-column gspace-2">
-                            <h3 class="title-heading">Transform Your Business with Marko!</h3>
-                            <p>Take your digital marketing to the next level with data-driven strategies and innovative solutions. Let's create something amazing together!</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
         <!-- Section Service -->
         <div class="section">
             <div class="hero-container">
@@ -404,7 +285,7 @@
                             <i class="fa-regular fa-circle-dot"></i>
                             <span>Our Core Services</span>
                         </div>
-                        <h2 class="title-heading heading-container heading-container-medium animate-box animated animate__animated" data-animate="animate__fadeInDown">Digital Solutions That Drive Real Results</h2>
+                        <h2 class="title-heading heading-container heading-container-medium animate-box animated animate__animated" data-animate="animate__fadeInDown">Innovative IT Solutions that Deliver</h2>
                     </div>
                     <div class="card-service-wrapper">
                         <div class="row row-cols-xl-3 row-cols-md-2 row-cols-1 grid-spacer-2">
@@ -414,12 +295,12 @@
                                         <div>
                                             <div class="service-icon-wrapper">
                                                 <div class="service-icon">
-                                                    <img src="./image/Icon-7.png" alt="Service Icon" class="img-fluid">
+                                                    <img src="./image/home/office-relocation.png" alt="Service Icon" class="img-fluid">
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="service-title">
-                                            <h4>Social Media Marketing</h4>
+                                            <h4>IT and Office Relocation</h4>
                                         </div>
                                     </div>
                                     <p>
@@ -441,12 +322,12 @@
                                         <div>
                                             <div class="service-icon-wrapper">
                                                 <div class="service-icon">
-                                                    <img src="./image/digital-marketing-icons-F4LJ4W8.png" alt="Service Icon" class="img-fluid">
+                                                    <img src="./image/home/computer-installations.png" alt="Service Icon" class="img-fluid">
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="service-title">
-                                            <h4>Content Marketing</h4>
+                                            <h4>Computer Installations</h4>
                                         </div>
                                     </div>
                                     <p>
@@ -468,12 +349,12 @@
                                         <div>
                                             <div class="service-icon-wrapper">
                                                 <div class="service-icon">
-                                                    <img src="./image/Icon-8.png" alt="Service Icon" class="img-fluid">
+                                                    <img src="./image/home/data-center.png" alt="Service Icon" class="img-fluid">
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="service-title">
-                                            <h4>PPC Advertising</h4>
+                                            <h4>Data Center Relocations</h4>
                                         </div>
                                     </div>
                                     <p>
@@ -495,12 +376,12 @@
                                         <div>
                                             <div class="service-icon-wrapper">
                                                 <div class="service-icon">
-                                                    <img src="./image/Icon-5.png" alt="Service Icon" class="img-fluid">
+                                                    <img src="./image/home/web-development.png" alt="Service Icon" class="img-fluid">
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="service-title">
-                                            <h4>Email Marketing</h4>
+                                            <h4>Web Development</h4>
                                         </div>
                                     </div>
                                     <p>
@@ -522,12 +403,12 @@
                                         <div>
                                             <div class="service-icon-wrapper">
                                                 <div class="service-icon">
-                                                    <img src="./image/Icon-6.png" alt="Service Icon" class="img-fluid">
+                                                    <img src="./image/home/it-support.png" alt="Service Icon" class="img-fluid">
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="service-title">
-                                            <h4>Brading & Design</h4>
+                                            <h4>IT Support</h4>
                                         </div>
                                     </div>
                                     <p>
@@ -549,12 +430,12 @@
                                         <div>
                                             <div class="service-icon-wrapper">
                                                 <div class="service-icon">
-                                                    <img src="./image/Icon-4.png" alt="Service Icon" class="img-fluid">
+                                                    <img src="./image/home/digital-mar.png" alt="Service Icon" class="img-fluid">
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="service-title">
-                                            <h4>Web Development</h4>
+                                            <h4>Digital Marketing</h4>
                                         </div>
                                     </div>
                                     <p>
@@ -579,6 +460,120 @@
             </div>
         </div>
 
+        <!-- Section Guide -->
+        <div class="section-guide">
+            <div class="guide-banner">
+                <div class="hero-container">
+                    <div class="guide-content  animate-box animated animate__animated" data-animate="animate__fadeInUp">
+                        <div class="guide-video-container">
+                        </div>
+                        <div class="d-flex flex-column gspace-2">
+                            <h3 class="title-heading">Transform Your Business with Watsols!</h3>
+                            <p>Take your digital marketing to the next level with data-driven strategies and innovative solutions. Let's create something amazing together!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+         <!-- Section Why Choose Us -->
+        <div class="section">
+            <div class="hero-container">
+                <div class="d-flex flex-column flex-xl-row gspace-5">
+                    <div class="chooseus-card-container">
+                        <div class="d-flex flex-column gspace-2">
+                            <div class="card card-chooseus animate-box animated fast animate__animated" data-animate="animate__fadeInLeft">
+                                <div class="chooseus-icon-wrapper">
+                                    <div class="chooseus-spacer above"></div>
+                                    <div class="chooseus-icon-layout">
+                                        <div class="chooseus-icon">
+                                            <img src="./image/home/mission.png" alt="Why Choose Us Icon" class="img-fluid">
+                                        </div>
+                                    </div>
+                                    <div class="chooseus-spacer below"></div>
+                                </div>
+                                <div class="chooseus-content">
+                                    <h4 class="chooseus-title">Mission</h4>
+                                    <p>Every decision is backed by real-time analytics for maximum impact lorem ipsum dolor sit  consectetur adipiscing elit ut elit tellus luctus nec.</p>
+                                    <div class="link-wrapper">
+                                        <a href="#">Read More</a>
+                                        <i class="fa-solid fa-arrow-circle-right accent-color"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card card-chooseus  animate-box animated animate__animated" data-animate="animate__fadeInLeft">
+                                <div class="chooseus-icon-wrapper">
+                                    <div class="chooseus-spacer above"></div>
+                                    <div class="chooseus-icon-layout">
+                                        <div class="chooseus-icon">
+                                            <img src="./image/home/vision.png" alt="Why Choose Us Icon" class="img-fluid">
+                                        </div>
+                                    </div>
+                                    <div class="chooseus-spacer below"></div>
+                                </div>
+                                <div class="chooseus-content">
+                                    <h4 class="chooseus-title">Vision</h4>
+                                    <p>Cutting-edge marketing techniques to keep you ahead of the competition lorem ipsum dolor sit awsa consectetur adipiscing elit ut elit.</p>
+                                    <div class="link-wrapper">
+                                        <a href="#">Read More</a>
+                                        <i class="fa-solid fa-arrow-circle-right accent-color"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card card-chooseus  animate-box animated slow animate__animated" data-animate="animate__fadeInLeft">
+                                <div class="chooseus-icon-wrapper">
+                                    <div class="chooseus-spacer above"></div>
+                                    <div class="chooseus-icon-layout">
+                                        <div class="chooseus-icon">
+                                            <img src="./image/home/core-values.png" alt="Why Choose Us Icon" class="img-fluid">
+                                        </div>
+                                    </div>
+                                    <div class="chooseus-spacer below"></div>
+                                </div>
+                                <div class="chooseus-content">
+                                    <h4 class="chooseus-title">Core Values</h4>
+                                    <p>Clear insights and performance tracking, so you always know your ROI lorem ipsum dolo consectetur adipiscing elit ut elit tellus luctus nec.</p>
+                                    <div class="link-wrapper">
+                                        <a href="#">Read More</a>
+                                        <i class="fa-solid fa-arrow-circle-right accent-color"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="chooseus-content-container">
+                        <div class="d-flex flex-column gspace-5">
+                            <div class="d-flex flex-column gspace-2">
+                                <div class="sub-heading  animate-box animated animate__animated" data-animate="animate__fadeInDown">
+                                    <i class="fa-regular fa-circle-dot"></i>
+                                    <span>Why Choose Watsols</span>
+                                </div>
+                                <h2 class="title-heading  animate-box animated animate__animated" data-animate="animate__fadeInDown">Your Success is Our Mission</h2>
+                                <p class="mb-0 animate-box animated animate__animated" data-animate="animate__fadeInDown">In the fast-paced digital world, choosing the right marketing partner makes all the difference. At Watsols, we don’t just create campaigns—we craft strategies that deliver measurable success.</p>
+                            </div>
+                            <div class="image-container">
+                                <img src="./image/home/why-choose.png" alt="Why Choose Us Image" class="chooseus-img">
+                                <div class="card-chooseus-cta-layout">
+                                    <div class="chooseus-cta-spacer"></div>
+                                    <div class="d-flex flex-column align-items-end">
+                                        <div class="chooseus-cta-spacer"></div>    
+                                        <div class="card-chooseus-cta-wrapper">
+                                            <div class="card card-chooseus-cta animate-box animated animate__animated" data-animate="animate__fadeInUp">
+                                                <h5>Partner with Watsols & take your brand to the next level.</h5>
+                                                <div class="link-wrapper">
+                                                    <a href="./contact.php">Let's Talk Strategy</a>
+                                                    <i class="fa-solid fa-circle-arrow-right"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
         
 
         <!-- Section Testimonial -->
@@ -641,7 +636,7 @@
                                         <span>What Our Client Says</span>
                                     </div>
                                     <h2 class="title-heading">Hear from Our Satisfied Clients, Real Success Stories</h2>
-                                    <p>Discover how businesses like yours achieved outstanding growth with Marko's expert digital marketing solutions.</p>
+                                    <p>Discover how businesses like yours achieved outstanding growth with Watsols's expert digital marketing solutions.</p>
                                 </div>
                             </div>
                         </div>
@@ -672,7 +667,7 @@
                                             <i class="fa-solid fa-3x fa-quote-right accent-color"></i>
                                         </div>
                                         <p class="testimonial-description">
-                                            “Marko completely transformed our online presence! Their digital marketing strategies helped us double our revenue in just six months.”
+                                            “Watsols completely transformed our online presence! Their digital marketing strategies helped us double our revenue in just six months.”
                                         </p>
                                     </div>
                                 </div>
@@ -698,7 +693,7 @@
                                             <i class="fa-solid fa-3x fa-quote-right accent-color"></i>
                                         </div>
                                         <p class="testimonial-description">
-                                            “We've worked with many agencies before, but Marko stands out. Their data-driven approach and creative solutions gave us an edge over competitors.”
+                                            “We've worked with many agencies before, but Watsols stands out. Their data-driven approach and creative solutions gave us an edge over competitors.”
                                         </p>
                                     </div>
                                 </div>                             
@@ -724,7 +719,7 @@
                                             <i class="fa-solid fa-3x fa-quote-right accent-color"></i>
                                         </div>
                                         <p class="testimonial-description">
-                                            “From SEO to paid ads, Marko nailed every aspect of our campaign. Our website traffic skyrocketed, and lead generation has never been better!”
+                                            “From SEO to paid ads, Watsols nailed every aspect of our campaign. Our website traffic skyrocketed, and lead generation has never been better!”
                                         </p>
                                     </div>
                                 </div>                                
@@ -750,7 +745,7 @@
                                             <i class="fa-solid fa-3x fa-quote-right accent-color"></i>
                                         </div>
                                         <p class="testimonial-description">
-                                            “Highly professional and results-oriented. Marko's expertise in branding and content marketing helped us build a strong online identity.”
+                                            “Highly professional and results-oriented. Watsols's expertise in branding and content marketing helped us build a strong online identity.”
                                         </p>
                                     </div>
                                 </div>
@@ -776,7 +771,7 @@
                                             <i class="fa-solid fa-3x fa-quote-right accent-color"></i>
                                         </div>
                                         <p class="testimonial-description">
-                                            “Marko completely transformed our online presence! Their digital marketing strategies helped us double our revenue in just six months.”
+                                            “Watsols completely transformed our online presence! Their digital marketing strategies helped us double our revenue in just six months.”
                                         </p>
                                     </div>
                                 </div>
@@ -802,7 +797,7 @@
                                             <i class="fa-solid fa-3x fa-quote-right accent-color"></i>
                                         </div>
                                         <p class="testimonial-description">
-                                            “We've worked with many agencies before, but Marko stands out. Their data-driven approach and creative solutions gave us an edge over competitors.”
+                                            “We've worked with many agencies before, but Watsols stands out. Their data-driven approach and creative solutions gave us an edge over competitors.”
                                         </p>
                                     </div>
                                 </div>                             
@@ -828,7 +823,7 @@
                                             <i class="fa-solid fa-3x fa-quote-right accent-color"></i>
                                         </div>
                                         <p class="testimonial-description">
-                                            “From SEO to paid ads, Marko nailed every aspect of our campaign. Our website traffic skyrocketed, and lead generation has never been better!”
+                                            “From SEO to paid ads, Watsols nailed every aspect of our campaign. Our website traffic skyrocketed, and lead generation has never been better!”
                                         </p>
                                     </div>
                                 </div>                                
@@ -854,7 +849,7 @@
                                             <i class="fa-solid fa-3x fa-quote-right accent-color"></i>
                                         </div>
                                         <p class="testimonial-description">
-                                            “Highly professional and results-oriented. Marko's expertise in branding and content marketing helped us build a strong online identity.”
+                                            “Highly professional and results-oriented. Watsols's expertise in branding and content marketing helped us build a strong online identity.”
                                         </p>
                                     </div>
                                 </div>         

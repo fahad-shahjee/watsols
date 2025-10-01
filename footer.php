@@ -9,9 +9,9 @@
                                 <div class="logo-container-footer">
                                     <img src="./image/marko-logo.png" alt="Logo" class="site-logo img-fluid">
                                 </div>
-                                <h4>Driving Digital Growth with Innovation & Strategy</h4>
+                                
                                 <p>
-                                    Lorem ipsum dolor si consectetur adipiscing elit ut elit tellus luctus nec ullamcorper mattis pulvinar dapibus leo.
+                                    Your technology partner for a competitive edge. We Maximize efficiency and minimize headaches. So, partner with us for unparalleled technology support.
                                 </p>
                             </div>
                         </div>
@@ -19,12 +19,10 @@
                             <div class="footer-quick-links">
                                 <h5>Quick Links</h5>
                                 <ul class="footer-list">
-                                    <li><a href="./index.html">Home</a></li>
-                                    <li><a href="./about.html">About Us</a></li>
-                                    <li><a href="./service.html">Service</a></li>
-                                    <li><a href="./case_studies.html">Case Studies</a></li>
-                                    <li><a href="./blog.html">Blog</a></li>
-                                    <li><a href="./contact.html">Contact Us</a></li>
+                                    <li><a href="./index.php">Home</a></li>
+                                    <li><a href="./about.php">About Us</a></li>
+                                    <li><a href="./service.php">Services</a></li>
+                                    <li><a href="./contact.php">Contact Us</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -32,12 +30,11 @@
                             <div class="footer-services-container">
                                 <h5>Services</h5>
                                 <ul class="footer-list">
-                                    <li><a href="./single_services.html">Social Media Marketing</a></li>
-                                    <li><a href="./single_services.html">SEO Optimization</a></li>
-                                    <li><a href="./single_services.html">PPC Advertising</a></li>
-                                    <li><a href="./single_services.html">Content Marketing</a></li>
-                                    <li><a href="./single_services.html">Branding Strategy</a></li>
-                                    <li><a href="./single_services.html">Email Marketing</a></li>
+                                    <li><a href="./single_services.php">IT and Office Relocation</a></li>
+                                    <li><a href="./single_services.php">Computer Installations</a></li>
+                                    <li><a href="./single_services.php">Data Center Relocations</a></li>
+                                    <li><a href="./single_services.php">Web Development</a></li>
+                                    <li><a href="./single_services.php">IT support</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -45,7 +42,7 @@
                             <div class="footer-contact-container">
                                 <h5>Contact Info</h5>
                                 <ul class="contact-list">
-                                    <li>hello@markoagency.com</li>
+                                    <li>info@watsols.com</li>
                                     <li>+1 234 567 890</li>
                                     <li>123 Digital Street, New York, USA</li>
                                 </ul>
@@ -80,7 +77,7 @@
                     <div class="footer-content-spacer"></div>
                 </div>
                 <div class="copyright-container">
-                    <span class="copyright">© 2025 Marko. Fox Creation All Rights Reserved.</span>
+                    <span class="copyright">© 2025 Watsols. All Rights Reserved.</span>
                     <div class="d-flex flex-row gspace-2">
                     <a href="#" class="legal-link">Terms of Service</a>
                     <a href="#" class="legal-link">Privacy Policy</a>
