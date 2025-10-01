@@ -24,16 +24,16 @@
 
                     <!-- Services with 5 Submenus -->
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                        <a class="nav-link dropdown-toggle" href="services.php" role="button" data-bs-toggle="dropdown"
                             aria-expanded="false">
-                            Services <i class="fa-solid fa-angle-down accent-color"></i>
+                            Our Services <i class="fa-solid fa-angle-down accent-color"></i>
                         </a>
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="service1.php">Service 1</a></li>
-                            <li><a class="dropdown-item" href="service2.php">Service 2</a></li>
-                            <li><a class="dropdown-item" href="service3.php">Service 3</a></li>
-                            <li><a class="dropdown-item" href="service4.php">Service 4</a></li>
-                            <li><a class="dropdown-item" href="service5.php">Service 5</a></li>
+                            <li><a class="dropdown-item" href="service1.php">IT and Office Relocation</a></li>
+                            <li><a class="dropdown-item" href="service2.php">Computer Installations</a></li>
+                            <li><a class="dropdown-item" href="service3.php">Data Center Relocations</a></li>
+                            <li><a class="dropdown-item" href="service4.php">Web Development</a></li>
+                            <li><a class="dropdown-item" href="service5.php">IT support</a></li>
                         </ul>
                     </li>
 

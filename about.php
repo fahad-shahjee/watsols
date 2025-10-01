@@ -868,7 +868,7 @@
 
     <!-- Section Footer -->
     <footer>
-        <div id="footer"></div>
+        <?php include './footer.php'; ?>
     </footer>
 
     <script src="js/vendor/jquery.min.js"></script>

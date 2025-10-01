@@ -11,26 +11,23 @@
     
     <!-- Section Header -->
     <header>
-        <!-- Section Navbar -->
-        <div id="header"></div>
+        <?php include './header.php'; ?>
     </header>
 
     <!-- Section Content Edit -->
     <aside>
-        <div id="edit-sidebar"></div>
+        <?php include './sidebar.php'; ?>
     </aside>
 
     <!-- Section Search -->
-    <aside>
-        <div id="search-form-container"></div>
-    </aside>
+    <?php include './search-form.php'; ?>
 
     <!-- Section Sidebar -->
     <aside>
-        <div id="sidebar"></div>
+        <?php include './sidebar.php'; ?>
     </aside>
 
-    <!-- Section Main Content -->
+    <!-- Section Main Content-->
     <main>
         <!-- Section Banner -->
         <div class="section-banner">
@@ -408,9 +405,9 @@
         </div>
     </main>
 
-    <!-- Section Footer -->
+   <!-- Section Footer -->
     <footer>
-        <div id="footer"></div>
+        <?php include './footer.php'; ?>
     </footer>
 
     <script src="js/vendor/jquery.min.js"></script>
