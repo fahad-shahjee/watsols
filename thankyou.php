@@ -19,15 +19,15 @@
 
     <!-- Section Main Content-->
     <main>
-        <!-- Section Thank You -->
-        <div class="section-thankyou">
-            <div class="banner-layout-thankyou">
-                <div class="layout-thankyou">
-                    <span class="text-thankyou title-heading animate-box animated animate__animated" data-animate="animate__fadeInRight">Thank You!</span>
-                    <h3>Your message has been received</h3>
+        <!-- Section Banner -->
+        <div class="section-404">
+            <div class="banner-layout-404">
+                <div class="layout-404">
+                    <span class="text-404 title-heading animate-box animated animate__animated" data-animate="animate__fadeInRight">404</span>
+                    <h3>Thank You!</h3>
                     <p>We appreciate you reaching out. Our team will get back to you as soon as possible.</p>
                     <div>
-                        <a href="./" class="btn btn-accent">
+                        <a href="./index.php" class="btn btn-accent">
                             <div class="btn-title">
                                 <span>Back to Home</span>
                             </div>
