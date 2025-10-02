@@ -92,12 +92,12 @@
                             <div class="expertise-list">
                                 <h5>What We Do</h5>
                                 <ul class="check-list">
-                                    <li><a href="./single_services.php">Branding</a></li>
-                                    <li><a href="./single_services.php">Social Media Growth</a></li>
-                                    <li><a href="./single_services.php">Website Development</a></li>
-                                    <li><a href="./single_services.php">App Development</a></li>
-                                    <li><a href="./single_services.php">Logo Design</a></li>
-                                    <li><a href="./single_services.php">Animation</a></li>
+                                    <li><a href="#">Branding</a></li>
+                                    <li><a href="#">Social Media Growth</a></li>
+                                    <li><a href="#">Website Development</a></li>
+                                    <li><a href="#">App Development</a></li>
+                                    <li><a href="#">Logo Design</a></li>
+                                    <li><a href="#">Animation</a></li>
                                 </ul>
                             </div>
                             <div class="card card-expertise card-expertise-counter animate-box animated animate__animated" data-animate="animate__fadeInUp">

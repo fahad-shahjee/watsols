@@ -12,14 +12,14 @@ RewriteRule ^(.*)$ $1.php [L]
 
 # ✅ Redirect index.php to root
 RewriteCond %{THE_REQUEST} \s/index\.php[\s?] [NC]
-RewriteRule ^index\.php$ /watsols/ [R=301,L]
+RewriteRule ^index\.php$ / [R=301,L]
 
 # Serve existing files and directories normally
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 
 # Custom 404 fallback
-RewriteRule ^.*$ /watsols/404.php [L]
+RewriteRule ^.*$ /404.php [L]
 
 # Custom 404 Error Page
-ErrorDocument 404 /watsols/404.php
+ErrorDocument 404 /404.php
