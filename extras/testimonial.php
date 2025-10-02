@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Testimonials - Digital Marketing Agency</title>
-    <link rel="stylesheet" href="./css/style.css">
-    <link rel="icon" href="./image/favicon.ico">
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="icon" href="assets/image/favicon.ico">
 </head>
 <body>
     
@@ -60,10 +60,10 @@
                                     <div class="d-flex flex-column flex-md-row flex-xl-column justify-content-between gspace-3">
                                         <div class="testimonial-reviewer">
                                             <div class="avatar-container">
-                                                <img src="./image/dummy-img-400x400.jpg" alt="Testimonial Reviewer" class="avatar">
-                                                <img src="./image/dummy-img-400x400.jpg" alt="Testimonial Reviewer" class="avatar">
-                                                <img src="./image/dummy-img-400x400.jpg" alt="Testimonial Reviewer" class="avatar">
-                                                <img src="./image/dummy-img-400x400.jpg" alt="Testimonial Reviewer" class="avatar">
+                                                <img src="assets/image/dummy-img-400x400.jpg" alt="Testimonial Reviewer" class="avatar">
+                                                <img src="assets/image/dummy-img-400x400.jpg" alt="Testimonial Reviewer" class="avatar">
+                                                <img src="assets/image/dummy-img-400x400.jpg" alt="Testimonial Reviewer" class="avatar">
+                                                <img src="assets/image/dummy-img-400x400.jpg" alt="Testimonial Reviewer" class="avatar">
                                             </div>
                                             <div class="detail">
                                                 <h6>2.7k Positive</h6>
@@ -130,7 +130,7 @@
                                         <div class="d-flex flex-row align-items-center justify-content-between">
                                             <div class="d-flex flex-row gspace-2">
                                                 <div class="testimonial-image">
-                                                    <img src="./image/dummy-img-400x400.jpg" alt="Testimonial Person Image" class="img-fluid">
+                                                    <img src="assets/image/dummy-img-400x400.jpg" alt="Testimonial Person Image" class="img-fluid">
                                                 </div>
                                                 <div class="d-flex flex-column">
                                                     <span class="profile-name">Emma Richard</span>
@@ -156,7 +156,7 @@
                                         <div class="d-flex flex-row align-items-center justify-content-between">
                                             <div class="d-flex flex-row gspace-2">
                                                 <div class="testimonial-image">
-                                                    <img src="./image/dummy-img-400x400.jpg" alt="Testimonial Person Image" class="img-fluid">
+                                                    <img src="assets/image/dummy-img-400x400.jpg" alt="Testimonial Person Image" class="img-fluid">
                                                 </div>
                                                 <div class="d-flex flex-column">
                                                     <span class="profile-name">David Mont</span>
@@ -182,7 +182,7 @@
                                         <div class="d-flex flex-row align-items-center justify-content-between">
                                             <div class="d-flex flex-row gspace-2">
                                                 <div class="testimonial-image">
-                                                    <img src="./image/dummy-img-400x400.jpg" alt="Testimonial Person Image" class="img-fluid">
+                                                    <img src="assets/image/dummy-img-400x400.jpg" alt="Testimonial Person Image" class="img-fluid">
                                                 </div>
                                                 <div class="d-flex flex-column">
                                                     <span class="profile-name">Sophia Lewis</span>
@@ -208,7 +208,7 @@
                                         <div class="d-flex flex-row align-items-center justify-content-between">
                                             <div class="d-flex flex-row gspace-2">
                                                 <div class="testimonial-image">
-                                                    <img src="./image/dummy-img-400x400.jpg" alt="Testimonial Person Image" class="img-fluid">
+                                                    <img src="assets/image/dummy-img-400x400.jpg" alt="Testimonial Person Image" class="img-fluid">
                                                 </div>
                                                 <div class="d-flex flex-column">
                                                     <span class="profile-name">James Peterson</span>
@@ -234,7 +234,7 @@
                                         <div class="d-flex flex-row align-items-center justify-content-between">
                                             <div class="d-flex flex-row gspace-2">
                                                 <div class="testimonial-image">
-                                                    <img src="./image/dummy-img-400x400.jpg" alt="Testimonial Person Image" class="img-fluid">
+                                                    <img src="assets/image/dummy-img-400x400.jpg" alt="Testimonial Person Image" class="img-fluid">
                                                 </div>
                                                 <div class="d-flex flex-column">
                                                     <span class="profile-name">Emma Richard</span>
@@ -260,7 +260,7 @@
                                         <div class="d-flex flex-row align-items-center justify-content-between">
                                             <div class="d-flex flex-row gspace-2">
                                                 <div class="testimonial-image">
-                                                    <img src="./image/dummy-img-400x400.jpg" alt="Testimonial Person Image" class="img-fluid">
+                                                    <img src="assets/image/dummy-img-400x400.jpg" alt="Testimonial Person Image" class="img-fluid">
                                                 </div>
                                                 <div class="d-flex flex-column">
                                                     <span class="profile-name">David Mont</span>
@@ -286,7 +286,7 @@
                                         <div class="d-flex flex-row align-items-center justify-content-between">
                                             <div class="d-flex flex-row gspace-2">
                                                 <div class="testimonial-image">
-                                                    <img src="./image/dummy-img-400x400.jpg" alt="Testimonial Person Image" class="img-fluid">
+                                                    <img src="assets/image/dummy-img-400x400.jpg" alt="Testimonial Person Image" class="img-fluid">
                                                 </div>
                                                 <div class="d-flex flex-column">
                                                     <span class="profile-name">Sophia Lewis</span>
@@ -312,7 +312,7 @@
                                         <div class="d-flex flex-row align-items-center justify-content-between">
                                             <div class="d-flex flex-row gspace-2">
                                                 <div class="testimonial-image">
-                                                    <img src="./image/dummy-img-400x400.jpg" alt="Testimonial Person Image" class="img-fluid">
+                                                    <img src="assets/image/dummy-img-400x400.jpg" alt="Testimonial Person Image" class="img-fluid">
                                                 </div>
                                                 <div class="d-flex flex-column">
                                                     <span class="profile-name">James Peterson</span>
@@ -403,7 +403,7 @@
                         <div class="col">
                             <div class="card card-blog animate-box animated animate__animated" data-animate="animate__fadeInUp" onclick="window.location.href='single_post.html'">
                                 <div class="blog-image">
-                                    <img src="./image/dummy-img-600x400.jpg" alt="Blog Image">
+                                    <img src="assets/image/dummy-img-600x400.jpg" alt="Blog Image">
                                 </div>
                                 <div class="card-body">
                                     <div class="d-flex flex-row gspace-2">
@@ -425,7 +425,7 @@
                         <div class="col">
                             <div class="card card-blog animate-box animated animate__animated" data-animate="animate__fadeInUp" onclick="window.location.href='single_post.html'">
                                 <div class="blog-image">
-                                    <img src="./image/dummy-img-600x400.jpg" alt="Blog Image">
+                                    <img src="assets/image/dummy-img-600x400.jpg" alt="Blog Image">
                                 </div>
                                 <div class="card-body">
                                     <div class="d-flex flex-row gspace-2">

@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Blog - Marko - Digital Marketing Agency</title>
-    <link rel="stylesheet" href="./css/style.css">
-    <link rel="icon" href="./image/favicon.ico">
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="icon" href="assets/image/favicon.ico">
 </head>
 <body>
     
@@ -77,7 +77,7 @@
                         <div class="col">
                             <div class="card card-blog animate-box animated animate__animated" data-animate="animate__fadeInUp" onclick="window.location.href='single_post.html'">
                                 <div class="blog-image">
-                                    <img src="./image/dummy-img-600x400.jpg" alt="Blog Image">
+                                    <img src="assets/image/dummy-img-600x400.jpg" alt="Blog Image">
                                 </div>
                                 <div class="card-body">
                                     <div class="d-flex flex-row gspace-2">
@@ -99,7 +99,7 @@
                         <div class="col">
                             <div class="card card-blog animate-box animated animate__animated" data-animate="animate__fadeInUp" onclick="window.location.href='single_post.html'">
                                 <div class="blog-image">
-                                    <img src="./image/dummy-img-600x400.jpg" alt="Blog Image">
+                                    <img src="assets/image/dummy-img-600x400.jpg" alt="Blog Image">
                                 </div>
                                 <div class="card-body">
                                     <div class="d-flex flex-row gspace-2">

@@ -5,15 +5,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Us - Marko - Digital Marketing Agency</title>
-    <link rel="stylesheet" href="./css/style.css">
-    <link rel="icon" href="./image/favicon.ico">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="icon" href="assets/image/favicon.ico">
 </head>
 
 <body>
 
     <!-- Section Header -->
     <header>
-        <?php include './header.php'; ?>
+        <?php include 'partials/header.php'; ?>
     </header>
     <main>
         <!-- Section Banner -->
@@ -150,16 +150,8 @@
 
     <!-- Section Footer -->
     <footer>
-        <?php include './footer.php'; ?>
+        <?php include 'partials/footer.php'; ?>
     </footer>
-
-    <script src="js/vendor/jquery.min.js"></script>
-    <script src="js/vendor/bootstrap.bundle.min.js"></script>
-    <script src="js/vendor/swiper-bundle.min.js"></script>
-    <script src="js/script.js"></script>
-    <script src="js/swiper-script.js"></script>
-    <script src="js/submit-form.js"></script>
-    <script src="js/video_embedded.js"></script>
 </body>
 
 </html>

@@ -72,7 +72,7 @@ function initThemeSwitch() {
             $('body').removeClass('lightmode');
             localStorage.removeItem('lightmode');
 
-            siteLogos.attr('src', 'image/marko-logo.png');
+            siteLogos.attr('src', 'assets/image/logo.png');
 
             partnerLogos.each(function () {
                 const $img = $(this);

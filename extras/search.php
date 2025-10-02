@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title id="result-title">Search - Digital Marketing Agency</title>
-    <link rel="stylesheet" href="./css/style.css">
-    <link rel="icon" href="./image/favicon.ico">
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="icon" href="assets/image/favicon.ico">
 </head>
 <body>
     

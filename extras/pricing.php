@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pricing Plan - Digital Marketing Agency</title>
-    <link rel="stylesheet" href="./css/style.css">
-    <link rel="icon" href="./image/favicon.ico">
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="icon" href="assets/image/favicon.ico">
 </head>
 <body>
     
@@ -227,7 +227,7 @@
                                         <div class="digital-process-step animate-box animated animate__animated" data-animate="animate__fadeInUp">
                                             <div class="d-flex justify-content-between">
                                                 <div>
-                                                    <img src="./image/digital-marketing-icons-N952ZWA.png" alt="Digital Proccess Icon" class="process-icon">
+                                                    <img src="assets/image/digital-marketing-icons-N952ZWA.png" alt="Digital Proccess Icon" class="process-icon">
                                                 </div>
                                                 <span>01</span>
                                             </div>
@@ -245,7 +245,7 @@
                                             <div class="digital-process-step">
                                                 <div class="d-flex justify-content-between">
                                                     <div>
-                                                        <img src="./image/Icon-11.png" alt="Digital Process Icon" class="process-icon">
+                                                        <img src="assets/image/Icon-11.png" alt="Digital Process Icon" class="process-icon">
                                                     </div>
                                                     <span>02</span>
                                                 </div>
@@ -264,7 +264,7 @@
                                             <div class="digital-process-step">
                                                 <div class="d-flex justify-content-between">
                                                     <div>
-                                                        <img src="./image/Icon-10.png" alt="Digital Process Icon" class="process-icon">
+                                                        <img src="assets/image/Icon-10.png" alt="Digital Process Icon" class="process-icon">
                                                     </div>
                                                     <span>03</span>
                                                 </div>
@@ -283,7 +283,7 @@
                                             <div class="digital-process-step">
                                                 <div class="d-flex justify-content-between">
                                                     <div>
-                                                        <img src="./image/Icon-12.png" alt="Digital Process Icon" class="process-icon">
+                                                        <img src="assets/image/Icon-12.png" alt="Digital Process Icon" class="process-icon">
                                                     </div>
                                                     <span>04</span>
                                                 </div>
@@ -316,7 +316,7 @@
                                     <div class="chooseus-spacer above"></div>
                                     <div class="chooseus-icon-layout">
                                         <div class="chooseus-icon">
-                                            <img src="./image/Icon-2.png" alt="Why Choose Us Icon" class="img-fluid">
+                                            <img src="assets/image/Icon-2.png" alt="Why Choose Us Icon" class="img-fluid">
                                         </div>
                                     </div>
                                     <div class="chooseus-spacer below"></div>
@@ -335,7 +335,7 @@
                                     <div class="chooseus-spacer above"></div>
                                     <div class="chooseus-icon-layout">
                                         <div class="chooseus-icon">
-                                            <img src="./image/icon-1.png" alt="Why Choose Us Icon" class="img-fluid">
+                                            <img src="assets/image/icon-1.png" alt="Why Choose Us Icon" class="img-fluid">
                                         </div>
                                     </div>
                                     <div class="chooseus-spacer below"></div>
@@ -354,7 +354,7 @@
                                     <div class="chooseus-spacer above"></div>
                                     <div class="chooseus-icon-layout">
                                         <div class="chooseus-icon">
-                                            <img src="./image/Icon-3.png" alt="Why Choose Us Icon" class="img-fluid">
+                                            <img src="assets/image/Icon-3.png" alt="Why Choose Us Icon" class="img-fluid">
                                         </div>
                                     </div>
                                     <div class="chooseus-spacer below"></div>
@@ -381,7 +381,7 @@
                                 <p class="mb-0 animate-box animated animate__animated" data-animate="animate__fadeInDown">In the fast-paced digital world, choosing the right marketing partner makes all the difference. At Marko, we don’t just create campaigns—we craft strategies that deliver measurable success.</p>
                             </div>
                             <div class="image-container">
-                                <img src="./image/dummy-img-600x400.jpg" alt="Why Choose Us Image" class="chooseus-img">
+                                <img src="assets/image/dummy-img-600x400.jpg" alt="Why Choose Us Image" class="chooseus-img">
                                 <div class="card-chooseus-cta-layout">
                                     <div class="chooseus-cta-spacer"></div>
                                     <div class="d-flex flex-column align-items-end">

@@ -4,13 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home - Digital Marketing Agency</title>
-    <link rel="stylesheet" href="./css/style.css">
-    <link rel="icon" href="./image/favicon.ico">
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="icon" href="assets/image/favicon.ico">
 </head>
 <body>
     <!-- Section Header -->
     <header>
-        <?php include './header.php'; ?>
+        <?php include 'partials/header.php'; ?>
     </header>
 
     <!-- Section Content Edit -->
@@ -56,9 +56,9 @@
                                     </a>
                                     <div class="banner-reviewer">
                                         <div class="d-flex flex-row align-items-center">
-                                            <img src="./image/dummy-img-400x400.jpg" alt="Reviewer" class="avatar">
-                                            <img src="./image/dummy-img-400x400.jpg" alt="Reviewer" class="avatar">
-                                            <img src="./image/dummy-img-400x400.jpg" alt="Reviewer" class="avatar">
+                                            <img src="assets/image/dummy-img-400x400.jpg" alt="Reviewer" class="avatar">
+                                            <img src="assets/image/dummy-img-400x400.jpg" alt="Reviewer" class="avatar">
+                                            <img src="assets/image/dummy-img-400x400.jpg" alt="Reviewer" class="avatar">
                                         </div>
                                         <div class="detail">
                                             <span>2.7k Positive</span>
@@ -79,7 +79,7 @@
                 <div class="d-flex flex-column flex-xl-row gspace-5">
                     <div class="expertise-img-layout">
                         <div class="image-container expertise-img">
-                            <img src="./image/about/about-sec.png" alt="Expertise Image" class="img-fluid  animate-box animated animate__animated" data-animate="animate__fadeInUp">
+                            <img src="assets/image/about/about-sec.png" alt="Expertise Image" class="img-fluid  animate-box animated animate__animated" data-animate="animate__fadeInUp">
                             <div class="expertise-layout">
                                 <div class="d-flex flex-column">
                                     <div class="card-expertise-wrapper">
@@ -173,99 +173,99 @@
                                     <div class="swiper-slide">
                                         <a href="#">
                                             <div class="partner-slide">
-                                                <img src="./image/client-7.png" alt="Client" class="partner-logo img-fluid">
+                                                <img src="assets/image/client-7.png" alt="Client" class="partner-logo img-fluid">
                                             </div>
                                         </a>
                                     </div>
                                     <div class="swiper-slide">
                                         <a href="#">
                                             <div class="partner-slide">
-                                                <img src="./image/client-6.png" alt="Client" class="partner-logo img-fluid">
+                                                <img src="assets/image/client-6.png" alt="Client" class="partner-logo img-fluid">
                                             </div>
                                         </a>
                                     </div>
                                     <div class="swiper-slide">
                                         <a href="#">
                                             <div class="partner-slide">
-                                                <img src="./image/client-8.png" alt="Client" class="partner-logo img-fluid">
+                                                <img src="assets/image/client-8.png" alt="Client" class="partner-logo img-fluid">
                                             </div>
                                         </a>
                                     </div>
                                     <div class="swiper-slide">
                                         <a href="#">
                                             <div class="partner-slide">
-                                                <img src="./image/client-2.png" alt="Client" class="partner-logo img-fluid">
+                                                <img src="assets/image/client-2.png" alt="Client" class="partner-logo img-fluid">
                                             </div>
                                         </a>
                                     </div>
                                     <div class="swiper-slide">
                                         <a href="#">
                                             <div class="partner-slide">
-                                                <img src="./image/client-1.png" alt="Client" class="partner-logo img-fluid">
+                                                <img src="assets/image/client-1.png" alt="Client" class="partner-logo img-fluid">
                                             </div>
                                         </a>
                                     </div>
                                     <div class="swiper-slide">
                                         <a href="#">
                                             <div class="partner-slide">
-                                                <img src="./image/client-3.png" alt="Client" class="partner-logo img-fluid">
+                                                <img src="assets/image/client-3.png" alt="Client" class="partner-logo img-fluid">
                                             </div>
                                         </a>
                                     </div>
                                     <div class="swiper-slide">
                                         <a href="#">
                                             <div class="partner-slide">
-                                                <img src="./image/client-5.png" alt="Client" class="partner-logo img-fluid">
+                                                <img src="assets/image/client-5.png" alt="Client" class="partner-logo img-fluid">
                                             </div>
                                         </a>
                                     </div>
                                     <div class="swiper-slide">
                                         <a href="#">
                                             <div class="partner-slide">
-                                                <img src="./image/client-4.png" alt="Client" class="partner-logo img-fluid">
+                                                <img src="assets/image/client-4.png" alt="Client" class="partner-logo img-fluid">
                                             </div>
                                         </a>
                                     </div>
                                     <div class="swiper-slide">
                                         <a href="#">
                                             <div class="partner-slide">
-                                                <img src="./image/client-7.png" alt="Client" class="partner-logo img-fluid">
+                                                <img src="assets/image/client-7.png" alt="Client" class="partner-logo img-fluid">
                                             </div>
                                         </a>
                                     </div>
                                     <div class="swiper-slide">
                                         <div class="partner-slide">
-                                            <img src="./image/client-6.png" alt="Client" class="partner-logo img-fluid">
+                                            <img src="assets/image/client-6.png" alt="Client" class="partner-logo img-fluid">
                                         </div>
                                     </div>
                                     <div class="swiper-slide">
                                         <div class="partner-slide">
-                                            <img src="./image/client-8.png" alt="Client" class="partner-logo img-fluid">
+                                            <img src="assets/image/client-8.png" alt="Client" class="partner-logo img-fluid">
                                         </div>
                                     </div>
                                     <div class="swiper-slide">
                                         <div class="partner-slide">
-                                            <img src="./image/client-2.png" alt="Client" class="partner-logo img-fluid">
+                                            <img src="assets/image/client-2.png" alt="Client" class="partner-logo img-fluid">
                                         </div>
                                     </div>
                                     <div class="swiper-slide">
                                         <div class="partner-slide">
-                                            <img src="./image/client-1.png" alt="Client" class="partner-logo img-fluid">
+                                            <img src="assets/image/client-1.png" alt="Client" class="partner-logo img-fluid">
                                         </div>
                                     </div>
                                     <div class="swiper-slide">
                                         <div class="partner-slide">
-                                            <img src="./image/client-3.png" alt="Client" class="partner-logo img-fluid">
+                                            <img src="assets/image/client-3.png" alt="Client" class="partner-logo img-fluid">
                                         </div>
                                     </div>
                                     <div class="swiper-slide">
                                         <div class="partner-slide">
-                                            <img src="./image/client-5.png" alt="Client" class="partner-logo img-fluid">
+                                            <img src="assets/image/client-5.png" alt="Client" class="partner-logo img-fluid">
                                         </div>
                                     </div>
                                     <div class="swiper-slide">
                                         <div class="partner-slide">
-                                            <img src="./image/client-4.png" alt="Client" class="partner-logo img-fluid">
+                                            <img src="assets/image/client-4.png" alt="Client" class="partner-logo img-fluid">
                                         </div>
                                     </div>
                                 </div>
@@ -287,7 +287,7 @@
                                     <div class="chooseus-spacer above"></div>
                                     <div class="chooseus-icon-layout">
                                         <div class="chooseus-icon">
-                                            <img src="./image/Icon-2.png" alt="Why Choose Us Icon" class="img-fluid">
+                                            <img src="assets/image/Icon-2.png" alt="Why Choose Us Icon" class="img-fluid">
                                         </div>
                                     </div>
                                     <div class="chooseus-spacer below"></div>
@@ -306,7 +306,7 @@
                                     <div class="chooseus-spacer above"></div>
                                     <div class="chooseus-icon-layout">
                                         <div class="chooseus-icon">
-                                            <img src="./image/icon-1.png" alt="Why Choose Us Icon" class="img-fluid">
+                                            <img src="assets/image/icon-1.png" alt="Why Choose Us Icon" class="img-fluid">
                                         </div>
                                     </div>
                                     <div class="chooseus-spacer below"></div>
@@ -325,7 +325,7 @@
                                     <div class="chooseus-spacer above"></div>
                                     <div class="chooseus-icon-layout">
                                         <div class="chooseus-icon">
-                                            <img src="./image/Icon-3.png" alt="Why Choose Us Icon" class="img-fluid">
+                                            <img src="assets/image/Icon-3.png" alt="Why Choose Us Icon" class="img-fluid">
                                         </div>
                                     </div>
                                     <div class="chooseus-spacer below"></div>
@@ -352,7 +352,7 @@
                                 <p class="mb-0 animate-box animated animate__animated" data-animate="animate__fadeInDown">In the fast-paced digital world, choosing the right marketing partner makes all the difference. At Marko, we don’t just create campaigns—we craft strategies that deliver measurable success.</p>
                             </div>
                             <div class="image-container">
-                                <img src="./image/dummy-img-600x400.jpg" alt="Why Choose Us Image" class="chooseus-img">
+                                <img src="assets/image/dummy-img-600x400.jpg" alt="Why Choose Us Image" class="chooseus-img">
                                 <div class="card-chooseus-cta-layout">
                                     <div class="chooseus-cta-spacer"></div>
                                     <div class="d-flex flex-column align-items-end">
@@ -414,7 +414,7 @@
                                         <div>
                                             <div class="service-icon-wrapper">
                                                 <div class="service-icon">
-                                                    <img src="./image/Icon-7.png" alt="Service Icon" class="img-fluid">
+                                                    <img src="assets/image/Icon-7.png" alt="Service Icon" class="img-fluid">
                                                 </div>
                                             </div>
                                         </div>
@@ -441,7 +441,7 @@
                                         <div>
                                             <div class="service-icon-wrapper">
                                                 <div class="service-icon">
-                                                    <img src="./image/digital-marketing-icons-F4LJ4W8.png" alt="Service Icon" class="img-fluid">
+                                                    <img src="assets/image/digital-marketing-icons-F4LJ4W8.png" alt="Service Icon" class="img-fluid">
                                                 </div>
                                             </div>
                                         </div>
@@ -468,7 +468,7 @@
                                         <div>
                                             <div class="service-icon-wrapper">
                                                 <div class="service-icon">
-                                                    <img src="./image/Icon-8.png" alt="Service Icon" class="img-fluid">
+                                                    <img src="assets/image/Icon-8.png" alt="Service Icon" class="img-fluid">
                                                 </div>
                                             </div>
                                         </div>
@@ -495,7 +495,7 @@
                                         <div>
                                             <div class="service-icon-wrapper">
                                                 <div class="service-icon">
-                                                    <img src="./image/Icon-5.png" alt="Service Icon" class="img-fluid">
+                                                    <img src="assets/image/Icon-5.png" alt="Service Icon" class="img-fluid">
                                                 </div>
                                             </div>
                                         </div>
@@ -522,7 +522,7 @@
                                         <div>
                                             <div class="service-icon-wrapper">
                                                 <div class="service-icon">
-                                                    <img src="./image/Icon-6.png" alt="Service Icon" class="img-fluid">
+                                                    <img src="assets/image/Icon-6.png" alt="Service Icon" class="img-fluid">
                                                 </div>
                                             </div>
                                         </div>
@@ -549,7 +549,7 @@
                                         <div>
                                             <div class="service-icon-wrapper">
                                                 <div class="service-icon">
-                                                    <img src="./image/Icon-4.png" alt="Service Icon" class="img-fluid">
+                                                    <img src="assets/image/Icon-4.png" alt="Service Icon" class="img-fluid">
                                                 </div>
                                             </div>
                                         </div>
@@ -752,10 +752,10 @@
                                     <div class="d-flex flex-column flex-md-row flex-xl-column justify-content-between gspace-3">
                                         <div class="testimonial-reviewer">
                                             <div class="avatar-container">
-                                                <img src="./image/dummy-img-400x400.jpg" alt="Testimonial Reviewer" class="avatar">
-                                                <img src="./image/dummy-img-400x400.jpg" alt="Testimonial Reviewer" class="avatar">
-                                                <img src="./image/dummy-img-400x400.jpg" alt="Testimonial Reviewer" class="avatar">
-                                                <img src="./image/dummy-img-400x400.jpg" alt="Testimonial Reviewer" class="avatar">
+                                                <img src="assets/image/dummy-img-400x400.jpg" alt="Testimonial Reviewer" class="avatar">
+                                                <img src="assets/image/dummy-img-400x400.jpg" alt="Testimonial Reviewer" class="avatar">
+                                                <img src="assets/image/dummy-img-400x400.jpg" alt="Testimonial Reviewer" class="avatar">
+                                                <img src="assets/image/dummy-img-400x400.jpg" alt="Testimonial Reviewer" class="avatar">
                                             </div>
                                             <div class="detail">
                                                 <h6>2.7k Positive</h6>
@@ -822,7 +822,7 @@
                                         <div class="d-flex flex-row align-items-center justify-content-between">
                                             <div class="d-flex flex-row gspace-2">
                                                 <div class="testimonial-image">
-                                                    <img src="./image/dummy-img-400x400.jpg" alt="Testimonial Person Image" class="img-fluid">
+                                                    <img src="assets/image/dummy-img-400x400.jpg" alt="Testimonial Person Image" class="img-fluid">
                                                 </div>
                                                 <div class="d-flex flex-column">
                                                     <span class="profile-name">Emma Richard</span>
@@ -848,7 +848,7 @@
                                         <div class="d-flex flex-row align-items-center justify-content-between">
                                             <div class="d-flex flex-row gspace-2">
                                                 <div class="testimonial-image">
-                                                    <img src="./image/dummy-img-400x400.jpg" alt="Testimonial Person Image" class="img-fluid">
+                                                    <img src="assets/image/dummy-img-400x400.jpg" alt="Testimonial Person Image" class="img-fluid">
                                                 </div>
                                                 <div class="d-flex flex-column">
                                                     <span class="profile-name">David Mont</span>
@@ -874,7 +874,7 @@
                                         <div class="d-flex flex-row align-items-center justify-content-between">
                                             <div class="d-flex flex-row gspace-2">
                                                 <div class="testimonial-image">
-                                                    <img src="./image/dummy-img-400x400.jpg" alt="Testimonial Person Image" class="img-fluid">
+                                                    <img src="assets/image/dummy-img-400x400.jpg" alt="Testimonial Person Image" class="img-fluid">
                                                 </div>
                                                 <div class="d-flex flex-column">
                                                     <span class="profile-name">Sophia Lewis</span>
@@ -900,7 +900,7 @@
                                         <div class="d-flex flex-row align-items-center justify-content-between">
                                             <div class="d-flex flex-row gspace-2">
                                                 <div class="testimonial-image">
-                                                    <img src="./image/dummy-img-400x400.jpg" alt="Testimonial Person Image" class="img-fluid">
+                                                    <img src="assets/image/dummy-img-400x400.jpg" alt="Testimonial Person Image" class="img-fluid">
                                                 </div>
                                                 <div class="d-flex flex-column">
                                                     <span class="profile-name">James Peterson</span>
@@ -926,7 +926,7 @@
                                         <div class="d-flex flex-row align-items-center justify-content-between">
                                             <div class="d-flex flex-row gspace-2">
                                                 <div class="testimonial-image">
-                                                    <img src="./image/dummy-img-400x400.jpg" alt="Testimonial Person Image" class="img-fluid">
+                                                    <img src="assets/image/dummy-img-400x400.jpg" alt="Testimonial Person Image" class="img-fluid">
                                                 </div>
                                                 <div class="d-flex flex-column">
                                                     <span class="profile-name">Emma Richard</span>
@@ -952,7 +952,7 @@
                                         <div class="d-flex flex-row align-items-center justify-content-between">
                                             <div class="d-flex flex-row gspace-2">
                                                 <div class="testimonial-image">
-                                                    <img src="./image/dummy-img-400x400.jpg" alt="Testimonial Person Image" class="img-fluid">
+                                                    <img src="assets/image/dummy-img-400x400.jpg" alt="Testimonial Person Image" class="img-fluid">
                                                 </div>
                                                 <div class="d-flex flex-column">
                                                     <span class="profile-name">David Mont</span>
@@ -978,7 +978,7 @@
                                         <div class="d-flex flex-row align-items-center justify-content-between">
                                             <div class="d-flex flex-row gspace-2">
                                                 <div class="testimonial-image">
-                                                    <img src="./image/dummy-img-400x400.jpg" alt="Testimonial Person Image" class="img-fluid">
+                                                    <img src="assets/image/dummy-img-400x400.jpg" alt="Testimonial Person Image" class="img-fluid">
                                                 </div>
                                                 <div class="d-flex flex-column">
                                                     <span class="profile-name">Sophia Lewis</span>
@@ -1004,7 +1004,7 @@
                                         <div class="d-flex flex-row align-items-center justify-content-between">
                                             <div class="d-flex flex-row gspace-2">
                                                 <div class="testimonial-image">
-                                                    <img src="./image/dummy-img-400x400.jpg" alt="Testimonial Person Image" class="img-fluid">
+                                                    <img src="assets/image/dummy-img-400x400.jpg" alt="Testimonial Person Image" class="img-fluid">
                                                 </div>
                                                 <div class="d-flex flex-column">
                                                     <span class="profile-name">James Peterson</span>
@@ -1060,7 +1060,7 @@
                                         <div class="digital-process-step animate-box animated animate__animated" data-animate="animate__fadeInUp">
                                             <div class="d-flex justify-content-between">
                                                 <div>
-                                                    <img src="./image/digital-marketing-icons-N952ZWA.png" alt="Digital Proccess Icon" class="process-icon">
+                                                    <img src="assets/image/digital-marketing-icons-N952ZWA.png" alt="Digital Proccess Icon" class="process-icon">
                                                 </div>
                                                 <span>01</span>
                                             </div>
@@ -1078,7 +1078,7 @@
                                             <div class="digital-process-step">
                                                 <div class="d-flex justify-content-between">
                                                     <div>
-                                                        <img src="./image/Icon-11.png" alt="Digital Process Icon" class="process-icon">
+                                                        <img src="assets/image/Icon-11.png" alt="Digital Process Icon" class="process-icon">
                                                     </div>
                                                     <span>02</span>
                                                 </div>
@@ -1097,7 +1097,7 @@
                                             <div class="digital-process-step">
                                                 <div class="d-flex justify-content-between">
                                                     <div>
-                                                        <img src="./image/Icon-10.png" alt="Digital Process Icon" class="process-icon">
+                                                        <img src="assets/image/Icon-10.png" alt="Digital Process Icon" class="process-icon">
                                                     </div>
                                                     <span>03</span>
                                                 </div>
@@ -1116,7 +1116,7 @@
                                             <div class="digital-process-step">
                                                 <div class="d-flex justify-content-between">
                                                     <div>
-                                                        <img src="./image/Icon-12.png" alt="Digital Process Icon" class="process-icon">
+                                                        <img src="assets/image/Icon-12.png" alt="Digital Process Icon" class="process-icon">
                                                     </div>
                                                     <span>04</span>
                                                 </div>
@@ -1351,7 +1351,7 @@
                         <div class="col">
                             <div class="card card-blog animate-box animated animate__animated" data-animate="animate__fadeInUp" onclick="window.location.href='single_post.php'">
                                 <div class="blog-image">
-                                    <img src="./image/dummy-img-600x400.jpg" alt="Blog Image">
+                                    <img src="assets/image/dummy-img-600x400.jpg" alt="Blog Image">
                                 </div>
                                 <div class="card-body">
                                     <div class="d-flex flex-row gspace-2">
@@ -1373,7 +1373,7 @@
                         <div class="col">
                             <div class="card card-blog animate-box animated animate__animated" data-animate="animate__fadeInUp" onclick="window.location.href='single_post.php'">
                                 <div class="blog-image">
-                                    <img src="./image/dummy-img-600x400.jpg" alt="Blog Image">
+                                    <img src="assets/image/dummy-img-600x400.jpg" alt="Blog Image">
                                 </div>
                                 <div class="card-body">
                                     <div class="d-flex flex-row gspace-2">
@@ -1400,7 +1400,7 @@
 
     <!-- Section Footer -->
     <footer>
-        <?php include './footer.php'; ?>
+        <?php include 'partials/footer.php'; ?>
     </footer>
 
     <script src="js/vendor/jquery.min.js"></script>

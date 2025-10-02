@@ -7,7 +7,7 @@
                         <div class="col col-xl-4">
                             <div class="footer-logo-container">
                                 <div class="logo-container-footer">
-                                    <img src="./image/marko-logo.png" alt="Logo" class="site-logo img-fluid">
+                                    <img src="assets/image/logo.png" alt="Logo" class="site-logo img-fluid">
                                 </div>
                                 
                                 <p>
@@ -87,3 +87,12 @@
         </div>
     </div>
 </div>
+
+
+    <script src="./assets/js/vendor/jquery.min.js"></script>
+    <script src="./assets/js/vendor/bootstrap.bundle.min.js"></script>
+    <script src="./assets/js/vendor/swiper-bundle.min.js"></script>
+    <script src="./assets/js/script.js"></script>
+    <script src="./assets/js/swiper-script.js"></script>
+    <script src="./assets/js/submit-form.js"></script>
+    <script src="./assets/js/video_embedded.js"></script>

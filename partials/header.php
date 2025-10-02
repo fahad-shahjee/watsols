@@ -3,7 +3,7 @@
         <div class="navbar-container">
             <div class="logo-container">
                 <a class="navbar-brand" href="./index.php">
-                    <img src="./image/marko-logo.png" class="site-logo img-fluid" alt="Logo">
+                    <img src="assets/image/logo.png" class="site-logo img-fluid" alt="Logo">
                 </a>
             </div>
             <button class="navbar-toggler nav-btn" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"

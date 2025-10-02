@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Single Post - Digital Marketing Agency</title>
-    <link rel="stylesheet" href="./css/style.css">
-    <link rel="icon" href="./image/favicon.ico">
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="icon" href="assets/image/favicon.ico">
 </head>
 <body>
     
@@ -59,7 +59,7 @@
                                 <h4>Recent Blog</h4>
                                 <div class="d-flex flex-row w-100 gspace-1">
                                     <div class="image-container">
-                                        <img src="./image/dummy-img-600x400.jpg" alt="Recent Post" class="img-fluid">
+                                        <img src="assets/image/dummy-img-600x400.jpg" alt="Recent Post" class="img-fluid">
                                     </div>
                                     <div class="d-grid">
                                         <div class="d-flex flex-row gspace-1 align-items-center">
@@ -71,7 +71,7 @@
                                 </div>
                                 <div class="d-flex flex-row w-100 gspace-1">
                                     <div class="image-container">
-                                        <img src="./image/dummy-img-600x400.jpg" alt="Recent Post" class="img-fluid">
+                                        <img src="assets/image/dummy-img-600x400.jpg" alt="Recent Post" class="img-fluid">
                                     </div>
                                     <div class="d-grid">
                                         <div class="d-flex flex-row gspace-1 align-items-center">
@@ -98,7 +98,7 @@
                     <div class="col col-xl-8 order-1 order-xl-2">
                         <div class="d-flex flex-column gspace-2">
                             <div class="post-image">
-                                <img src="./image/dummy-img-600x400.jpg" alt="Recent Post" class="img-fluid">
+                                <img src="assets/image/dummy-img-600x400.jpg" alt="Recent Post" class="img-fluid">
                             </div>
                             <h3>How to Grow Your Digital Business</h3>
                             <div class="underline-muted-full"></div>
