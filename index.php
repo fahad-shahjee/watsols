@@ -40,37 +40,26 @@
 
                 <div class="hero-container position-relative">
                     <div class="d-flex flex-column gspace-2">
-                        <h1 class="title-heading-banner animate-box animated animate__animated" data-animate="animate__fadeInLeft">Amplify Your Brand with Cutting-Edge Digital Marketing</h1>
+                        <h1 class="title-heading-banner animate-box animated animate__animated" data-animate="animate__fadeInLeft">Crafting Professional Solutions with Creative Precision</h1>
                         <div class="banner-heading">
                             <div class="banner-video-content order-xl-1 order-2 animate-box animated animate__animated" data-animate="animate__fadeInUp">
                                 <div class="d-flex flex-column flex-xl-row text-xl-start text-center align-items-center gspace-5">
                                     <p>
-                                        Watch our video reviews and see how businesses achieve success with Watsols's digital marketing solutions.
+                                        Driving Success with Inspired Creativity — Watsols: Where Innovation and Imagination Unite.
                                     </p>
                                 </div>
                             </div>
                             <div class="banner-content order-xl-2 order-1  animate-box animated animate__animated" data-animate="animate__fadeInRight" style="color: white;">
-                                <p>Watsols empowers businesses to grow online with data driven digital marketing, innovative branding, and performance focused strategies trusted by top brands lorem ipsum dolor sit amet consectetur.</p>
+                                <p>Watsols drives digital growth through innovative technology solutions, creative strategies, and expert services, empowering global businesses to achieve excellence and stay ahead in a competitive landscape.</p>
                                 <div class="d-flex flex-md-row flex-column justify-content-center justify-content-xl-start align-self-center align-self-xl-start gspace-3">
-                                    <a href="./about.php" class="btn btn-accent">
+                                    <a href="./contact.php" class="btn btn-accent">
                                         <div class="btn-title">
                                             <span>Get Started</span>
                                         </div>
                                         <div class="icon-circle">
                                             <i class="fa-solid fa-arrow-right"></i>
                                         </div>
-                                    </a>
-                                    <div class="banner-reviewer">
-                                        <div class="d-flex flex-row align-items-center">
-                                            <img src="./image/dummy-img-400x400.jpg" alt="Reviewer" class="avatar">
-                                            <img src="./image/dummy-img-400x400.jpg" alt="Reviewer" class="avatar">
-                                            <img src="./image/dummy-img-400x400.jpg" alt="Reviewer" class="avatar">
-                                        </div>
-                                        <div class="detail">
-                                            <span>2.7k Positive</span>
-                                            <span>Reviews</span>
-                                        </div>
-                                    </div>
+                                    </a> 
                                 </div>
                             </div>
                         </div>
@@ -91,7 +80,7 @@
                                     <div class="card-expertise-wrapper">
                                         <div class="card card-expertise  animate-box animated animate__animated" data-animate="animate__fadeInDown">
                                             <h4>Ready to Elevate Your Digital Presence?</h4>
-                                            <p>Let's create a custom strategy that fits your business goals.</p>
+                                            <p>Let’s build a unique strategy designed for your business success.</p>
                                             <div class="d-flex align-items-center flex-row gspace-2 expertise-link">
                                                 <a href="./contact.php">Get Free Consultation</a>
                                                 <i class="fa-solid fa-circle-arrow-right"></i>
@@ -107,44 +96,34 @@
                     <div class="expertise-title">
                         <div class="sub-heading animate-box animated animate__animated" data-animate="animate__fadeInRight">
                             <i class="fa-regular fa-circle-dot"></i>
-                            <span>Our Expertise</span>
+                            <span>About</span>
                         </div>
-                        <h2 class="title-heading animate-box animated animate__animated" data-animate="animate__fadeInRight">Data Driven Strategies, Measurable Results</h2>
-                        <p>At Watsols, we specialize in crafting innovative digital marketing strategies that drive real business growth. Our expertise ensures your brand stays ahead in the competitive digital landscape.</p>
+                        <h2 class="title-heading animate-box animated animate__animated" data-animate="animate__fadeInRight">Where Vision Meets Execution</h2>
+                        <p>At Watsols, we focus on creating impactful solutions that fuel business growth and keep your brand at the forefront of a constantly evolving digital landscape.</p>
                         <div class="d-flex flex-column flex-md-row gspace-2">
                             <div class="expertise-list">
-                                <h5>What We Do Best</h5>
+                                <h5>What We Do</h5>
                                 <ul class="check-list">
-                                    <li><a href="./single_services.php">Performance Marketing</a></li>
+                                    <li><a href="./single_services.php">Branding</a></li>
                                     <li><a href="./single_services.php">Social Media Growth</a></li>
-                                    <li><a href="./single_services.php">Content Marketing</a></li>
-                                    <li><a href="./single_services.php">PPC & Paid Ads</a></li>
-                                    <li><a href="./single_services.php">Brand Strategy</a></li>
-                                    <li><a href="./single_services.php">Conversion Optimization</a></li>
+                                    <li><a href="./single_services.php">Website Development</a></li>
+                                    <li><a href="./single_services.php">App Development</a></li>
+                                    <li><a href="./single_services.php">Logo Design</a></li>
+                                    <li><a href="./single_services.php">Animation</a></li>
                                 </ul>
                             </div>
                             <div class="card card-expertise card-expertise-counter animate-box animated animate__animated" data-animate="animate__fadeInUp">
                                 <div class="d-flex flex-row gspace-2 align-items-center">
                                     <div class="d-flex flex-row align-items-center">
-                                        <span class="counter" data-target="21"></span>
-                                        <span class="counter-detail">+</span>
+                                        <span class="counter" data-target="15"></span>
+                                        <span class="counter-detail">k</span>
                                     </div>
-                                    <h6>Years of Experience on Digital Marketing Services</h6>
+                                    <h6>Milestones Achieved Through Our Work</h6>
                                 </div>
-                                <p>Lorem ipsum dolor sit amet consectetur adipiscing elit in ex ligula varius at rutrum et finibus sed felis qisque.</p>
+                                <p>Every project is a testament to our dedication, expertise, and pursuit of excellence.</p>
                             </div>
                         </div>
                     </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- Section Modal Video -->
-        <div class="section p-0">
-            <div id="modal-overlay" class="modal-overlay">
-                <span class="my-close"><i class="fa-solid fa-xmark"></i></span>
-                <div class="my-modal">
-                    <iframe id="my-video-frame" allowfullscreen></iframe>
                 </div>
             </div>
         </div>
@@ -157,15 +136,12 @@
                     <div class="row row-cols-xl-2 row-cols-1 align-items-center px-5 position-relative z-2">
                         <div class="col">
                             <div class="d-flex flex-column justify-content-start pe-xl-3 pe-0">
-                                <h3 class="title-heading">Powering Success for Top Brands</h3>
+                                <h3 class="title-heading">Our reputed world wide partners</h3>
                             </div>
                         </div>
                         <div class="col">
                             <div class="d-flex flex-column ps-xl-3 ps-0">
-                                <p>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ex ligula, varius at rutrum et, finibus sed felis.
-                                    Quisque eget tincidunt lectus. Sed quis diam sed neque mattis feugiat.
-                                </p>
+                                <p>We collaborate with trusted global partners, building strong alliances that drive innovation, deliver exceptional value, and create lasting impact across industries.</p>
                             </div>
                         </div>
                     </div>
@@ -179,99 +155,99 @@
                                     <div class="swiper-slide">
                                         <a href="#">
                                             <div class="partner-slide">
-                                                <img src="./image/client-7.png" alt="Client" class="partner-logo img-fluid">
+                                                <img src="./image/home/brands/one.png" alt="Client" class="partner-logo img-fluid">
                                             </div>
                                         </a>
                                     </div>
                                     <div class="swiper-slide">
                                         <a href="#">
                                             <div class="partner-slide">
-                                                <img src="./image/client-6.png" alt="Client" class="partner-logo img-fluid">
+                                                <img src="./image/home/brands/two.png" alt="Client" class="partner-logo img-fluid">
                                             </div>
                                         </a>
                                     </div>
                                     <div class="swiper-slide">
                                         <a href="#">
                                             <div class="partner-slide">
-                                                <img src="./image/client-8.png" alt="Client" class="partner-logo img-fluid">
+                                                <img src="./image/home/brands/three.png" alt="Client" class="partner-logo img-fluid">
                                             </div>
                                         </a>
                                     </div>
                                     <div class="swiper-slide">
                                         <a href="#">
                                             <div class="partner-slide">
-                                                <img src="./image/client-2.png" alt="Client" class="partner-logo img-fluid">
+                                                <img src="./image/home/brands/four.png" alt="Client" class="partner-logo img-fluid">
                                             </div>
                                         </a>
                                     </div>
                                     <div class="swiper-slide">
                                         <a href="#">
                                             <div class="partner-slide">
-                                                <img src="./image/client-1.png" alt="Client" class="partner-logo img-fluid">
+                                                <img src="./image/home/brands/five.png" alt="Client" class="partner-logo img-fluid">
                                             </div>
                                         </a>
                                     </div>
                                     <div class="swiper-slide">
                                         <a href="#">
                                             <div class="partner-slide">
-                                                <img src="./image/client-3.png" alt="Client" class="partner-logo img-fluid">
+                                                <img src="./image/home/brands/six.png" alt="Client" class="partner-logo img-fluid">
                                             </div>
                                         </a>
                                     </div>
                                     <div class="swiper-slide">
                                         <a href="#">
                                             <div class="partner-slide">
-                                                <img src="./image/client-5.png" alt="Client" class="partner-logo img-fluid">
+                                                <img src="./image/home/brands/seven.png" alt="Client" class="partner-logo img-fluid">
                                             </div>
                                         </a>
                                     </div>
                                     <div class="swiper-slide">
                                         <a href="#">
                                             <div class="partner-slide">
-                                                <img src="./image/client-4.png" alt="Client" class="partner-logo img-fluid">
+                                                <img src="./image/home/brands/eight.png" alt="Client" class="partner-logo img-fluid">
                                             </div>
                                         </a>
                                     </div>
                                     <div class="swiper-slide">
                                         <a href="#">
                                             <div class="partner-slide">
-                                                <img src="./image/client-7.png" alt="Client" class="partner-logo img-fluid">
+                                                <img src="./image/home/brands/nine.png" alt="Client" class="partner-logo img-fluid">
                                             </div>
                                         </a>
                                     </div>
                                     <div class="swiper-slide">
                                         <div class="partner-slide">
-                                            <img src="./image/client-6.png" alt="Client" class="partner-logo img-fluid">
+                                            <img src="./image/home/brands/ten.png" alt="Client" class="partner-logo img-fluid">
                                         </div>
                                     </div>
                                     <div class="swiper-slide">
                                         <div class="partner-slide">
-                                            <img src="./image/client-8.png" alt="Client" class="partner-logo img-fluid">
+                                            <img src="./image/home/brands/eleven.png" alt="Client" class="partner-logo img-fluid">
                                         </div>
                                     </div>
                                     <div class="swiper-slide">
                                         <div class="partner-slide">
-                                            <img src="./image/client-2.png" alt="Client" class="partner-logo img-fluid">
+                                            <img src="./image/home/brands/twelve.png" alt="Client" class="partner-logo img-fluid">
                                         </div>
                                     </div>
                                     <div class="swiper-slide">
                                         <div class="partner-slide">
-                                            <img src="./image/client-1.png" alt="Client" class="partner-logo img-fluid">
+                                            <img src="./image/home/brands/one.png" alt="Client" class="partner-logo img-fluid">
                                         </div>
                                     </div>
                                     <div class="swiper-slide">
                                         <div class="partner-slide">
-                                            <img src="./image/client-3.png" alt="Client" class="partner-logo img-fluid">
+                                            <img src="./image/home/brands/two.png" alt="Client" class="partner-logo img-fluid">
                                         </div>
                                     </div>
                                     <div class="swiper-slide">
                                         <div class="partner-slide">
-                                            <img src="./image/client-5.png" alt="Client" class="partner-logo img-fluid">
+                                            <img src="./image/home/brands/five.png" alt="Client" class="partner-logo img-fluid">
                                         </div>
                                     </div>
                                     <div class="swiper-slide">
                                         <div class="partner-slide">
-                                            <img src="./image/client-4.png" alt="Client" class="partner-logo img-fluid">
+                                            <img src="./image/home/brands/four.png" alt="Client" class="partner-logo img-fluid">
                                         </div>
                                     </div>
                                 </div>
@@ -289,7 +265,7 @@
                     <div class="d-flex flex-column justify-content-center text-center gspace-2">
                         <div class="sub-heading align-self-center animate-box animated animate__animated" data-animate="animate__fadeInDown">
                             <i class="fa-regular fa-circle-dot"></i>
-                            <span>Our Core Services</span>
+                            <span>Services</span>
                         </div>
                         <h2 class="title-heading heading-container heading-container-medium animate-box animated animate__animated" data-animate="animate__fadeInDown">Innovative IT Solutions that Deliver</h2>
                     </div>
@@ -306,15 +282,15 @@
                                             </div>
                                         </div>
                                         <div class="service-title">
-                                            <h4>IT and Office Relocation</h4>
+                                            <h4>Logo Design</h4>
                                         </div>
                                     </div>
                                     <p>
-                                        Build brand awareness & engage your audience effectively lorem ipsum dolor sit amet consectetur adip.
+                                        At Watsols, we understand the power of a strong logo in shaping and representing your brand identity.
                                     </p>
-                                    <a href="./single_services.php" class="btn btn-accent">
+                                    <a href="./Contact.php" class="btn btn-accent">
                                         <div class="btn-title">
-                                            <span>View Details</span>
+                                            <span>Contact Us</span>
                                         </div>
                                         <div class="icon-circle">
                                             <i class="fa-solid fa-arrow-right"></i>
@@ -333,15 +309,13 @@
                                             </div>
                                         </div>
                                         <div class="service-title">
-                                            <h4>Computer Installations</h4>
+                                            <h4>Website Development</h4>
                                         </div>
                                     </div>
-                                    <p>
-                                        Build brand awareness & engage your audience effectively lorem ipsum dolor sit amet consectetur adip.
-                                    </p>
-                                    <a href="./single_services.php" class="btn btn-accent">
+                                    <p>At Watsols, we create responsive websites that elevate your online presence and reflect your brand’s vision.</p>
+                                    <a href="./Contact.php" class="btn btn-accent">
                                         <div class="btn-title">
-                                            <span>View Details</span>
+                                            <span>Contact Us</span>
                                         </div>
                                         <div class="icon-circle">
                                             <i class="fa-solid fa-arrow-right"></i>
@@ -360,15 +334,13 @@
                                             </div>
                                         </div>
                                         <div class="service-title">
-                                            <h4>Data Center Relocations</h4>
+                                            <h4>Digital Marketing</h4>
                                         </div>
                                     </div>
-                                    <p>
-                                        Build brand awareness & engage your audience effectively lorem ipsum dolor sit amet consectetur adip.
-                                    </p>
-                                    <a href="./single_services.php" class="btn btn-accent">
+                                    <p>At Watsols, we craft data-driven digital marketing strategies that boost visibility and drive meaningful business growth.</p>
+                                    <a href="./Contact.php" class="btn btn-accent">
                                         <div class="btn-title">
-                                            <span>View Details</span>
+                                            <span>Contact Us</span>
                                         </div>
                                         <div class="icon-circle">
                                             <i class="fa-solid fa-arrow-right"></i>
@@ -387,15 +359,15 @@
                                             </div>
                                         </div>
                                         <div class="service-title">
-                                            <h4>Web Development</h4>
+                                            <h4>Business Branding</h4>
                                         </div>
                                     </div>
                                     <p>
-                                        Build brand awareness & engage your audience effectively lorem ipsum dolor sit amet consectetur adip.
+                                        At Watsols, we develop impactful branding strategies that define your identity and leave a lasting impression.
                                     </p>
-                                    <a href="./single_services.php" class="btn btn-accent">
+                                    <a href="./contact.php" class="btn btn-accent">
                                         <div class="btn-title">
-                                            <span>View Details</span>
+                                            <span>Contact Us</span>
                                         </div>
                                         <div class="icon-circle">
                                             <i class="fa-solid fa-arrow-right"></i>
@@ -414,15 +386,13 @@
                                             </div>
                                         </div>
                                         <div class="service-title">
-                                            <h4>IT Support</h4>
+                                            <h4>App Development</h4>
                                         </div>
                                     </div>
-                                    <p>
-                                        Build brand awareness & engage your audience effectively lorem ipsum dolor sit amet consectetur adip.
-                                    </p>
-                                    <a href="./single_services.php" class="btn btn-accent">
+                                    <p>At Watsols, we build user-friendly mobile apps that boost engagement and growth.</p>
+                                    <a href="./contact.php" class="btn btn-accent">
                                         <div class="btn-title">
-                                            <span>View Details</span>
+                                            <span>Contact Us</span>
                                         </div>
                                         <div class="icon-circle">
                                             <i class="fa-solid fa-arrow-right"></i>
@@ -441,15 +411,13 @@
                                             </div>
                                         </div>
                                         <div class="service-title">
-                                            <h4>Digital Marketing</h4>
+                                            <h4>Software Development</h4>
                                         </div>
                                     </div>
-                                    <p>
-                                        Build brand awareness & engage your audience effectively lorem ipsum dolor sit amet consectetur adip.
-                                    </p>
-                                    <a href="./single_services.php" class="btn btn-accent">
+                                    <p>At Watsols, we develop reliable and scalable software solutions tailored to meet your business needs.</p>
+                                    <a href="./Contact.php" class="btn btn-accent">
                                         <div class="btn-title">
-                                            <span>View Details</span>
+                                            <span>Contact Us</span>
                                         </div>
                                         <div class="icon-circle">
                                             <i class="fa-solid fa-arrow-right"></i>

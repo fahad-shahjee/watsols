@@ -29,11 +29,12 @@
                             Our Services <i class="fa-solid fa-angle-down accent-color"></i>
                         </a>
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="service1.php">IT and Office Relocation</a></li>
-                            <li><a class="dropdown-item" href="service2.php">Computer Installations</a></li>
-                            <li><a class="dropdown-item" href="service3.php">Data Center Relocations</a></li>
-                            <li><a class="dropdown-item" href="service4.php">Web Development</a></li>
-                            <li><a class="dropdown-item" href="service5.php">IT support</a></li>
+                            <li><a class="dropdown-item" href="service1.php">Logo Design</a></li>
+                            <li><a class="dropdown-item" href="service2.php">Website Development</a></li>
+                            <li><a class="dropdown-item" href="service3.php">Digital Marketing</a></li>
+                            <li><a class="dropdown-item" href="service4.php">Business Branding</a></li>
+                            <li><a class="dropdown-item" href="service5.php">App Development</a></li>
+                            <li><a class="dropdown-item" href="service6.php">Software Development</a></li>
                         </ul>
                     </li>
 
@@ -55,7 +56,7 @@
                     <div class="icon-circle">
                         <i class="fa-solid fa-phone-volume"></i>
                     </div>
-                    <h6>+1 (62) 987 7543</h6>
+                    <h6>+92 310 8436573</h6>
                 </div>
             </div>
         </div>

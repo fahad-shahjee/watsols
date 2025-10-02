@@ -43,8 +43,7 @@
                                 <h5>Contact Info</h5>
                                 <ul class="contact-list">
                                     <li>info@watsols.com</li>
-                                    <li>+1 234 567 890</li>
-                                    <li>123 Digital Street, New York, USA</li>
+                                    <li>+92 310 8436573</li>
                                 </ul>
                                 <div class="d-flex flex-column gspace-1">
                                     <h5>Social Media</h5>
