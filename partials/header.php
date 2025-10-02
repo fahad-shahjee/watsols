@@ -36,11 +36,7 @@
 
             <!-- Right-side action buttons (unchanged) -->
             <div class="navbar-action-container">
-                <div class="navbar-action-button">
-                    <button id="themeSwitch" class="themeswitch" aria-label="Toggle Theme">
-                        <i id="themeIcon" class="fas fa-moon"></i>
-                    </button>
-                </div>
+                
                 <div class="navbar-icon-wrapper">
                     <div class="icon-circle">
                         <i class="fa-solid fa-phone-volume"></i>
