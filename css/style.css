@@ -115,7 +115,7 @@
     --secondary: #040404;
     --text-color: #b5b5b5;
     --text-color-2: var(--secondary); 
-    --accent-color: #b01117; /* changed from #C82AEF */
+    --accent-color: #f10009; /* changed from #C82AEF */
     --accent-color-2: #FFFFFF;
     --accent-color-3: #1F1F1F;
     --accent-color-4: #0E0E0E;

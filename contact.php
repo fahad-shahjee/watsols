@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,27 +8,13 @@
     <link rel="stylesheet" href="./css/style.css">
     <link rel="icon" href="./image/favicon.ico">
 </head>
+
 <body>
-    
-     <!-- Section Header -->
+
+    <!-- Section Header -->
     <header>
         <?php include './header.php'; ?>
     </header>
-
-    <!-- Section Content Edit -->
-    <aside>
-        <?php include './sidebar.php'; ?>
-    </aside>
-
-    <!-- Section Search -->
-    <?php include './search-form.php'; ?>
-
-    <!-- Section Sidebar -->
-    <aside>
-        <?php include './sidebar.php'; ?>
-    </aside>
-
-    <!-- Section Main Content-->
     <main>
         <!-- Section Banner -->
         <div class="section-banner">
@@ -36,16 +23,16 @@
                     <div class="d-flex flex-column text-center align-items-center gspace-2">
                         <h2 class="title-heading animate-box animated animate__animated" data-animate="animate__fadeInRight">Contact Us</h2>
                         <nav class="breadcrumb">
-                            <a href="./index.html" class="gspace-2">Home</a>
+                            <a href="./index.php" class="gspace-2">Home</a>
                             <span class="separator-link">/</span>
                             <p class="current-page">Contact Us</p>
-                        </nav>    
+                        </nav>
                     </div>
                     <div class="spacer"></div>
                 </div>
             </div>
         </div>
-        
+
         <!-- Section Contact -->
         <div class="section">
             <div class="hero-container">
@@ -58,7 +45,7 @@
                                     <span>Reach out to us</span>
                                 </div>
                                 <h2 class="title-heading">Get in Touch</h2>
-                                <p>Reach out to us for tailored digital solutions that drive results sollicitudin nec.</p>
+                                <p>Reach out to us for tailored digital solutions that drive impactful results help your business grow.</p>
                                 <div class="d-flex flex-column flex-md-row align-items-center text-md-start text-center gspace-2">
                                     <div>
                                         <div class="icon-wrapper">
@@ -69,7 +56,7 @@
                                     </div>
                                     <div class="d-grid">
                                         <span>Phone Number</span>
-                                        <h5>+1 (62) 987 7543</h5>
+                                        <h5>+92 310 8436573</h5>
                                     </div>
                                 </div>
                                 <div class="d-flex flex-column flex-md-row align-items-center text-md-start text-center gspace-2">
@@ -82,7 +69,7 @@
                                     </div>
                                     <div class="d-grid">
                                         <span>Email Address</span>
-                                        <h5>hello@markoagency.com</h5>
+                                        <h5>info@watsols.com</h5>
                                     </div>
                                 </div>
                                 <div class="d-flex flex-column flex-md-row align-items-center text-md-start text-center gspace-2">
@@ -106,7 +93,7 @@
                             <span class="check-icon"><i class="fa-solid fa-2xl fa-check"></i></span>
                             <p>Thank you! Form submitted successfully.</p>
                         </div>
-                        
+
                         <div id="error-message" class="alert error hidden">
                             <span class="cross-icon"><i class="fa-solid fa-2xl fa-xmark"></i></span>
                             <p>Oops! Form submission failed. Please try again.</p>
@@ -138,7 +125,7 @@
                                                 <span>Send a Message</span>
                                             </span>
                                             <span class="icon-circle">
-                                              <i class="fa-solid fa-arrow-right"></i>
+                                                <i class="fa-solid fa-arrow-right"></i>
                                             </span>
                                         </button>
                                     </div>
@@ -174,4 +161,5 @@
     <script src="js/submit-form.js"></script>
     <script src="js/video_embedded.js"></script>
 </body>
+
 </html>

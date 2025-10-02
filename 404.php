@@ -1,36 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Error 404 - Marko - Digital Marketing Agency</title>
+    <title>Error 404 - Watsols</title>
     <link rel="stylesheet" href="./css/style.css">
-    <link rel="icon" href="./image/favicon.ico">   
+    <link rel="icon" href="./image/favicon.ico">
 </head>
+
 <body>
-    
+
     <!-- Section Header -->
     <header>
-        <!-- Section Navbar -->
-        <div id="header"></div>
+        <?php include './header.php'; ?>
     </header>
 
-    <!-- Section Content Edit -->
-    <aside>
-        <div id="edit-sidebar"></div>
-    </aside>
 
-    <!-- Section Search -->
-    <aside>
-        <div id="search-form-container"></div>
-    </aside>
-
-    <!-- Section Sidebar -->
-    <aside>
-        <div id="sidebar"></div>
-    </aside>
-
-    <!-- Section Main Content -->
+    <!-- Section Main Content-->
     <main>
         <!-- Section Banner -->
         <div class="section-404">
@@ -40,7 +27,7 @@
                     <h3>Oops! Page Not Found</h3>
                     <p>We couldn't find the page you're looking for. It might have been removed, renamed, or never existed.</p>
                     <div>
-                        <a href="./index.html" class="btn btn-accent">
+                        <a href="./index.php" class="btn btn-accent">
                             <div class="btn-title">
                                 <span>Back to Home</span>
                             </div>
@@ -56,7 +43,7 @@
 
     <!-- Section Footer -->
     <footer>
-        <div id="footer"></div>
+        <?php include './footer.php'; ?>
     </footer>
 
     <script src="js/vendor/jquery.min.js"></script>
@@ -68,4 +55,5 @@
     <script src="js/submit-form.js"></script>
     <script src="js/video_embedded.js"></script>
 </body>
+
 </html>

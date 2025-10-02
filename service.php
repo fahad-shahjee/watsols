@@ -1,33 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Services - Digital Marketing Agency</title>
+    <title>Services - Watsols</title>
     <link rel="stylesheet" href="./css/style.css">
     <link rel="icon" href="./image/favicon.ico">
 </head>
+
 <body>
-    
+
     <!-- Section Header -->
     <header>
         <?php include './header.php'; ?>
     </header>
-
-    <!-- Section Content Edit -->
-    <aside>
-        <?php include './sidebar.php'; ?>
-    </aside>
-
-    <!-- Section Search -->
-    <?php include './search-form.php'; ?>
-
-    <!-- Section Sidebar -->
-    <aside>
-        <?php include './sidebar.php'; ?>
-    </aside>
-
-    <!-- Section Main Content-->
     <main>
         <!-- Section Banner -->
         <div class="section-banner">
@@ -36,10 +23,10 @@
                     <div class="d-flex flex-column text-center align-items-center gspace-2">
                         <h2 class="title-heading animate-box animated animate__animated" data-animate="animate__fadeInRight">Our Services</h2>
                         <nav class="breadcrumb">
-                            <a href="./index.html" class="gspace-2">Home</a>
+                            <a href="./index.php" class="gspace-2">Home</a>
                             <span class="separator-link">/</span>
                             <p class="current-page">Services</p>
-                        </nav>    
+                        </nav>
                     </div>
                     <div class="spacer"></div>
                 </div>
@@ -53,9 +40,9 @@
                     <div class="d-flex flex-column justify-content-center text-center gspace-2">
                         <div class="sub-heading align-self-center animate-box animated animate__animated" data-animate="animate__fadeInDown">
                             <i class="fa-regular fa-circle-dot"></i>
-                            <span>Our Core Services</span>
+                            <span>Services</span>
                         </div>
-                        <h2 class="title-heading heading-container heading-container-medium animate-box animated animate__animated" data-animate="animate__fadeInDown">Digital Solutions That Drive Real Results</h2>
+                        <h2 class="title-heading heading-container heading-container-medium animate-box animated animate__animated" data-animate="animate__fadeInDown">Innovative IT Solutions that Deliver</h2>
                     </div>
                     <div class="card-service-wrapper">
                         <div class="row row-cols-xl-3 row-cols-md-2 row-cols-1 grid-spacer-2">
@@ -65,20 +52,20 @@
                                         <div>
                                             <div class="service-icon-wrapper">
                                                 <div class="service-icon">
-                                                    <img src="./image/Icon-7.png" alt="Service Icon" class="img-fluid">
+                                                    <img src="./image/home/office-relocation.png" alt="Service Icon" class="img-fluid">
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="service-title">
-                                            <h4>Social Media Marketing</h4>
+                                            <h4>Logo Design</h4>
                                         </div>
                                     </div>
                                     <p>
-                                        Build brand awareness & engage your audience effectively lorem ipsum dolor sit amet consectetur adip.
+                                        At Watsols, we understand the power of a strong logo in shaping and representing your brand identity.
                                     </p>
-                                    <a href="./single_services.html" class="btn btn-accent">
+                                    <a href="./Contact.php" class="btn btn-accent">
                                         <div class="btn-title">
-                                            <span>View Details</span>
+                                            <span>Contact Us</span>
                                         </div>
                                         <div class="icon-circle">
                                             <i class="fa-solid fa-arrow-right"></i>
@@ -92,20 +79,18 @@
                                         <div>
                                             <div class="service-icon-wrapper">
                                                 <div class="service-icon">
-                                                    <img src="./image/digital-marketing-icons-F4LJ4W8.png" alt="Service Icon" class="img-fluid">
+                                                    <img src="./image/home/computer-installations.png" alt="Service Icon" class="img-fluid">
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="service-title">
-                                            <h4>Content Marketing</h4>
+                                            <h4>Website Development</h4>
                                         </div>
                                     </div>
-                                    <p>
-                                        Build brand awareness & engage your audience effectively lorem ipsum dolor sit amet consectetur adip.
-                                    </p>
-                                    <a href="./single_services.html" class="btn btn-accent">
+                                    <p>At Watsols, we create responsive websites that elevate your online presence and reflect your brand’s vision.</p>
+                                    <a href="./Contact.php" class="btn btn-accent">
                                         <div class="btn-title">
-                                            <span>View Details</span>
+                                            <span>Contact Us</span>
                                         </div>
                                         <div class="icon-circle">
                                             <i class="fa-solid fa-arrow-right"></i>
@@ -119,20 +104,18 @@
                                         <div>
                                             <div class="service-icon-wrapper">
                                                 <div class="service-icon">
-                                                    <img src="./image/Icon-8.png" alt="Service Icon" class="img-fluid">
+                                                    <img src="./image/home/data-center.png" alt="Service Icon" class="img-fluid">
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="service-title">
-                                            <h4>PPC Advertising</h4>
+                                            <h4>Digital Marketing</h4>
                                         </div>
                                     </div>
-                                    <p>
-                                        Build brand awareness & engage your audience effectively lorem ipsum dolor sit amet consectetur adip.
-                                    </p>
-                                    <a href="./single_services.html" class="btn btn-accent">
+                                    <p>At Watsols, we craft data-driven digital marketing strategies that boost visibility and drive meaningful business growth.</p>
+                                    <a href="./Contact.php" class="btn btn-accent">
                                         <div class="btn-title">
-                                            <span>View Details</span>
+                                            <span>Contact Us</span>
                                         </div>
                                         <div class="icon-circle">
                                             <i class="fa-solid fa-arrow-right"></i>
@@ -146,20 +129,20 @@
                                         <div>
                                             <div class="service-icon-wrapper">
                                                 <div class="service-icon">
-                                                    <img src="./image/Icon-5.png" alt="Service Icon" class="img-fluid">
+                                                    <img src="./image/home/web-development.png" alt="Service Icon" class="img-fluid">
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="service-title">
-                                            <h4>Email Marketing</h4>
+                                            <h4>Business Branding</h4>
                                         </div>
                                     </div>
                                     <p>
-                                        Build brand awareness & engage your audience effectively lorem ipsum dolor sit amet consectetur adip.
+                                        At Watsols, we develop impactful branding strategies that define your identity and leave a lasting impression.
                                     </p>
-                                    <a href="./single_services.html" class="btn btn-accent">
+                                    <a href="./contact.php" class="btn btn-accent">
                                         <div class="btn-title">
-                                            <span>View Details</span>
+                                            <span>Contact Us</span>
                                         </div>
                                         <div class="icon-circle">
                                             <i class="fa-solid fa-arrow-right"></i>
@@ -173,20 +156,18 @@
                                         <div>
                                             <div class="service-icon-wrapper">
                                                 <div class="service-icon">
-                                                    <img src="./image/Icon-6.png" alt="Service Icon" class="img-fluid">
+                                                    <img src="./image/home/it-support.png" alt="Service Icon" class="img-fluid">
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="service-title">
-                                            <h4>Brading & Design</h4>
+                                            <h4>App Development</h4>
                                         </div>
                                     </div>
-                                    <p>
-                                        Build brand awareness & engage your audience effectively lorem ipsum dolor sit amet consectetur adip.
-                                    </p>
-                                    <a href="./single_services.html" class="btn btn-accent">
+                                    <p>At Watsols, we build user-friendly mobile apps that boost engagement and growth.</p>
+                                    <a href="./contact.php" class="btn btn-accent">
                                         <div class="btn-title">
-                                            <span>View Details</span>
+                                            <span>Contact Us</span>
                                         </div>
                                         <div class="icon-circle">
                                             <i class="fa-solid fa-arrow-right"></i>
@@ -200,20 +181,18 @@
                                         <div>
                                             <div class="service-icon-wrapper">
                                                 <div class="service-icon">
-                                                    <img src="./image/Icon-4.png" alt="Service Icon" class="img-fluid">
+                                                    <img src="./image/home/digital-mar.png" alt="Service Icon" class="img-fluid">
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="service-title">
-                                            <h4>Web Development</h4>
+                                            <h4>Software Development</h4>
                                         </div>
                                     </div>
-                                    <p>
-                                        Build brand awareness & engage your audience effectively lorem ipsum dolor sit amet consectetur adip.
-                                    </p>
-                                    <a href="./single_services.html" class="btn btn-accent">
+                                    <p>At Watsols, we develop reliable and scalable software solutions tailored to meet your business needs.</p>
+                                    <a href="./Contact.php" class="btn btn-accent">
                                         <div class="btn-title">
-                                            <span>View Details</span>
+                                            <span>Contact Us</span>
                                         </div>
                                         <div class="icon-circle">
                                             <i class="fa-solid fa-arrow-right"></i>
@@ -224,178 +203,280 @@
                         </div>
                     </div>
                     <div class="service-link-footer">
-                        <p>Need a custom solution? Let's create a strategy tailored for your business. <a href="./contact.html">Get a Free Strategy Call</a></p>
+                        <p>Need a custom solution? Let's create a strategy tailored for your business. <a href="./contact.php">Get a Free Strategy Call</a></p>
                     </div>
                 </div>
             </div>
-        </div>
-        
-        <!-- Section Guide -->
-        <div class="section-guide">
-            <div class="guide-banner">
-                <div class="hero-container">
-                    <div class="guide-content  animate-box animated animate__animated" data-animate="animate__fadeInUp">
-                        <div class="guide-video-container">
-                            <button class="request-loader" data-video="https://www.youtube.com/embed/VhBl3dHT5SY?autoplay=1"><i class="fa-solid fa-play"></i></button>
-                            <p>
-                                See How We Help Brands Grow
-                            </p>
-                        </div>
-                        <div class="d-flex flex-column gspace-2">
-                            <h3 class="title-heading">Transform Your Business with Marko!</h3>
-                            <p>Take your digital marketing to the next level with data-driven strategies and innovative solutions. Let's create something amazing together!</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
+        </div>>
         </div>
 
-        <!-- Section Modal Video -->
-        <div class="section p-0">
-            <div id="modal-overlay" class="modal-overlay">
-                <span class="modal-close"><i class="fa-solid fa-xmark"></i></span>
-                <div class="video-modal">
-                <iframe id="modal-video-frame" class="ifr-video" allowfullscreen></iframe>
-                </div>
-            </div>
-        </div>
 
-        <!-- Section Pricing -->
+        <!-- Section Testimonial -->
         <div class="section">
             <div class="hero-container">
-                <div class="d-flex flex-column justify-content-center text-center gspace-5">
-                    <div class="d-flex flex-column gspace-2 animate-box animated animate__animated" data-animate="animate__fadeInUp">
-                        <div class="sub-heading align-self-center">
-                            <i class="fa-regular fa-circle-dot"></i>
-                            <span>Our Core Services</span>
+                <div class="d-flex flex-column gspace-5">
+                    <div class="d-flex flex-column flex-xl-row gspace-5">
+                        <div class="testimonial-reviewer-container">
+                            <div class="testimonial-header-wrapper animate-box animated fast animate__animated" data-animate="animate__fadeInDown">
+                                <div class="card card-testimonial-reviewer">
+                                    <div class="d-flex flex-column flex-md-row flex-xl-column justify-content-between gspace-3">
+
+                                        <div class="testimonial-rating-container">
+                                            <div class="d-flex flex-column justify-content-center align-items-center gspace-1">
+                                                <div class="d-flex flex-row align-items-center">
+                                                    <span class="counter" data-target="90"></span>
+                                                    <span class="counter-detail">%</span>
+                                                </div>
+                                                <p>Improved Project</p>
+                                            </div>
+                                            <div class="underline-vertical"></div>
+                                            <div class="d-flex flex-column justify-content-center align-items-center gspace-1">
+                                                <div class="d-flex flex-row align-items-center">
+                                                    <span class="counter" data-target="49"></span>
+                                                    <span class="counter-detail">%</span>
+                                                </div>
+                                                <p>New Project</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="d-flex flex-column flex-md-row flex-xl-column justify-content-center gspace-2">
+                                        <div class="testimonial-header-link-wrapper">
+                                            <i class="fa-regular fa-circle-check accent-color"></i>
+                                            <a href="#">Social Media Growth</a>
+                                        </div>
+                                        <div class="testimonial-header-link-wrapper">
+                                            <i class="fa-regular fa-circle-check accent-color"></i>
+                                            <a href="#">Performance Marketing</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                        <h2 class="title-heading heading-container heading-container-short">Flexible Pricing Plans for Every Business</h2>
+                        <div class="testimonial-title-container">
+                            <div class="testimonial-header-wrapper-title animate-box animated animate__animated" data-animate="animate__fadeInRight">
+                                <div class="card-testimonial-header-title">
+                                    <div class="sub-heading">
+                                        <i class="fa-regular fa-circle-dot"></i>
+                                        <span>What Our Client Says</span>
+                                    </div>
+                                    <h2 class="title-heading">Hear from Our Satisfied Clients, Real Success Stories</h2>
+
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="row row-cols-xl-3 row-cols-1 grid-spacer-2">
-                        <div class="col">
-                            <div class="pricing-container">
-                                <div class="card card-pricing-title animate-box animated animate__animated" data-animate="animate__fadeInLeft">
-                                    <div class="spacer"></div>
-                                    <div class="content">
-                                        <h3 class="title-heading">Let's Find the Right Strategy for You!</h3>
-                                        <div class="link-wrapper">
-                                            <a href=".contact.html">Book a Free Consultation</a>
-                                            <i class="fa-solid fa-arrow-circle-right"></i>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="card card-pricing animate-box animated animate__animated" data-animate="animate__fadeInUp">
-                                    <h4>Starter</h4>
-                                    <p>Perfect for startups & small businesses</p>
-                                    <div class="d-flex flex-row gspace-1 align-items-center h-100">
-                                        <h3>
-                                            $99
-                                        </h3>
-                                        <p>/Month</p>
-                                    </div>
-                                    <a href="#" class="btn btn-accent">
-                                        <div class="btn-title">
-                                            <span>View Details</span>
-                                        </div>
-                                        <div class="icon-circle">
-                                            <i class="fa-solid fa-arrow-right"></i>
-                                        </div>
-                                    </a>
-                                    <ul class="check-list">
-                                        <li><a href="./single_services.html">Basic SEO & Marketing</a></li>
-                                        <li><a href="./single_services.html">Social Media Management (1 Platform)</a></li>
-                                        <li><a href="./single_services.html">Monthly Performance Report</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col">
-                            <div class="card card-pricing pricing-highlight animate-box animated slow animate__animated" data-animate="animate__fadeInUp">
-                                <div class="spacer"></div>
-                                <h4>Enterprise</h4>
-                                <p>Full scale marketing for maximum impact</p>
-                                <div class="d-flex flex-row gspace-1 align-items-center">
-                                    <h3>
-                                        $399
-                                    </h3>
-                                    <p>/Month</p>
-                                </div>
-                                <a href="#" class="btn btn-accent">
-                                    <div class="btn-title">
-                                        <span>View Details</span>
-                                    </div>
-                                    <div class="icon-circle">
-                                        <i class="fa-solid fa-arrow-right"></i>
-                                    </div>
-                                </a>
-                                <div class="core-benefits">
-                                    <div class="benefit">
-                                        <i class="fa-solid fa-brain"></i>
-                                        <a href="#">Dedicated Account Manager</a>
-                                    </div>
-                                    <div class="benefit">
-                                        <i class="fa-brands fa-accessible-icon"></i>
-                                        <a href="#">Priority Support 24/7</a>
-                                    </div>
-                                    <div class="benefit">
-                                        <i class="fa-solid fa-bug"></i>
-                                        <a href="#">Customized Growth Strength</a>
-                                    </div>
-                                </div>
-                                <ul class="check-list">
-                                    <li><a href="#">Complate Digital Marketing Suite</a></li>
-                                    <li><a href="#">Paid Ads Management</a></li>
-                                    <li><a href="#">Dedicated Account Manager</a></li>
-                                    <li><a href="#">Email Marketing & Automation</a></li>
-                                    <li><a href="#">Dedicated Account Manager</a></li>
-                                    <li><a href="#">Weekly Performance insights</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="col">
-                            <div class="pricing-container">
-                                <div class="card pricing-highlight-box animate-box animated animate__animated" data-animate="animate__fadeInRight">
-                                    <div class="d-flex flex-column gspace-2 w-100">
-                                        <h5>Your Growth, Our Priority!</h5>
-                                        <div class="d-flex flex-column gspace-2">
-                                            <div class="pricing-highlights">
-                                                <a href="#">Data-Driven Digital Marketing</a>
-                                                <i class="fa-solid fa-arrow-circle-right"></i>
+                    <div class="d-flex flex-column">
+                        <div class="overflow-hidden">
+                            <div class="swiper swiperTestimonial">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <div class="card card-testimonial">
+                                            <div class="stars">
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
                                             </div>
-                                            <div class="pricing-highlights">
-                                                <a href="#">Proven Strategies for Higher</a>
-                                                <i class="fa-solid fa-arrow-circle-right"></i>
+                                            <div class="d-flex flex-row align-items-center justify-content-between">
+                                                <div class="d-flex flex-row gspace-2">
+                                                    <div class="testimonial-image">
+                                                        <img src="./image/dummy-img-400x400.jpg" alt="Testimonial Person Image" class="img-fluid">
+                                                    </div>
+                                                    <div class="d-flex flex-column">
+                                                        <span class="profile-name">Emma Richard</span>
+                                                        <p class="profile-info">CEO Nexatech</p>
+                                                    </div>
+                                                </div>
+                                                <i class="fa-solid fa-3x fa-quote-right accent-color"></i>
                                             </div>
-                                            <div class="pricing-highlights">
-                                                <a href="#">Scalable Solution for Every Business</a>
-                                                <i class="fa-solid fa-arrow-circle-right"></i>
-                                            </div>
+                                            <p class="testimonial-description">
+                                                “Watsols completely transformed our online presence! Their digital marketing strategies helped us double our revenue in just six months.”
+                                            </p>
                                         </div>
                                     </div>
-                                    <div class="spacer"></div>
-                                </div>
-                                <div class="card card-pricing animate-box animated animate__animated" data-animate="animate__fadeInUp">
-                                    <h4>Growth</h4>
-                                    <p>Best for growing businesses ready</p>
-                                    <div class="d-flex flex-row gspace-1 align-items-center h-100">
-                                        <h3>
-                                            $299
-                                        </h3>
-                                        <p>/Month</p>
+                                    <div class="swiper-slide">
+                                        <div class="card card-testimonial">
+                                            <div class="stars">
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                            </div>
+                                            <div class="d-flex flex-row align-items-center justify-content-between">
+                                                <div class="d-flex flex-row gspace-2">
+                                                    <div class="testimonial-image">
+                                                        <img src="./image/dummy-img-400x400.jpg" alt="Testimonial Person Image" class="img-fluid">
+                                                    </div>
+                                                    <div class="d-flex flex-column">
+                                                        <span class="profile-name">David Mont</span>
+                                                        <p class="profile-info">Marketing Director</p>
+                                                    </div>
+                                                </div>
+                                                <i class="fa-solid fa-3x fa-quote-right accent-color"></i>
+                                            </div>
+                                            <p class="testimonial-description">
+                                                “We've worked with many agencies before, but Watsols stands out. Their data-driven approach and creative solutions gave us an edge over competitors.”
+                                            </p>
+                                        </div>
                                     </div>
-                                    <a href="#" class="btn btn-accent">
-                                        <div class="btn-title">
-                                            <span>View Details</span>
+                                    <div class="swiper-slide">
+                                        <div class="card card-testimonial">
+                                            <div class="stars">
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                            </div>
+                                            <div class="d-flex flex-row align-items-center justify-content-between">
+                                                <div class="d-flex flex-row gspace-2">
+                                                    <div class="testimonial-image">
+                                                        <img src="./image/dummy-img-400x400.jpg" alt="Testimonial Person Image" class="img-fluid">
+                                                    </div>
+                                                    <div class="d-flex flex-column">
+                                                        <span class="profile-name">Sophia Lewis</span>
+                                                        <p class="profile-info">Founder</p>
+                                                    </div>
+                                                </div>
+                                                <i class="fa-solid fa-3x fa-quote-right accent-color"></i>
+                                            </div>
+                                            <p class="testimonial-description">
+                                                “From SEO to paid ads, Watsols nailed every aspect of our campaign. Our website traffic skyrocketed, and lead generation has never been better!”
+                                            </p>
                                         </div>
-                                        <div class="icon-circle">
-                                            <i class="fa-solid fa-arrow-right"></i>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="card card-testimonial">
+                                            <div class="stars">
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                            </div>
+                                            <div class="d-flex flex-row align-items-center justify-content-between">
+                                                <div class="d-flex flex-row gspace-2">
+                                                    <div class="testimonial-image">
+                                                        <img src="./image/dummy-img-400x400.jpg" alt="Testimonial Person Image" class="img-fluid">
+                                                    </div>
+                                                    <div class="d-flex flex-column">
+                                                        <span class="profile-name">James Peterson</span>
+                                                        <p class="profile-info">COO, BrightWave</p>
+                                                    </div>
+                                                </div>
+                                                <i class="fa-solid fa-3x fa-quote-right accent-color"></i>
+                                            </div>
+                                            <p class="testimonial-description">
+                                                “Highly professional and results-oriented. Watsols's expertise in branding and content marketing helped us build a strong online identity.”
+                                            </p>
                                         </div>
-                                    </a>
-                                    <ul class="check-list">
-                                        <li><a href="./single_services.html">Basic SEO & Marketing</a></li>
-                                        <li><a href="./single_services.html">Social Media Management (1 Platform)</a></li>
-                                        <li><a href="./single_services.html">Monthly Performance Report</a></li>
-                                    </ul>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="card card-testimonial">
+                                            <div class="stars">
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                            </div>
+                                            <div class="d-flex flex-row align-items-center justify-content-between">
+                                                <div class="d-flex flex-row gspace-2">
+                                                    <div class="testimonial-image">
+                                                        <img src="./image/dummy-img-400x400.jpg" alt="Testimonial Person Image" class="img-fluid">
+                                                    </div>
+                                                    <div class="d-flex flex-column">
+                                                        <span class="profile-name">Emma Richard</span>
+                                                        <p class="profile-info">CEO Nexatech</p>
+                                                    </div>
+                                                </div>
+                                                <i class="fa-solid fa-3x fa-quote-right accent-color"></i>
+                                            </div>
+                                            <p class="testimonial-description">
+                                                “Watsols completely transformed our online presence! Their digital marketing strategies helped us double our revenue in just six months.”
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="card card-testimonial">
+                                            <div class="stars">
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                            </div>
+                                            <div class="d-flex flex-row align-items-center justify-content-between">
+                                                <div class="d-flex flex-row gspace-2">
+                                                    <div class="testimonial-image">
+                                                        <img src="./image/dummy-img-400x400.jpg" alt="Testimonial Person Image" class="img-fluid">
+                                                    </div>
+                                                    <div class="d-flex flex-column">
+                                                        <span class="profile-name">David Mont</span>
+                                                        <p class="profile-info">Marketing Director</p>
+                                                    </div>
+                                                </div>
+                                                <i class="fa-solid fa-3x fa-quote-right accent-color"></i>
+                                            </div>
+                                            <p class="testimonial-description">
+                                                “We've worked with many agencies before, but Watsols stands out. Their data-driven approach and creative solutions gave us an edge over competitors.”
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="card card-testimonial">
+                                            <div class="stars">
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                            </div>
+                                            <div class="d-flex flex-row align-items-center justify-content-between">
+                                                <div class="d-flex flex-row gspace-2">
+                                                    <div class="testimonial-image">
+                                                        <img src="./image/dummy-img-400x400.jpg" alt="Testimonial Person Image" class="img-fluid">
+                                                    </div>
+                                                    <div class="d-flex flex-column">
+                                                        <span class="profile-name">Sophia Lewis</span>
+                                                        <p class="profile-info">Founder</p>
+                                                    </div>
+                                                </div>
+                                                <i class="fa-solid fa-3x fa-quote-right accent-color"></i>
+                                            </div>
+                                            <p class="testimonial-description">
+                                                “From SEO to paid ads, Watsols nailed every aspect of our campaign. Our website traffic skyrocketed, and lead generation has never been better!”
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="card card-testimonial">
+                                            <div class="stars">
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                            </div>
+                                            <div class="d-flex flex-row align-items-center justify-content-between">
+                                                <div class="d-flex flex-row gspace-2">
+                                                    <div class="testimonial-image">
+                                                        <img src="./image/dummy-img-400x400.jpg" alt="Testimonial Person Image" class="img-fluid">
+                                                    </div>
+                                                    <div class="d-flex flex-column">
+                                                        <span class="profile-name">James Peterson</span>
+                                                        <p class="profile-info">COO, BrightWave</p>
+                                                    </div>
+                                                </div>
+                                                <i class="fa-solid fa-3x fa-quote-right accent-color"></i>
+                                            </div>
+                                            <p class="testimonial-description">
+                                                “Highly professional and results-oriented. Watsols's expertise in branding and content marketing helped us build a strong online identity.”
+                                            </p>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -403,9 +484,10 @@
                 </div>
             </div>
         </div>
+
     </main>
 
-   <!-- Section Footer -->
+    <!-- Section Footer -->
     <footer>
         <?php include './footer.php'; ?>
     </footer>
@@ -418,4 +500,5 @@
     <script src="js/submit-form.js"></script>
     <script src="js/video_embedded.js"></script>
 </body>
+
 </html>

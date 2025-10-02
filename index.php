@@ -15,19 +15,7 @@
         <?php include './header.php'; ?>
     </header>
 
-    <!-- Section Content Edit -->
-    <aside>
-        <?php include './sidebar.php'; ?>
-    </aside>
 
-    <!-- Section Search -->
-    <?php include './search-form.php'; ?>
-
-    <!-- Section Sidebar -->
-    <aside>
-        <?php include './sidebar.php'; ?>
-    </aside>
-    <!-- Section Main Content-->
     <main>
         <!-- Section Banner -->
         <div class="section-banner">
@@ -59,7 +47,7 @@
                                         <div class="icon-circle">
                                             <i class="fa-solid fa-arrow-right"></i>
                                         </div>
-                                    </a> 
+                                    </a>
                                 </div>
                             </div>
                         </div>
@@ -468,9 +456,9 @@
                                 </div>
                                 <div class="chooseus-content">
                                     <h4 class="chooseus-title">Mission</h4>
-                                    <p>Every decision is backed by real-time analytics for maximum impact lorem ipsum dolor sit consectetur adipiscing elit ut elit tellus luctus nec.</p>
+                                    <p>To empower businesses with innovative solutions and strategies that drive growth, create impact, and elevate their digital presence.</p>
                                     <div class="link-wrapper">
-                                        <a href="#">Read More</a>
+                                        <a href="about.php">Read More</a>
                                         <i class="fa-solid fa-arrow-circle-right accent-color"></i>
                                     </div>
                                 </div>
@@ -487,9 +475,9 @@
                                 </div>
                                 <div class="chooseus-content">
                                     <h4 class="chooseus-title">Vision</h4>
-                                    <p>Cutting-edge marketing techniques to keep you ahead of the competition lorem ipsum dolor sit awsa consectetur adipiscing elit ut elit.</p>
+                                    <p>To be a global leader in digital innovation, inspiring progress and helping brands thrive in a fast-evolving world.</p>
                                     <div class="link-wrapper">
-                                        <a href="#">Read More</a>
+                                        <a href="about.php">Read More</a>
                                         <i class="fa-solid fa-arrow-circle-right accent-color"></i>
                                     </div>
                                 </div>
@@ -506,9 +494,9 @@
                                 </div>
                                 <div class="chooseus-content">
                                     <h4 class="chooseus-title">Core Values</h4>
-                                    <p>Clear insights and performance tracking, so you always know your ROI lorem ipsum dolo consectetur adipiscing elit ut elit tellus luctus nec.</p>
+                                    <p>Innovation, integrity, collaboration, and excellence guide everything we do, shaping lasting partnerships and impactful solutions.</p>
                                     <div class="link-wrapper">
-                                        <a href="#">Read More</a>
+                                        <a href="about.php">Read More</a>
                                         <i class="fa-solid fa-arrow-circle-right accent-color"></i>
                                     </div>
                                 </div>
@@ -522,8 +510,8 @@
                                     <i class="fa-regular fa-circle-dot"></i>
                                     <span>Why Choose Watsols</span>
                                 </div>
-                                <h2 class="title-heading  animate-box animated animate__animated" data-animate="animate__fadeInDown">Your Success is Our Mission</h2>
-                                <p class="mb-0 animate-box animated animate__animated" data-animate="animate__fadeInDown">In the fast-paced digital world, choosing the right marketing partner makes all the difference. At Watsols, we don’t just create campaigns—we craft strategies that deliver measurable success.</p>
+                                <h2 class="title-heading  animate-box animated animate__animated" data-animate="animate__fadeInDown">Your Success is <br>Our Mission</h2>
+                                <p class="mb-0 animate-box animated animate__animated" data-animate="animate__fadeInDown">At Watsols, we are dedicated to delivering outstanding quality and impactful results. With a global presence and a talented team, we combine innovation and expertise to drive meaningful business growth and digital excellence.</p>
                             </div>
                             <div class="image-container">
                                 <img src="./image/home/why-choose.png" alt="Why Choose Us Image" class="chooseus-img">
@@ -559,18 +547,7 @@
                             <div class="testimonial-header-wrapper animate-box animated fast animate__animated" data-animate="animate__fadeInDown">
                                 <div class="card card-testimonial-reviewer">
                                     <div class="d-flex flex-column flex-md-row flex-xl-column justify-content-between gspace-3">
-                                        <div class="testimonial-reviewer">
-                                            <div class="avatar-container">
-                                                <img src="./image/dummy-img-400x400.jpg" alt="Testimonial Reviewer" class="avatar">
-                                                <img src="./image/dummy-img-400x400.jpg" alt="Testimonial Reviewer" class="avatar">
-                                                <img src="./image/dummy-img-400x400.jpg" alt="Testimonial Reviewer" class="avatar">
-                                                <img src="./image/dummy-img-400x400.jpg" alt="Testimonial Reviewer" class="avatar">
-                                            </div>
-                                            <div class="detail">
-                                                <h6>2.7k Positive</h6>
-                                                <h6>Reviews</h6>
-                                            </div>
-                                        </div>
+
                                         <div class="testimonial-rating-container">
                                             <div class="d-flex flex-column justify-content-center align-items-center gspace-1">
                                                 <div class="d-flex flex-row align-items-center">
@@ -610,7 +587,7 @@
                                         <span>What Our Client Says</span>
                                     </div>
                                     <h2 class="title-heading">Hear from Our Satisfied Clients, Real Success Stories</h2>
-                                    <p>Discover how businesses like yours achieved outstanding growth with Watsols's expert digital marketing solutions.</p>
+
                                 </div>
                             </div>
                         </div>
@@ -835,120 +812,6 @@
             </div>
         </div>
 
-        <!-- Section Digital Process -->
-        <div class="section-wrapper-digital-process">
-            <div class="section digital-process-banner">
-                <div class="hero-container">
-                    <div class="digital-process-content">
-                        <div class="row row-cols-xl-2 row-cols-1 grid-spacer-5">
-                            <div class="col">
-                                <div class="d-flex flex-column gspace-2 animate-box animated animate__animated" data-animate="animate__fadeInDown">
-                                    <div class="sub-heading">
-                                        <i class="fa-regular fa-circle-dot"></i>
-                                        <span>How it Work</span>
-                                    </div>
-                                    <h2 class="title-heading">Simple Steps to Digital Success</h2>
-                                </div>
-                            </div>
-                            <div class="col">
-                                <div class="d-flex flex-column gspace-2 justify-content-end h-100  animate-box animated fast animate__animated" data-animate="animate__fadeInDown">
-                                    <p>
-                                        Our streamlined process ensures your digital growth is seamless and effective. ipsum dolor sit amet, consectetur adipiscing elit. In ex ligula, varius at rutrum et, finibus sed felis.
-                                    </p>
-                                    <div class="link-wrapper">
-                                        <a href="./contact.php">Get Started Now</a>
-                                        <i class="fa-solid fa-arrow-circle-right"></i>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="digital-process-steps-wrapper">
-                            <div class="digital-process-steps">
-                                <div class="row row-cols-xl-4 row-cols-md-2 row-cols-1">
-                                    <div class="col">
-                                        <div class="digital-process-step animate-box animated animate__animated" data-animate="animate__fadeInUp">
-                                            <div class="d-flex justify-content-between">
-                                                <div>
-                                                    <img src="./image/digital-marketing-icons-N952ZWA.png" alt="Digital Proccess Icon" class="process-icon">
-                                                </div>
-                                                <span>01</span>
-                                            </div>
-                                            <div class="d-flex flex-column gspace-2">
-                                                <h5>Discovery & Consult</h5>
-                                                <p>
-                                                    Lorem ipsum dol consectetur adipiscing elit ut elit tell luctus nec ullamcorper mattis
-                                                </p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col">
-                                        <div class="d-flex flex-md-row flex-column gspace-2 animate-box animated animate__animated" data-animate="animate__fadeInDown">
-                                            <div class="step-spacer"></div>
-                                            <div class="digital-process-step">
-                                                <div class="d-flex justify-content-between">
-                                                    <div>
-                                                        <img src="./image/Icon-11.png" alt="Digital Process Icon" class="process-icon">
-                                                    </div>
-                                                    <span>02</span>
-                                                </div>
-                                                <div class="d-flex flex-column gspace-2">
-                                                    <h5>Strategy & Planning</h5>
-                                                    <p>
-                                                        Lorem ipsum dol consectetur adipiscing elit ut elit tell luctus nec ullamcorper mattis
-                                                    </p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col">
-                                        <div class="d-flex flex-md-row flex-column gspace-2 animate-box animated animate__animated" data-animate="animate__fadeInUp">
-                                            <div class="step-spacer"></div>
-                                            <div class="digital-process-step">
-                                                <div class="d-flex justify-content-between">
-                                                    <div>
-                                                        <img src="./image/Icon-10.png" alt="Digital Process Icon" class="process-icon">
-                                                    </div>
-                                                    <span>03</span>
-                                                </div>
-                                                <div class="d-flex flex-column gspace-2">
-                                                    <h5>Execution & Optimize</h5>
-                                                    <p>
-                                                        Lorem ipsum dol consectetur adipiscing elit ut elit tell luctus nec ullamcorper mattis
-                                                    </p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col">
-                                        <div class="d-flex flex-md-row flex-column gspace-2 animate-box animated animate__animated" data-animate="animate__fadeInDown">
-                                            <div class="step-spacer"></div>
-                                            <div class="digital-process-step">
-                                                <div class="d-flex justify-content-between">
-                                                    <div>
-                                                        <img src="./image/Icon-12.png" alt="Digital Process Icon" class="process-icon">
-                                                    </div>
-                                                    <span>04</span>
-                                                </div>
-                                                <div class="d-flex flex-column gspace-2">
-                                                    <h5>Result & Growth</h5>
-                                                    <p>
-                                                        Lorem ipsum dol consectetur adipiscing elit ut elit tell luctus nec ullamcorper mattis
-                                                    </p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="spacer"></div>
-        </div>
-
-
-
         <!-- Section Newsletter -->
         <div class="section">
             <div class="hero-container">
@@ -957,8 +820,8 @@
                         <div class="spacer"></div>
                         <div class="d-flex flex-column gspace-5 position-relative z-2">
                             <div class="d-flex flex-column gspace-2 animate-box animated animate__animated" data-animate="animate__fadeInLeft">
-                                <h3 class="title-heading">Stay Ahead in Digital Marketing</h3>
-                                <p>Get exclusive insights, trends, and strategies delivered straight to your inbox. Subscribe now!</p>
+                                <h3 class="title-heading">Book a Call</h3>
+                                <p>Ready to take the next step? Book a call today and let’s discuss how we can help grow your business.</p>
                             </div>
                             <div id="newsletter-success" class="alert success hidden">
                                 <span class="check-icon"><i class="fa-solid fa-2xl fa-check"></i></span>
@@ -972,12 +835,12 @@
 
                             <form action="./php/newsletter_process.php" method="POST" id="newsletterForm" class="needs-validation animate-box animated animate__animated" data-animate="animate__fadeInRight">
                                 <div class="input-container">
-                                    <input type="email" name="newsletter-email" id="newsletter-email" placeholder="Give your best email" required>
+                                    <input type="tel" name="newsletter-email" id="newsletter-email" placeholder="Provide Phone Number" required>
                                     <p class="error-text hidden"></p>
                                 </div>
                                 <button class="btn btn-accent" type="submit">
                                     <span class="btn-title">
-                                        <span>Subscribe</span>
+                                        <span>Book Call</span>
                                     </span>
                                     <span class="icon-circle">
                                         <i class="fa-solid fa-arrow-right"></i>

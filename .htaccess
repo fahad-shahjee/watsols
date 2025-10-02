@@ -1,0 +1,17 @@
+# Enable URL rewriting
+RewriteEngine On
+RewriteBase /watsols/
+
+# ✅ Redirect index.php to the root (no index.php in URL)
+RewriteCond %{THE_REQUEST} \s/+watsols/index\.php[\s?] [NC]
+RewriteRule ^index\.php$ /watsols/ [R=301,L]
+
+# Serve existing files and directories normally
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+# Otherwise, show custom 404 page
+RewriteRule ^.*$ /watsols/404.php [L]
+
+# Custom 404 Error Page
+ErrorDocument 404 /watsols/404.php

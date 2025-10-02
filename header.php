@@ -23,19 +23,8 @@
                     </li>
 
                     <!-- Services with 5 Submenus -->
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="services.php" role="button" data-bs-toggle="dropdown"
-                            aria-expanded="false">
-                            Our Services <i class="fa-solid fa-angle-down accent-color"></i>
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="service1.php">Logo Design</a></li>
-                            <li><a class="dropdown-item" href="service2.php">Website Development</a></li>
-                            <li><a class="dropdown-item" href="service3.php">Digital Marketing</a></li>
-                            <li><a class="dropdown-item" href="service4.php">Business Branding</a></li>
-                            <li><a class="dropdown-item" href="service5.php">App Development</a></li>
-                            <li><a class="dropdown-item" href="service6.php">Software Development</a></li>
-                        </ul>
+                    <li class="nav-item">
+                        <a class="nav-link" href="service.php">Services</a>
                     </li>
 
                     <!-- Contact Us -->
