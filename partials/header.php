@@ -14,22 +14,22 @@
                 <ul class="navbar-nav mx-auto">
                     <!-- Home -->
                     <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="index.php">Home</a>
+                        <a class="nav-link" aria-current="page" href="/">Home</a>
                     </li>
 
                     <!-- About -->
                     <li class="nav-item">
-                        <a class="nav-link" href="about.php">About</a>
+                        <a class="nav-link" href="about">About</a>
                     </li>
 
                     <!-- Services with 5 Submenus -->
                     <li class="nav-item">
-                        <a class="nav-link" href="service.php">Services</a>
+                        <a class="nav-link" href="service">Services</a>
                     </li>
 
                     <!-- Contact Us -->
                     <li class="nav-item">
-                        <a class="nav-link" href="contact.php">Contact Us</a>
+                        <a class="nav-link" href="contact">Contact Us</a>
                     </li>
                 </ul>
             </div>

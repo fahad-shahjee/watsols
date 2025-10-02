@@ -101,13 +101,14 @@
                         <div class="form-layout-wrapper">
                             <div class="card form-layout">
                                 <h3 class="title-heading">Let's Talk About Your Next Project</h3>
-                                <form action="./php/form_process.php" method="post" id="contactForm" class="form">
+                                <form action="/backend/action/action" method="POST" class="form">
+                                    <input type="hidden" name="type" value="contactForm">
                                     <div class="row row-cols-md-2 row-cols-1 g-3">
                                         <div class="col">
-                                            <input type="text" name="first-name" id="first-name" placeholder="First Name">
+                                            <input type="text" name="full_name" id="first-name" placeholder="Full Name" required>
                                         </div>
                                         <div class="col">
-                                            <input type="text" name="last-name" id="last-name" placeholder="Last Name">
+                                            <input type="number" name="phone" id="phone" placeholder="Phone Number" required>
                                         </div>
                                     </div>
                                     <div class="row row-cols-md-2 row-cols-1 g-3">
@@ -115,10 +116,10 @@
                                             <input type="email" name="email" id="email" placeholder="Email Address" required>
                                         </div>
                                         <div class="col">
-                                            <input type="text" name="subject" id="subject" placeholder="Subject">
+                                            <input type="text" name="subject" id="subject" placeholder="Subject" required>
                                         </div>
                                     </div>
-                                    <textarea name="message" id="message" rows="5" placeholder="Message"></textarea>
+                                    <textarea name="message" id="message" rows="5" placeholder="Message" required></textarea>
                                     <div class="form-button-container">
                                         <button type="submit" class="btn btn-accent">
                                             <span class="btn-title">

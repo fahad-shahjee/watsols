@@ -2,15 +2,23 @@
 RewriteEngine On
 RewriteBase /watsols/
 
-# ✅ Redirect index.php to the root (no index.php in URL)
-RewriteCond %{THE_REQUEST} \s/+watsols/index\.php[\s?] [NC]
+# ✅ Remove .php extension from URLs
+RewriteCond %{THE_REQUEST} \s/([^\s]+)\.php[\s?] [NC]
+RewriteRule ^ %1 [R=301,L]
+
+# Internally rewrite extensionless URLs to .php
+RewriteCond %{REQUEST_FILENAME}.php -f
+RewriteRule ^(.*)$ $1.php [L]
+
+# ✅ Redirect index.php to root
+RewriteCond %{THE_REQUEST} \s/index\.php[\s?] [NC]
 RewriteRule ^index\.php$ /watsols/ [R=301,L]
 
 # Serve existing files and directories normally
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 
-# Otherwise, show custom 404 page
+# Custom 404 fallback
 RewriteRule ^.*$ /watsols/404.php [L]
 
 # Custom 404 Error Page
