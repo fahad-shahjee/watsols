@@ -16,5 +16,5 @@ if (isset($_POST['type'])) {
 
 	}
 
-	header('Location: https://watsols.com/service.php');
+	header('Location: ../../thankyou');
 }
