@@ -24,7 +24,7 @@
             <div class="banner-layout-404">
                 <div class="layout-404">
                     <span class="text-404 title-heading animate-box animated animate__animated" data-animate="animate__fadeInRight">Thankyou</span>
-                    <h3>Your message has been received successfully</h3>
+                    <h3>Your message has been received</h3>
                     <p>We appreciate you reaching out. Our team will get back to you as soon as possible.</p>
                     <div>
                         <a href="./index.php" class="btn btn-accent">
