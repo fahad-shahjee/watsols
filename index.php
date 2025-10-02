@@ -22,7 +22,7 @@
             <div class="banner-video-container keep-dark animate-box animated animate__animated" data-animate="animate__fadeInUp">
                 <div class="video-container">
                     <video id="banner-video-background" autoplay loop muted playsinline>
-                        <source src="videos/bg-video.mp4" type="video/mp4">
+                        <source src="assets/videos/bg-video.mp4" type="video/mp4">
                     </video>
                 </div>
 
