@@ -19,10 +19,10 @@
                             <div class="footer-quick-links">
                                 <h5>Quick Links</h5>
                                 <ul class="footer-list">
-                                    <li><a href="./index.php">Home</a></li>
-                                    <li><a href="./about.php">About Us</a></li>
-                                    <li><a href="./service.php">Services</a></li>
-                                    <li><a href="./contact.php">Contact Us</a></li>
+                                    <li><a href="./index">Home</a></li>
+                                    <li><a href="./about">About Us</a></li>
+                                    <li><a href="./service">Services</a></li>
+                                    <li><a href="./contact">Contact Us</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -30,11 +30,11 @@
                             <div class="footer-services-container">
                                 <h5>Services</h5>
                                 <ul class="footer-list">
-                                    <li><a href="./single_services.php">IT and Office Relocation</a></li>
-                                    <li><a href="./single_services.php">Computer Installations</a></li>
-                                    <li><a href="./single_services.php">Data Center Relocations</a></li>
-                                    <li><a href="./single_services.php">Web Development</a></li>
-                                    <li><a href="./single_services.php">IT support</a></li>
+                                    <li><a href="./service">Logo Design</a></li>
+                                    <li><a href="./service">Website Development</a></li>
+                                    <li><a href="./service">Digital Marketing</a></li>
+                                    <li><a href="./service">Business Branding</a></li>
+                                    <li><a href="./service">App Development</a></li>
                                 </ul>
                             </div>
                         </div>

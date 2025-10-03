@@ -4954,3 +4954,85 @@ body.lightmode .cta-service-banner::before{
         font-size: var(--font-size-xs);
     }
 }
+
+/* 57.2 Mobile Responsive */
+
+@media only screen and (max-width: 767px) {
+
+    h1.title-heading-banner.animate-box.animated.animate__animated.animate__fadeInLeft {
+        font-size: 31px;
+        background-image: linear-gradient(340deg, #f3f3f36e 10%, var(--primary) 100%);
+        margin-top: -45px;
+    
+    }
+    .banner-content {
+        gap: 13px;
+    }
+
+    .banner-heading {
+        gap: 37px;
+
+    }
+
+    .video-container {
+        height: 86%;
+    }
+    h2.title-heading.animate-box.animated.animate__animated.animate__fadeInRight {
+        font-size: 31px;
+    }
+    .card-expertise.card-expertise-counter {
+        justify-content: center;
+        width: 100%;
+    }
+    .px-5 {
+        padding-right: 1rem !important;
+        padding-left: 1rem !important;
+    }
+
+    h2.title-heading.heading-container.heading-container-medium.animate-box.animated.animate__animated.animate__fadeInDown {
+        font-size: 32px;
+        background-image: linear-gradient(284deg, var(--accent-transparent) 0%, var(--primary) 33%);
+    }
+    .guide-banner {
+        background-attachment: scroll;
+    }
+    
+    .title-heading {
+        background-image: linear-gradient(284deg, #ffffff38 3%, var(--primary) 100%);
+        font-size: 31px;
+    }
+
+    h2.title-heading.animate-box.animated.animate__animated.animate__fadeInDown {
+        font-size: 37px;
+    }
+    
+    .chooseus-content {
+        width: 100%;
+    }
+    .section {
+        padding: 70px 20px 70px 20px;
+    }
+    .newsletter-wrapper {
+        display: none;
+    }
+
+    .bg-footer {
+        padding-top: 60px;
+    }
+
+    .footer-list a {
+        font-size: 16px;
+    }
+
+    .footer-content-spacer {
+        height: 40px;
+    }
+
+    .copyright, .legal-link {
+        font-size: 16px;
+    }
+
+
+
+
+}

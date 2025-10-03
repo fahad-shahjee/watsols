@@ -1,3 +1,9 @@
+<!-- Section Sidebar -->
+ <?php
+    include 'partials/sidebar.php';
+ ?>
+
+
 <div class="navbar-wrapper">
     <nav class="navbar navbar-expand-xl">
         <div class="navbar-container">
