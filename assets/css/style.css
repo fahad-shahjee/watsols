@@ -4957,7 +4957,7 @@ body.lightmode .cta-service-banner::before{
 
 /* 57.2 Mobile Responsive */
 
-@media only screen and (max-width: 767px) {
+@media screen and (min-width: 320px) and (max-width: 767px)  {
 
     h1.title-heading-banner.animate-box.animated.animate__animated.animate__fadeInLeft {
         font-size: 31px;
