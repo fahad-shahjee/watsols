@@ -1,4 +1,26 @@
-
+Promise.all([
+    fetch("./header.html").then(res => res.text()),
+    fetch("./footer.html").then(res => res.text()),
+    fetch("./sidebar.html").then(res => res.text()),
+  ])
+  .then(([headerHTML, footerHTML, sidebarHTML, searchHTML]) => {
+    $("#header").html(headerHTML);
+    $("#footer").html(footerHTML);
+    $("#sidebar").html(sidebarHTML);
+  })
+  .then(() => {
+    initBannerVideo();
+    initNavLink();
+    initSidebar();
+    initEditSidebar();
+    initSidebarDropdown();
+    initCounter();
+    initThemeSwitch();
+    initSearchBar();
+    initSubmitContact();
+    initSubmitNewsletter();
+    initAnimateData();
+  });
       
 function initBannerVideo() {
     const video = document.getElementById('banner-video-background');
