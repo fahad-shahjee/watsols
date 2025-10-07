@@ -45,31 +45,6 @@
                                     <li>info@watsols.com</li>
                                     <li>+92 310 8436573</li>
                                 </ul>
-                                <div class="d-flex flex-column gspace-1">
-                                    <h5>Social Media</h5>
-                                    <div class="social-container">
-                                        <div class="social-item-wrapper">
-                                            <a href="https://facebook.com" class="social-item">
-                                                <i class="fa-brands fa-facebook"></i>
-                                            </a>
-                                        </div>
-                                        <div class="social-item-wrapper">
-                                            <a href="https://youtube.com" class="social-item">
-                                                <i class="fa-brands fa-youtube"></i>
-                                            </a>
-                                        </div>
-                                        <div class="social-item-wrapper">    
-                                            <a href="https://instagram.com" class="social-item">
-                                                <i class="fa-brands fa-instagram"></i>
-                                            </a>
-                                        </div>
-                                        <div class="social-item-wrapper">
-                                            <a href="https://linkedin.com" class="social-item">
-                                                <i class="fa-brands fa-linkedin"></i>
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
                             </div>
                         </div>
                     </div>
