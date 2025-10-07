@@ -281,17 +281,17 @@
                                             <div class="d-flex flex-row align-items-center justify-content-between">
                                                 <div class="d-flex flex-row gspace-2">
                                                     <div class="testimonial-image">
-                                                        <img src="assets/image/dummy-img-400x400.jpg" alt="Testimonial Person Image" class="img-fluid">
+                                                        <img src="assets/image/testimonials/emma.jpg" alt="Testimonial Person Image" class="img-fluid">
                                                     </div>
                                                     <div class="d-flex flex-column">
                                                         <span class="profile-name">Emma Richard</span>
-                                                        <p class="profile-info">CEO Nexatech</p>
+
                                                     </div>
                                                 </div>
                                                 <i class="fa-solid fa-3x fa-quote-right accent-color"></i>
                                             </div>
                                             <p class="testimonial-description">
-                                                “Watsols completely transformed our online presence! Their digital marketing strategies helped us double our revenue in just six months.”
+                                                Watsols completely revolutionized our online presence! Their digital marketing strategies enabled us to double our revenue in only six months.
                                             </p>
                                         </div>
                                     </div>
@@ -307,17 +307,16 @@
                                             <div class="d-flex flex-row align-items-center justify-content-between">
                                                 <div class="d-flex flex-row gspace-2">
                                                     <div class="testimonial-image">
-                                                        <img src="assets/image/dummy-img-400x400.jpg" alt="Testimonial Person Image" class="img-fluid">
+                                                        <img src="assets/image/testimonials/david.jpg" alt="Testimonial Person Image" class="img-fluid">
                                                     </div>
                                                     <div class="d-flex flex-column">
-                                                        <span class="profile-name">David Mont</span>
-                                                        <p class="profile-info">Marketing Director</p>
+                                                        <span class="profile-name">David</span>
                                                     </div>
                                                 </div>
                                                 <i class="fa-solid fa-3x fa-quote-right accent-color"></i>
                                             </div>
                                             <p class="testimonial-description">
-                                                “We've worked with many agencies before, but Watsols stands out. Their data-driven approach and creative solutions gave us an edge over competitors.”
+                                                We’ve worked with several agencies before, but Watsols truly stands out. Their data-driven strategies and creative solutions gave us a competitive edge.
                                             </p>
                                         </div>
                                     </div>
@@ -333,17 +332,16 @@
                                             <div class="d-flex flex-row align-items-center justify-content-between">
                                                 <div class="d-flex flex-row gspace-2">
                                                     <div class="testimonial-image">
-                                                        <img src="assets/image/dummy-img-400x400.jpg" alt="Testimonial Person Image" class="img-fluid">
+                                                        <img src="assets/image/testimonials/sophia.jpg" alt="Testimonial Person Image" class="img-fluid">
                                                     </div>
                                                     <div class="d-flex flex-column">
-                                                        <span class="profile-name">Sophia Lewis</span>
-                                                        <p class="profile-info">Founder</p>
+                                                        <span class="profile-name">Sophia</span>
                                                     </div>
                                                 </div>
                                                 <i class="fa-solid fa-3x fa-quote-right accent-color"></i>
                                             </div>
                                             <p class="testimonial-description">
-                                                “From SEO to paid ads, Watsols nailed every aspect of our campaign. Our website traffic skyrocketed, and lead generation has never been better!”
+                                                From SEO to paid advertising, Watsols perfected every part of our campaign. Our website traffic soared, and lead generation reached new heights!
                                             </p>
                                         </div>
                                     </div>
@@ -359,121 +357,16 @@
                                             <div class="d-flex flex-row align-items-center justify-content-between">
                                                 <div class="d-flex flex-row gspace-2">
                                                     <div class="testimonial-image">
-                                                        <img src="assets/image/dummy-img-400x400.jpg" alt="Testimonial Person Image" class="img-fluid">
+                                                        <img src="assets/image/testimonials/james.jpg" alt="Testimonial Person Image" class="img-fluid">
                                                     </div>
                                                     <div class="d-flex flex-column">
-                                                        <span class="profile-name">James Peterson</span>
-                                                        <p class="profile-info">COO, BrightWave</p>
+                                                        <span class="profile-name">James</span>
                                                     </div>
                                                 </div>
                                                 <i class="fa-solid fa-3x fa-quote-right accent-color"></i>
                                             </div>
                                             <p class="testimonial-description">
-                                                “Highly professional and results-oriented. Watsols's expertise in branding and content marketing helped us build a strong online identity.”
-                                            </p>
-                                        </div>
-                                    </div>
-                                    <div class="swiper-slide">
-                                        <div class="card card-testimonial">
-                                            <div class="stars">
-                                                <i class="fa-solid fa-star"></i>
-                                                <i class="fa-solid fa-star"></i>
-                                                <i class="fa-solid fa-star"></i>
-                                                <i class="fa-solid fa-star"></i>
-                                                <i class="fa-solid fa-star"></i>
-                                            </div>
-                                            <div class="d-flex flex-row align-items-center justify-content-between">
-                                                <div class="d-flex flex-row gspace-2">
-                                                    <div class="testimonial-image">
-                                                        <img src="assets/image/dummy-img-400x400.jpg" alt="Testimonial Person Image" class="img-fluid">
-                                                    </div>
-                                                    <div class="d-flex flex-column">
-                                                        <span class="profile-name">Emma Richard</span>
-                                                        <p class="profile-info">CEO Nexatech</p>
-                                                    </div>
-                                                </div>
-                                                <i class="fa-solid fa-3x fa-quote-right accent-color"></i>
-                                            </div>
-                                            <p class="testimonial-description">
-                                                “Watsols completely transformed our online presence! Their digital marketing strategies helped us double our revenue in just six months.”
-                                            </p>
-                                        </div>
-                                    </div>
-                                    <div class="swiper-slide">
-                                        <div class="card card-testimonial">
-                                            <div class="stars">
-                                                <i class="fa-solid fa-star"></i>
-                                                <i class="fa-solid fa-star"></i>
-                                                <i class="fa-solid fa-star"></i>
-                                                <i class="fa-solid fa-star"></i>
-                                                <i class="fa-solid fa-star"></i>
-                                            </div>
-                                            <div class="d-flex flex-row align-items-center justify-content-between">
-                                                <div class="d-flex flex-row gspace-2">
-                                                    <div class="testimonial-image">
-                                                        <img src="assets/image/dummy-img-400x400.jpg" alt="Testimonial Person Image" class="img-fluid">
-                                                    </div>
-                                                    <div class="d-flex flex-column">
-                                                        <span class="profile-name">David Mont</span>
-                                                        <p class="profile-info">Marketing Director</p>
-                                                    </div>
-                                                </div>
-                                                <i class="fa-solid fa-3x fa-quote-right accent-color"></i>
-                                            </div>
-                                            <p class="testimonial-description">
-                                                “We've worked with many agencies before, but Watsols stands out. Their data-driven approach and creative solutions gave us an edge over competitors.”
-                                            </p>
-                                        </div>
-                                    </div>
-                                    <div class="swiper-slide">
-                                        <div class="card card-testimonial">
-                                            <div class="stars">
-                                                <i class="fa-solid fa-star"></i>
-                                                <i class="fa-solid fa-star"></i>
-                                                <i class="fa-solid fa-star"></i>
-                                                <i class="fa-solid fa-star"></i>
-                                                <i class="fa-solid fa-star"></i>
-                                            </div>
-                                            <div class="d-flex flex-row align-items-center justify-content-between">
-                                                <div class="d-flex flex-row gspace-2">
-                                                    <div class="testimonial-image">
-                                                        <img src="assets/image/dummy-img-400x400.jpg" alt="Testimonial Person Image" class="img-fluid">
-                                                    </div>
-                                                    <div class="d-flex flex-column">
-                                                        <span class="profile-name">Sophia Lewis</span>
-                                                        <p class="profile-info">Founder</p>
-                                                    </div>
-                                                </div>
-                                                <i class="fa-solid fa-3x fa-quote-right accent-color"></i>
-                                            </div>
-                                            <p class="testimonial-description">
-                                                “From SEO to paid ads, Watsols nailed every aspect of our campaign. Our website traffic skyrocketed, and lead generation has never been better!”
-                                            </p>
-                                        </div>
-                                    </div>
-                                    <div class="swiper-slide">
-                                        <div class="card card-testimonial">
-                                            <div class="stars">
-                                                <i class="fa-solid fa-star"></i>
-                                                <i class="fa-solid fa-star"></i>
-                                                <i class="fa-solid fa-star"></i>
-                                                <i class="fa-solid fa-star"></i>
-                                                <i class="fa-solid fa-star"></i>
-                                            </div>
-                                            <div class="d-flex flex-row align-items-center justify-content-between">
-                                                <div class="d-flex flex-row gspace-2">
-                                                    <div class="testimonial-image">
-                                                        <img src="assets/image/dummy-img-400x400.jpg" alt="Testimonial Person Image" class="img-fluid">
-                                                    </div>
-                                                    <div class="d-flex flex-column">
-                                                        <span class="profile-name">James Peterson</span>
-                                                        <p class="profile-info">COO, BrightWave</p>
-                                                    </div>
-                                                </div>
-                                                <i class="fa-solid fa-3x fa-quote-right accent-color"></i>
-                                            </div>
-                                            <p class="testimonial-description">
-                                                “Highly professional and results-oriented. Watsols's expertise in branding and content marketing helped us build a strong online identity.”
+                                                Extremely professional and focused on results, Watsols’ branding and content marketing expertise enabled us to create a powerful online presence.
                                             </p>
                                         </div>
                                     </div>

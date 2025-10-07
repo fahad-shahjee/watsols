@@ -53,7 +53,7 @@
                 <div class="copyright-container">
                     <span class="copyright">© 2025 Watsols. All Rights Reserved.</span>
                     <div class="d-flex flex-row gspace-2">
-                    <a href="#" class="legal-link">Terms of Service</a>
+                    <a href="./termsconditions.php" class="legal-link">Terms of Service</a>
                     <a href="#" class="legal-link">Privacy Policy</a>
                 </div>
                 </div>

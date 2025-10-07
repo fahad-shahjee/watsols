@@ -72,19 +72,6 @@
                                         <h5>info@watsols.com</h5>
                                     </div>
                                 </div>
-                                <div class="d-flex flex-column flex-md-row align-items-center text-md-start text-center gspace-2">
-                                    <div>
-                                        <div class="icon-wrapper">
-                                            <div class="icon-box">
-                                                <i class="fa-solid fa-location-dot accent-color"></i>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="d-grid">
-                                        <span>Office Address</span>
-                                        <h5>Marko HQ - 902 Digital Lane, San Francisco, CA 94110, USA</h5>
-                                    </div>
-                                </div>
                             </div>
                         </div>
                     </div>
@@ -138,7 +125,7 @@
             </div>
         </div>
 
-        <!-- Section Maps -->
+        <!-- Section Maps
         <div class="section pt-0">
             <div class="hero-container">
                 <iframe loading="lazy" class="maps overflow-hidden"
@@ -146,7 +133,7 @@
                     title="London Eye, London, United Kingdom" aria-label="London Eye, London, United Kingdom">
                 </iframe>
             </div>
-        </div>
+        </div> -->
     </main>
 
     <!-- Section Footer -->
