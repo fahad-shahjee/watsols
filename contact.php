@@ -15,6 +15,17 @@
     <header>
         <?php include 'partials/header.php'; ?>
     </header>
+
+    <style>
+    .terms-content {
+    background: #000;
+    }
+
+    h2 {
+    color: #fff;
+    font-size: 30px;
+    }
+    </style>
     <main>
         <!-- Section Banner -->
         <div class="section-banner">
