@@ -2,11 +2,11 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About - Marko - Watsols</title>
-    <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="icon" href="assets/image/favicon.ico">
+    <?php
+    $pageTitle = 'About Us - Watsols';
+    $pageDescription = 'Learn about Watsols, your technology partner for IT support, web development, branding and digital marketing that helps businesses grow.';
+    include __DIR__ . '/partials/head.php';
+    ?>
 </head>
 
 <body>
@@ -25,7 +25,7 @@
                     <div class="d-flex flex-column text-center align-items-center gspace-2">
                         <h2 class="title-heading animate-box animated animate__animated" data-animate="animate__fadeInRight">About Us</h2>
                         <nav class="breadcrumb">
-                            <a href="./index.php" class="gspace-2">Home</a>
+                            <a href="./" class="gspace-2">Home</a>
                             <span class="separator-link">/</span>
                             <p class="current-page">About Us</p>
                         </nav>
@@ -41,7 +41,7 @@
                 <div class="d-flex flex-column flex-xl-row gspace-5">
                     <div class="about-img-layout">
                         <div class="image-container about-img">
-                            <img src="assets/image/about/about.png" alt="About Us Image" class="img-fluid animate-box animated animate__animated" data-animate="animate__fadeInUp">
+                            <img loading="lazy" decoding="async" src="assets/image/about/about.webp" alt="About Us Image" class="img-fluid animate-box animated animate__animated" data-animate="animate__fadeInUp">
                             <div class="about-layout">
                                 <div class="d-flex flex-column">
                                     <div class="card-about-wrapper">
@@ -71,16 +71,16 @@
                             <div class="d-flex flex-column flex-md-row gspace-1 gspace-md-5">
                                 <div class="about-list">
                                     <ul class="check-list">
-                                        <li><a href="./single_services.php">Branding</a></li>
-                                        <li><a href="./single_services.php">Social Media Growth</a></li>
-                                        <li><a href="./single_services.php">Website Development</a></li>
+                                        <li><a href="service">Branding</a></li>
+                                        <li><a href="service">Social Media Growth</a></li>
+                                        <li><a href="service">Website Development</a></li>
                                     </ul>
                                 </div>
                                 <div class="about-list">
                                     <ul class="check-list">
-                                        <li><a href="./single_services.php">App Development</a></li>
-                                        <li><a href="./single_services.php">Logo Design</a></li>
-                                        <li><a href="./single_services.php">Animation</a></li>
+                                        <li><a href="service">App Development</a></li>
+                                        <li><a href="service">Logo Design</a></li>
+                                        <li><a href="service">Animation</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -117,99 +117,99 @@
                                     <div class="swiper-slide">
                                         <a href="#">
                                             <div class="partner-slide">
-                                                <img src="assets/image/home/brands/one.png" alt="Client" class="partner-logo img-fluid">
+                                                <img loading="lazy" decoding="async" src="assets/image/home/brands/one.png" alt="Client" class="partner-logo img-fluid">
                                             </div>
                                         </a>
                                     </div>
                                     <div class="swiper-slide">
                                         <a href="#">
                                             <div class="partner-slide">
-                                                <img src="assets/image/home/brands/two.png" alt="Client" class="partner-logo img-fluid">
+                                                <img loading="lazy" decoding="async" src="assets/image/home/brands/two.png" alt="Client" class="partner-logo img-fluid">
                                             </div>
                                         </a>
                                     </div>
                                     <div class="swiper-slide">
                                         <a href="#">
                                             <div class="partner-slide">
-                                                <img src="assets/image/home/brands/three.png" alt="Client" class="partner-logo img-fluid">
+                                                <img loading="lazy" decoding="async" src="assets/image/home/brands/three.png" alt="Client" class="partner-logo img-fluid">
                                             </div>
                                         </a>
                                     </div>
                                     <div class="swiper-slide">
                                         <a href="#">
                                             <div class="partner-slide">
-                                                <img src="assets/image/home/brands/four.png" alt="Client" class="partner-logo img-fluid">
+                                                <img loading="lazy" decoding="async" src="assets/image/home/brands/four.png" alt="Client" class="partner-logo img-fluid">
                                             </div>
                                         </a>
                                     </div>
                                     <div class="swiper-slide">
                                         <a href="#">
                                             <div class="partner-slide">
-                                                <img src="assets/image/home/brands/five.png" alt="Client" class="partner-logo img-fluid">
+                                                <img loading="lazy" decoding="async" src="assets/image/home/brands/five.png" alt="Client" class="partner-logo img-fluid">
                                             </div>
                                         </a>
                                     </div>
                                     <div class="swiper-slide">
                                         <a href="#">
                                             <div class="partner-slide">
-                                                <img src="assets/image/home/brands/six.png" alt="Client" class="partner-logo img-fluid">
+                                                <img loading="lazy" decoding="async" src="assets/image/home/brands/six.png" alt="Client" class="partner-logo img-fluid">
                                             </div>
                                         </a>
                                     </div>
                                     <div class="swiper-slide">
                                         <a href="#">
                                             <div class="partner-slide">
-                                                <img src="assets/image/home/brands/seven.png" alt="Client" class="partner-logo img-fluid">
+                                                <img loading="lazy" decoding="async" src="assets/image/home/brands/seven.png" alt="Client" class="partner-logo img-fluid">
                                             </div>
                                         </a>
                                     </div>
                                     <div class="swiper-slide">
                                         <a href="#">
                                             <div class="partner-slide">
-                                                <img src="assets/image/home/brands/eight.png" alt="Client" class="partner-logo img-fluid">
+                                                <img loading="lazy" decoding="async" src="assets/image/home/brands/eight.png" alt="Client" class="partner-logo img-fluid">
                                             </div>
                                         </a>
                                     </div>
                                     <div class="swiper-slide">
                                         <a href="#">
                                             <div class="partner-slide">
-                                                <img src="assets/image/home/brands/nine.png" alt="Client" class="partner-logo img-fluid">
+                                                <img loading="lazy" decoding="async" src="assets/image/home/brands/nine.png" alt="Client" class="partner-logo img-fluid">
                                             </div>
                                         </a>
                                     </div>
                                     <div class="swiper-slide">
                                         <div class="partner-slide">
-                                            <img src="assets/image/home/brands/ten.png" alt="Client" class="partner-logo img-fluid">
+                                            <img loading="lazy" decoding="async" src="assets/image/home/brands/ten.png" alt="Client" class="partner-logo img-fluid">
                                         </div>
                                     </div>
                                     <div class="swiper-slide">
                                         <div class="partner-slide">
-                                            <img src="assets/image/home/brands/eleven.png" alt="Client" class="partner-logo img-fluid">
+                                            <img loading="lazy" decoding="async" src="assets/image/home/brands/eleven.png" alt="Client" class="partner-logo img-fluid">
                                         </div>
                                     </div>
                                     <div class="swiper-slide">
                                         <div class="partner-slide">
-                                            <img src="assets/image/home/brands/twelve.png" alt="Client" class="partner-logo img-fluid">
+                                            <img loading="lazy" decoding="async" src="assets/image/home/brands/twelve.png" alt="Client" class="partner-logo img-fluid">
                                         </div>
                                     </div>
                                     <div class="swiper-slide">
                                         <div class="partner-slide">
-                                            <img src="assets/image/home/brands/one.png" alt="Client" class="partner-logo img-fluid">
+                                            <img loading="lazy" decoding="async" src="assets/image/home/brands/one.png" alt="Client" class="partner-logo img-fluid">
                                         </div>
                                     </div>
                                     <div class="swiper-slide">
                                         <div class="partner-slide">
-                                            <img src="assets/image/home/brands/two.png" alt="Client" class="partner-logo img-fluid">
+                                            <img loading="lazy" decoding="async" src="assets/image/home/brands/two.png" alt="Client" class="partner-logo img-fluid">
                                         </div>
                                     </div>
                                     <div class="swiper-slide">
                                         <div class="partner-slide">
-                                            <img src="assets/image/home/brands/five.png" alt="Client" class="partner-logo img-fluid">
+                                            <img loading="lazy" decoding="async" src="assets/image/home/brands/five.png" alt="Client" class="partner-logo img-fluid">
                                         </div>
                                     </div>
                                     <div class="swiper-slide">
                                         <div class="partner-slide">
-                                            <img src="assets/image/home/brands/four.png" alt="Client" class="partner-logo img-fluid">
+                                            <img loading="lazy" decoding="async" src="assets/image/home/brands/four.png" alt="Client" class="partner-logo img-fluid">
                                         </div>
                                     </div>
                                 </div>
@@ -231,7 +231,7 @@
                                     <div class="chooseus-spacer above"></div>
                                     <div class="chooseus-icon-layout">
                                         <div class="chooseus-icon">
-                                            <img src="assets/image/home/mission.png" alt="Why Choose Us Icon" class="img-fluid">
+                                            <img loading="lazy" decoding="async" src="assets/image/home/mission.png" alt="Why Choose Us Icon" class="img-fluid">
                                         </div>
                                     </div>
                                     <div class="chooseus-spacer below"></div>
@@ -240,7 +240,7 @@
                                     <h4 class="chooseus-title">Mission</h4>
                                     <p>To empower businesses with innovative solutions and strategies that drive growth, create impact, and elevate their digital presence.</p>
                                     <div class="link-wrapper">
-                                        <a href="about.php">Read More</a>
+                                        <a href="about">Read More</a>
                                         <i class="fa-solid fa-arrow-circle-right accent-color"></i>
                                     </div>
                                 </div>
@@ -250,7 +250,7 @@
                                     <div class="chooseus-spacer above"></div>
                                     <div class="chooseus-icon-layout">
                                         <div class="chooseus-icon">
-                                            <img src="assets/image/home/vision.png" alt="Why Choose Us Icon" class="img-fluid">
+                                            <img loading="lazy" decoding="async" src="assets/image/home/vision.png" alt="Why Choose Us Icon" class="img-fluid">
                                         </div>
                                     </div>
                                     <div class="chooseus-spacer below"></div>
@@ -259,7 +259,7 @@
                                     <h4 class="chooseus-title">Vision</h4>
                                     <p>To be a global leader in digital innovation, inspiring progress and helping brands thrive in a fast-evolving world.</p>
                                     <div class="link-wrapper">
-                                        <a href="about.php">Read More</a>
+                                        <a href="about">Read More</a>
                                         <i class="fa-solid fa-arrow-circle-right accent-color"></i>
                                     </div>
                                 </div>
@@ -269,7 +269,7 @@
                                     <div class="chooseus-spacer above"></div>
                                     <div class="chooseus-icon-layout">
                                         <div class="chooseus-icon">
-                                            <img src="assets/image/home/core-values.png" alt="Why Choose Us Icon" class="img-fluid">
+                                            <img loading="lazy" decoding="async" src="assets/image/home/core-values.png" alt="Why Choose Us Icon" class="img-fluid">
                                         </div>
                                     </div>
                                     <div class="chooseus-spacer below"></div>
@@ -278,7 +278,7 @@
                                     <h4 class="chooseus-title">Core Values</h4>
                                     <p>Innovation, integrity, collaboration, and excellence guide everything we do, shaping lasting partnerships and impactful solutions.</p>
                                     <div class="link-wrapper">
-                                        <a href="about.php">Read More</a>
+                                        <a href="about">Read More</a>
                                         <i class="fa-solid fa-arrow-circle-right accent-color"></i>
                                     </div>
                                 </div>
@@ -296,7 +296,7 @@
                                 <p class="mb-0 animate-box animated animate__animated" data-animate="animate__fadeInDown">At Watsols, we are dedicated to delivering outstanding quality and impactful results. With a global presence and a talented team, we combine innovation and expertise to drive meaningful business growth and digital excellence.</p>
                             </div>
                             <div class="image-container">
-                                <img src="assets/image/home/why-choose.png" alt="Why Choose Us Image" class="chooseus-img">
+                                <img loading="lazy" decoding="async" src="assets/image/home/why-choose.webp" alt="Why Choose Us Image" class="chooseus-img">
                                 <div class="card-chooseus-cta-layout">
                                     <div class="chooseus-cta-spacer"></div>
                                     <div class="d-flex flex-column align-items-end">
@@ -305,7 +305,7 @@
                                             <div class="card card-chooseus-cta animate-box animated animate__animated" data-animate="animate__fadeInUp">
                                                 <h5>Partner with Watsols & take your brand to the next level.</h5>
                                                 <div class="link-wrapper">
-                                                    <a href="./contact.php">Let's Talk Strategy</a>
+                                                    <a href="contact">Let's Talk Strategy</a>
                                                     <i class="fa-solid fa-circle-arrow-right"></i>
                                                 </div>
                                             </div>
@@ -389,7 +389,7 @@
                                             <div class="d-flex flex-row align-items-center justify-content-between">
                                                 <div class="d-flex flex-row gspace-2">
                                                     <div class="testimonial-image">
-                                                        <img src="assets/image/testimonials/emma.jpg" alt="Testimonial Person Image" class="img-fluid">
+                                                        <img loading="lazy" decoding="async" src="assets/image/testimonials/emma.jpg" alt="Testimonial Person Image" class="img-fluid">
                                                     </div>
                                                     <div class="d-flex flex-column">
                                                         <span class="profile-name">Emma Richard</span>
@@ -415,7 +415,7 @@
                                             <div class="d-flex flex-row align-items-center justify-content-between">
                                                 <div class="d-flex flex-row gspace-2">
                                                     <div class="testimonial-image">
-                                                        <img src="assets/image/testimonials/david.jpg" alt="Testimonial Person Image" class="img-fluid">
+                                                        <img loading="lazy" decoding="async" src="assets/image/testimonials/david.jpg" alt="Testimonial Person Image" class="img-fluid">
                                                     </div>
                                                     <div class="d-flex flex-column">
                                                         <span class="profile-name">David</span>
@@ -440,7 +440,7 @@
                                             <div class="d-flex flex-row align-items-center justify-content-between">
                                                 <div class="d-flex flex-row gspace-2">
                                                     <div class="testimonial-image">
-                                                        <img src="assets/image/testimonials/sophia.jpg" alt="Testimonial Person Image" class="img-fluid">
+                                                        <img loading="lazy" decoding="async" src="assets/image/testimonials/sophia.jpg" alt="Testimonial Person Image" class="img-fluid">
                                                     </div>
                                                     <div class="d-flex flex-column">
                                                         <span class="profile-name">Sophia</span>
@@ -465,7 +465,7 @@
                                             <div class="d-flex flex-row align-items-center justify-content-between">
                                                 <div class="d-flex flex-row gspace-2">
                                                     <div class="testimonial-image">
-                                                        <img src="assets/image/testimonials/james.jpg" alt="Testimonial Person Image" class="img-fluid">
+                                                        <img loading="lazy" decoding="async" src="assets/image/testimonials/james.jpg" alt="Testimonial Person Image" class="img-fluid">
                                                     </div>
                                                     <div class="d-flex flex-column">
                                                         <span class="profile-name">James</span>

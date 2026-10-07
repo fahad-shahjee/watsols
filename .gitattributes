@@ -1,0 +1,17 @@
+# Fix GitHub language detection: show these files as PHP (not "Hack")
+*.php linguist-language=PHP
+
+# Don't count third-party libraries in the GitHub language bar
+backend/vendor/** linguist-vendored
+assets/js/vendor/** linguist-vendored
+assets/css/vendor/** linguist-vendored
+extras/** linguist-documentation
+
+# Normalize line endings
+* text=auto eol=lf
+*.png binary
+*.jpg binary
+*.ico binary
+*.mp4 binary
+*.woff2 binary
+*.ttf binary

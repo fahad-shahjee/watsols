@@ -1,0 +1,14 @@
+# Real credentials - NEVER commit
+backend/config/config.local.php
+.env
+
+# Editor / local dev files
+.vscode/
+fiveserver.config.js
+*.log
+error_log
+.DS_Store
+Thumbs.db
+
+# Backend (PHP form handler, DB config, PHPMailer) is uploaded to the server manually
+backend/

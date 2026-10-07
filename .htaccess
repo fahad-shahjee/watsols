@@ -1,22 +1,64 @@
-# Enable URL rewriting
-RewriteEngine On
-RewriteBase /
-
-# Remove .php extension from URLs
-RewriteCond %{THE_REQUEST} \s/([^\s]+)\.php[\s?] [NC]
-RewriteRule ^ %1 [R=301,L]
-
-# Internally rewrite extensionless URLs to .php
-RewriteCond %{REQUEST_FILENAME}.php -f
-RewriteRule ^(.*)$ $1.php [L]
-
-# Redirect index.php to root
-RewriteCond %{THE_REQUEST} \s/index\.php[\s?] [NC]
-RewriteRule ^index\.php$ / [R=301,L]
-
-# Serve existing files and directories normally
-RewriteCond %{REQUEST_FILENAME} !-f
-RewriteCond %{REQUEST_FILENAME} !-d
+# Disable directory listing
+Options -Indexes
 
 # Custom 404 Error Page
 ErrorDocument 404 /404.php
+
+# Enable URL rewriting
+RewriteEngine On
+
+# Force HTTPS and remove www (uncomment once you confirm SSL is active on the domain)
+# RewriteCond %{HTTPS} off [OR]
+# RewriteCond %{HTTP_HOST} ^www\. [NC]
+# RewriteRule ^ https://watsols.com%{REQUEST_URI} [R=301,L]
+
+# Block access to hidden files (.git, .env, .vscode ...), config/vendor code and dev files
+RewriteRule (^|/)\. - [F,L]
+RewriteRule ^backend/(config|vendor|function)/ - [F,L]
+RewriteRule ^partials/ - [F,L]
+RewriteRule ^(fiveserver\.config\.js|.*\.md)$ - [F,L]
+
+# Redirect /index and /index.php to the site root (avoids duplicate homepage URLs)
+RewriteCond %{THE_REQUEST} \s/((?:[^\s?]*/)?)index(\.php)?[\s?] [NC]
+RewriteRule ^ /%1 [R=301,L]
+
+# Remove .php extension from URLs (GET only, so form POSTs are never redirected)
+RewriteCond %{REQUEST_METHOD} !POST
+RewriteCond %{THE_REQUEST} \s/([^\s?]+)\.php[\s?] [NC]
+RewriteRule ^ /%1 [R=301,L]
+
+# Internally rewrite extensionless URLs to .php
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}.php -f
+RewriteRule ^(.*)$ $1.php [L]
+
+# ---------- Performance ----------
+
+# Gzip compression
+<IfModule mod_deflate.c>
+    AddOutputFilterByType DEFLATE text/html text/plain text/css text/xml application/javascript application/json image/svg+xml font/ttf
+</IfModule>
+
+# Browser caching
+<IfModule mod_expires.c>
+    ExpiresActive On
+    ExpiresByType text/html "access plus 0 seconds"
+    ExpiresByType text/css "access plus 1 month"
+    ExpiresByType application/javascript "access plus 1 month"
+    ExpiresByType image/png "access plus 6 months"
+    ExpiresByType image/jpeg "access plus 6 months"
+    ExpiresByType image/webp "access plus 6 months"
+    ExpiresByType image/svg+xml "access plus 6 months"
+    ExpiresByType image/x-icon "access plus 1 year"
+    ExpiresByType video/mp4 "access plus 6 months"
+    ExpiresByType font/woff2 "access plus 1 year"
+    ExpiresByType font/ttf "access plus 1 year"
+</IfModule>
+
+# ---------- Security headers ----------
+<IfModule mod_headers.c>
+    Header always set X-Content-Type-Options "nosniff"
+    Header always set X-Frame-Options "SAMEORIGIN"
+    Header always set Referrer-Policy "strict-origin-when-cross-origin"
+    Header unset X-Powered-By
+</IfModule>

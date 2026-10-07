@@ -2,11 +2,11 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact Us - Watsols</title>
-    <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="icon" href="assets/image/favicon.ico">
+    <?php
+    $pageTitle = 'Contact Us - Watsols';
+    $pageDescription = 'Get in touch with Watsols for tailored digital and IT solutions. Call +92 310 8436573 or email info@watsols.com.';
+    include __DIR__ . '/partials/head.php';
+    ?>
 </head>
 
 <body>
@@ -34,7 +34,7 @@
                     <div class="d-flex flex-column text-center align-items-center gspace-2">
                         <h2 class="title-heading animate-box animated animate__animated" data-animate="animate__fadeInRight">Contact Us</h2>
                         <nav class="breadcrumb">
-                            <a href="./index.php" class="gspace-2">Home</a>
+                            <a href="./" class="gspace-2">Home</a>
                             <span class="separator-link">/</span>
                             <p class="current-page">Contact Us</p>
                         </nav>
@@ -92,21 +92,22 @@
                             <p>Thank you! Form submitted successfully.</p>
                         </div>
 
-                        <div id="error-message" class="alert error hidden">
+                        <div id="error-message" class="alert error<?= isset($_GET['error']) ? '' : ' hidden' ?>">
                             <span class="cross-icon"><i class="fa-solid fa-2xl fa-xmark"></i></span>
                             <p>Oops! Form submission failed. Please try again.</p>
                         </div>
                         <div class="form-layout-wrapper">
                             <div class="card form-layout">
                                 <h3 class="title-heading">Let's Talk About Your Next Project</h3>
-                                <form action="/backend/action/action" method="POST" class="form">
+                                <form action="backend/action/action" method="POST" class="form">
                                     <input type="hidden" name="type" value="contactForm">
+                                    <input type="text" name="website" class="d-none" tabindex="-1" autocomplete="off">
                                     <div class="row row-cols-md-2 row-cols-1 g-3">
                                         <div class="col">
-                                            <input type="text" name="full_name" id="first-name" placeholder="Full Name" required>
+                                            <input type="text" name="full_name" id="first-name" placeholder="Full Name" maxlength="100" required>
                                         </div>
                                         <div class="col">
-                                            <input type="number" name="phone" id="phone" placeholder="Phone Number" required>
+                                            <input type="tel" name="phone" id="phone" placeholder="Phone Number" maxlength="30" required>
                                         </div>
                                     </div>
                                     <div class="row row-cols-md-2 row-cols-1 g-3">

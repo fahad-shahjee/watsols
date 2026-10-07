@@ -2,11 +2,11 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Services - Watsols</title>
-    <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="icon" href="assets/image/favicon.ico">
+    <?php
+    $pageTitle = 'Our Services - Watsols';
+    $pageDescription = 'Explore Watsols services: office relocation, computer installations, data centers, website development, IT support and digital marketing.';
+    include __DIR__ . '/partials/head.php';
+    ?>
 </head>
 
 <body>
@@ -23,7 +23,7 @@
                     <div class="d-flex flex-column text-center align-items-center gspace-2">
                         <h2 class="title-heading animate-box animated animate__animated" data-animate="animate__fadeInRight">Our Services</h2>
                         <nav class="breadcrumb">
-                            <a href="./index.php" class="gspace-2">Home</a>
+                            <a href="./" class="gspace-2">Home</a>
                             <span class="separator-link">/</span>
                             <p class="current-page">Services</p>
                         </nav>
@@ -52,7 +52,7 @@
                                         <div>
                                             <div class="service-icon-wrapper">
                                                 <div class="service-icon">
-                                                    <img src="assets/image/home/office-relocation.png" alt="Service Icon" class="img-fluid">
+                                                    <img loading="lazy" decoding="async" src="assets/image/home/office-relocation.png" alt="Service Icon" class="img-fluid">
                                                 </div>
                                             </div>
                                         </div>
@@ -63,7 +63,7 @@
                                     <p>
                                         At Watsols, we understand the power of a strong logo in shaping and representing your brand identity.
                                     </p>
-                                    <a href="./Contact.php" class="btn btn-accent">
+                                    <a href="contact" class="btn btn-accent">
                                         <div class="btn-title">
                                             <span>Contact Us</span>
                                         </div>
@@ -79,7 +79,7 @@
                                         <div>
                                             <div class="service-icon-wrapper">
                                                 <div class="service-icon">
-                                                    <img src="assets/image/home/computer-installations.png" alt="Service Icon" class="img-fluid">
+                                                    <img loading="lazy" decoding="async" src="assets/image/home/computer-installations.png" alt="Service Icon" class="img-fluid">
                                                 </div>
                                             </div>
                                         </div>
@@ -88,7 +88,7 @@
                                         </div>
                                     </div>
                                     <p>At Watsols, we create responsive websites that elevate your online presence and reflect your brand’s vision.</p>
-                                    <a href="./Contact.php" class="btn btn-accent">
+                                    <a href="contact" class="btn btn-accent">
                                         <div class="btn-title">
                                             <span>Contact Us</span>
                                         </div>
@@ -104,7 +104,7 @@
                                         <div>
                                             <div class="service-icon-wrapper">
                                                 <div class="service-icon">
-                                                    <img src="assets/image/home/data-center.png" alt="Service Icon" class="img-fluid">
+                                                    <img loading="lazy" decoding="async" src="assets/image/home/data-center.png" alt="Service Icon" class="img-fluid">
                                                 </div>
                                             </div>
                                         </div>
@@ -113,7 +113,7 @@
                                         </div>
                                     </div>
                                     <p>At Watsols, we craft data-driven digital marketing strategies that boost visibility and drive meaningful business growth.</p>
-                                    <a href="./Contact.php" class="btn btn-accent">
+                                    <a href="contact" class="btn btn-accent">
                                         <div class="btn-title">
                                             <span>Contact Us</span>
                                         </div>
@@ -129,7 +129,7 @@
                                         <div>
                                             <div class="service-icon-wrapper">
                                                 <div class="service-icon">
-                                                    <img src="assets/image/home/web-development.png" alt="Service Icon" class="img-fluid">
+                                                    <img loading="lazy" decoding="async" src="assets/image/home/web-development.png" alt="Service Icon" class="img-fluid">
                                                 </div>
                                             </div>
                                         </div>
@@ -140,7 +140,7 @@
                                     <p>
                                         At Watsols, we develop impactful branding strategies that define your identity and leave a lasting impression.
                                     </p>
-                                    <a href="./contact.php" class="btn btn-accent">
+                                    <a href="contact" class="btn btn-accent">
                                         <div class="btn-title">
                                             <span>Contact Us</span>
                                         </div>
@@ -156,7 +156,7 @@
                                         <div>
                                             <div class="service-icon-wrapper">
                                                 <div class="service-icon">
-                                                    <img src="assets/image/home/it-support.png" alt="Service Icon" class="img-fluid">
+                                                    <img loading="lazy" decoding="async" src="assets/image/home/it-support.png" alt="Service Icon" class="img-fluid">
                                                 </div>
                                             </div>
                                         </div>
@@ -165,7 +165,7 @@
                                         </div>
                                     </div>
                                     <p>At Watsols, we build user-friendly mobile apps that boost engagement and growth.</p>
-                                    <a href="./contact.php" class="btn btn-accent">
+                                    <a href="contact" class="btn btn-accent">
                                         <div class="btn-title">
                                             <span>Contact Us</span>
                                         </div>
@@ -181,7 +181,7 @@
                                         <div>
                                             <div class="service-icon-wrapper">
                                                 <div class="service-icon">
-                                                    <img src="assets/image/home/digital-mar.png" alt="Service Icon" class="img-fluid">
+                                                    <img loading="lazy" decoding="async" src="assets/image/home/digital-mar.png" alt="Service Icon" class="img-fluid">
                                                 </div>
                                             </div>
                                         </div>
@@ -190,7 +190,7 @@
                                         </div>
                                     </div>
                                     <p>At Watsols, we develop reliable and scalable software solutions tailored to meet your business needs.</p>
-                                    <a href="./Contact.php" class="btn btn-accent">
+                                    <a href="contact" class="btn btn-accent">
                                         <div class="btn-title">
                                             <span>Contact Us</span>
                                         </div>
@@ -203,7 +203,7 @@
                         </div>
                     </div>
                     <div class="service-link-footer">
-                        <p>Need a custom solution? Let's create a strategy tailored for your business. <a href="./contact.php">Get a Free Strategy Call</a></p>
+                        <p>Need a custom solution? Let's create a strategy tailored for your business. <a href="contact">Get a Free Strategy Call</a></p>
                     </div>
                 </div>
             </div>
@@ -281,7 +281,7 @@
                                             <div class="d-flex flex-row align-items-center justify-content-between">
                                                 <div class="d-flex flex-row gspace-2">
                                                     <div class="testimonial-image">
-                                                        <img src="assets/image/testimonials/emma.jpg" alt="Testimonial Person Image" class="img-fluid">
+                                                        <img loading="lazy" decoding="async" src="assets/image/testimonials/emma.jpg" alt="Testimonial Person Image" class="img-fluid">
                                                     </div>
                                                     <div class="d-flex flex-column">
                                                         <span class="profile-name">Emma Richard</span>
@@ -307,7 +307,7 @@
                                             <div class="d-flex flex-row align-items-center justify-content-between">
                                                 <div class="d-flex flex-row gspace-2">
                                                     <div class="testimonial-image">
-                                                        <img src="assets/image/testimonials/david.jpg" alt="Testimonial Person Image" class="img-fluid">
+                                                        <img loading="lazy" decoding="async" src="assets/image/testimonials/david.jpg" alt="Testimonial Person Image" class="img-fluid">
                                                     </div>
                                                     <div class="d-flex flex-column">
                                                         <span class="profile-name">David</span>
@@ -332,7 +332,7 @@
                                             <div class="d-flex flex-row align-items-center justify-content-between">
                                                 <div class="d-flex flex-row gspace-2">
                                                     <div class="testimonial-image">
-                                                        <img src="assets/image/testimonials/sophia.jpg" alt="Testimonial Person Image" class="img-fluid">
+                                                        <img loading="lazy" decoding="async" src="assets/image/testimonials/sophia.jpg" alt="Testimonial Person Image" class="img-fluid">
                                                     </div>
                                                     <div class="d-flex flex-column">
                                                         <span class="profile-name">Sophia</span>
@@ -357,7 +357,7 @@
                                             <div class="d-flex flex-row align-items-center justify-content-between">
                                                 <div class="d-flex flex-row gspace-2">
                                                     <div class="testimonial-image">
-                                                        <img src="assets/image/testimonials/james.jpg" alt="Testimonial Person Image" class="img-fluid">
+                                                        <img loading="lazy" decoding="async" src="assets/image/testimonials/james.jpg" alt="Testimonial Person Image" class="img-fluid">
                                                     </div>
                                                     <div class="d-flex flex-column">
                                                         <span class="profile-name">James</span>

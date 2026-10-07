@@ -2,11 +2,12 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Thank You - Watsols</title>
-    <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="icon" href="assets/image/favicon.ico">
+    <?php
+    $pageTitle = 'Thank You - Watsols';
+    $pageDescription = 'Thank you for contacting Watsols.';
+    $noIndex = true;
+    include __DIR__ . '/partials/head.php';
+    ?>
 </head>
 
 <body>
@@ -27,7 +28,7 @@
                     <h3>Your message has been received</h3>
                     <p>We appreciate you reaching out. Our team will get back to you as soon as possible.</p>
                     <div>
-                        <a href="./index.php" class="btn btn-accent">
+                        <a href="./" class="btn btn-accent">
                             <div class="btn-title">
                                 <span>Back to Home</span>
                             </div>

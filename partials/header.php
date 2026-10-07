@@ -8,7 +8,7 @@
     <nav class="navbar navbar-expand-xl">
         <div class="navbar-container">
             <div class="logo-container">
-                <a class="navbar-brand" href="./index.php">
+                <a class="navbar-brand" href="./">
                     <img src="assets/image/logo.png" class="site-logo img-fluid" alt="Logo">
                 </a>
             </div>
@@ -20,7 +20,7 @@
                 <ul class="navbar-nav mx-auto">
                     <!-- Home -->
                     <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="/">Home</a>
+                        <a class="nav-link" aria-current="page" href="./">Home</a>
                     </li>
 
                     <!-- About -->

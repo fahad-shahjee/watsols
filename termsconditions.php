@@ -2,11 +2,11 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Terms & Conditions - Watsols</title>
-    <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="icon" href="assets/image/favicon.ico">
+    <?php
+    $pageTitle = 'Terms & Conditions - Watsols';
+    $pageDescription = 'Read the terms and conditions for using the Watsols website and services.';
+    include __DIR__ . '/partials/head.php';
+    ?>
 </head>
 
 <body>
@@ -24,7 +24,7 @@
                     <div class="d-flex flex-column text-center align-items-center gspace-2">
                         <h2 class="title-heading animate-box animated animate__animated" data-animate="animate__fadeInRight">Terms &amp; Conditions</h2>
                         <nav class="breadcrumb">
-                            <a href="./index.php" class="gspace-2">Home</a>
+                            <a href="./" class="gspace-2">Home</a>
                             <span class="separator-link">/</span>
                             <p class="current-page">Terms &amp; Conditions</p>
                         </nav>

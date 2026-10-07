@@ -2,11 +2,12 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Error 404 - Watsols</title>
-    <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="icon" href="assets/image/favicon.ico">
+    <?php
+    $pageTitle = 'Page Not Found - Watsols';
+    $pageDescription = 'The page you are looking for could not be found.';
+    $noIndex = true;
+    include __DIR__ . '/partials/head.php';
+    ?>
 </head>
 
 <body>
@@ -27,7 +28,7 @@
                     <h3>Oops! Page Not Found</h3>
                     <p>We couldn't find the page you're looking for. It might have been removed, renamed, or never existed.</p>
                     <div>
-                        <a href="./index.php" class="btn btn-accent">
+                        <a href="./" class="btn btn-accent">
                             <div class="btn-title">
                                 <span>Back to Home</span>
                             </div>

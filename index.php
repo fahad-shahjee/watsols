@@ -2,11 +2,11 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Watsols - Where Vision Meets Execution</title>
-    <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="icon" href="assets/image/favicon.ico">
+    <?php
+    $pageTitle = 'Watsols - Where Vision Meets Execution';
+    $pageDescription = 'Watsols drives digital growth through innovative technology solutions, creative strategies and expert IT, web development and digital marketing services.';
+    include __DIR__ . '/partials/head.php';
+    ?>
 </head>
 
 <body>
@@ -40,7 +40,7 @@
                             <div class="banner-content order-xl-2 order-1  animate-box animated animate__animated" data-animate="animate__fadeInRight" style="color: white;">
                                 <p>Watsols drives digital growth through innovative technology solutions, creative strategies, and expert services, empowering global businesses to achieve excellence and stay ahead in a competitive landscape.</p>
                                 <div class="d-flex flex-md-row flex-column justify-content-center justify-content-xl-start align-self-center align-self-xl-start gspace-3">
-                                    <a href="./contact.php" class="btn btn-accent">
+                                    <a href="contact" class="btn btn-accent">
                                         <div class="btn-title">
                                             <span>Get Started</span>
                                         </div>
@@ -62,7 +62,7 @@
                 <div class="d-flex flex-column flex-xl-row gspace-5">
                     <div class="expertise-img-layout">
                         <div class="image-container expertise-img">
-                            <img src="assets/image/home/about-sec.png" alt="Expertise Image" class="img-fluid  animate-box animated animate__animated" data-animate="animate__fadeInUp">
+                            <img loading="lazy" decoding="async" src="assets/image/home/about-sec.webp" alt="Expertise Image" class="img-fluid  animate-box animated animate__animated" data-animate="animate__fadeInUp">
                             <div class="expertise-layout">
                                 <div class="d-flex flex-column">
                                     <div class="card-expertise-wrapper">
@@ -70,7 +70,7 @@
                                             <h4>Ready to Elevate Your Digital Presence?</h4>
                                             <p>Let’s build a unique strategy designed for your business success.</p>
                                             <div class="d-flex align-items-center flex-row gspace-2 expertise-link">
-                                                <a href="./contact.php">Get Free Consultation</a>
+                                                <a href="contact">Get Free Consultation</a>
                                                 <i class="fa-solid fa-circle-arrow-right"></i>
                                             </div>
                                         </div>
@@ -143,99 +143,99 @@
                                     <div class="swiper-slide">
                                         <a href="#">
                                             <div class="partner-slide">
-                                                <img src="assets/image/home/brands/one.png" alt="Client" class="partner-logo img-fluid">
+                                                <img loading="lazy" decoding="async" src="assets/image/home/brands/one.png" alt="Client" class="partner-logo img-fluid">
                                             </div>
                                         </a>
                                     </div>
                                     <div class="swiper-slide">
                                         <a href="#">
                                             <div class="partner-slide">
-                                                <img src="assets/image/home/brands/two.png" alt="Client" class="partner-logo img-fluid">
+                                                <img loading="lazy" decoding="async" src="assets/image/home/brands/two.png" alt="Client" class="partner-logo img-fluid">
                                             </div>
                                         </a>
                                     </div>
                                     <div class="swiper-slide">
                                         <a href="#">
                                             <div class="partner-slide">
-                                                <img src="assets/image/home/brands/three.png" alt="Client" class="partner-logo img-fluid">
+                                                <img loading="lazy" decoding="async" src="assets/image/home/brands/three.png" alt="Client" class="partner-logo img-fluid">
                                             </div>
                                         </a>
                                     </div>
                                     <div class="swiper-slide">
                                         <a href="#">
                                             <div class="partner-slide">
-                                                <img src="assets/image/home/brands/four.png" alt="Client" class="partner-logo img-fluid">
+                                                <img loading="lazy" decoding="async" src="assets/image/home/brands/four.png" alt="Client" class="partner-logo img-fluid">
                                             </div>
                                         </a>
                                     </div>
                                     <div class="swiper-slide">
                                         <a href="#">
                                             <div class="partner-slide">
-                                                <img src="assets/image/home/brands/five.png" alt="Client" class="partner-logo img-fluid">
+                                                <img loading="lazy" decoding="async" src="assets/image/home/brands/five.png" alt="Client" class="partner-logo img-fluid">
                                             </div>
                                         </a>
                                     </div>
                                     <div class="swiper-slide">
                                         <a href="#">
                                             <div class="partner-slide">
-                                                <img src="assets/image/home/brands/six.png" alt="Client" class="partner-logo img-fluid">
+                                                <img loading="lazy" decoding="async" src="assets/image/home/brands/six.png" alt="Client" class="partner-logo img-fluid">
                                             </div>
                                         </a>
                                     </div>
                                     <div class="swiper-slide">
                                         <a href="#">
                                             <div class="partner-slide">
-                                                <img src="assets/image/home/brands/seven.png" alt="Client" class="partner-logo img-fluid">
+                                                <img loading="lazy" decoding="async" src="assets/image/home/brands/seven.png" alt="Client" class="partner-logo img-fluid">
                                             </div>
                                         </a>
                                     </div>
                                     <div class="swiper-slide">
                                         <a href="#">
                                             <div class="partner-slide">
-                                                <img src="assets/image/home/brands/eight.png" alt="Client" class="partner-logo img-fluid">
+                                                <img loading="lazy" decoding="async" src="assets/image/home/brands/eight.png" alt="Client" class="partner-logo img-fluid">
                                             </div>
                                         </a>
                                     </div>
                                     <div class="swiper-slide">
                                         <a href="#">
                                             <div class="partner-slide">
-                                                <img src="assets/image/home/brands/nine.png" alt="Client" class="partner-logo img-fluid">
+                                                <img loading="lazy" decoding="async" src="assets/image/home/brands/nine.png" alt="Client" class="partner-logo img-fluid">
                                             </div>
                                         </a>
                                     </div>
                                     <div class="swiper-slide">
                                         <div class="partner-slide">
-                                            <img src="assets/image/home/brands/ten.png" alt="Client" class="partner-logo img-fluid">
+                                            <img loading="lazy" decoding="async" src="assets/image/home/brands/ten.png" alt="Client" class="partner-logo img-fluid">
                                         </div>
                                     </div>
                                     <div class="swiper-slide">
                                         <div class="partner-slide">
-                                            <img src="assets/image/home/brands/eleven.png" alt="Client" class="partner-logo img-fluid">
+                                            <img loading="lazy" decoding="async" src="assets/image/home/brands/eleven.png" alt="Client" class="partner-logo img-fluid">
                                         </div>
                                     </div>
                                     <div class="swiper-slide">
                                         <div class="partner-slide">
-                                            <img src="assets/image/home/brands/twelve.png" alt="Client" class="partner-logo img-fluid">
+                                            <img loading="lazy" decoding="async" src="assets/image/home/brands/twelve.png" alt="Client" class="partner-logo img-fluid">
                                         </div>
                                     </div>
                                     <div class="swiper-slide">
                                         <div class="partner-slide">
-                                            <img src="assets/image/home/brands/one.png" alt="Client" class="partner-logo img-fluid">
+                                            <img loading="lazy" decoding="async" src="assets/image/home/brands/one.png" alt="Client" class="partner-logo img-fluid">
                                         </div>
                                     </div>
                                     <div class="swiper-slide">
                                         <div class="partner-slide">
-                                            <img src="assets/image/home/brands/two.png" alt="Client" class="partner-logo img-fluid">
+                                            <img loading="lazy" decoding="async" src="assets/image/home/brands/two.png" alt="Client" class="partner-logo img-fluid">
                                         </div>
                                     </div>
                                     <div class="swiper-slide">
                                         <div class="partner-slide">
-                                            <img src="assets/image/home/brands/five.png" alt="Client" class="partner-logo img-fluid">
+                                            <img loading="lazy" decoding="async" src="assets/image/home/brands/five.png" alt="Client" class="partner-logo img-fluid">
                                         </div>
                                     </div>
                                     <div class="swiper-slide">
                                         <div class="partner-slide">
-                                            <img src="assets/image/home/brands/four.png" alt="Client" class="partner-logo img-fluid">
+                                            <img loading="lazy" decoding="async" src="assets/image/home/brands/four.png" alt="Client" class="partner-logo img-fluid">
                                         </div>
                                     </div>
                                 </div>
@@ -265,7 +265,7 @@
                                         <div>
                                             <div class="service-icon-wrapper">
                                                 <div class="service-icon">
-                                                    <img src="assets/image/home/office-relocation.png" alt="Service Icon" class="img-fluid">
+                                                    <img loading="lazy" decoding="async" src="assets/image/home/office-relocation.png" alt="Service Icon" class="img-fluid">
                                                 </div>
                                             </div>
                                         </div>
@@ -276,7 +276,7 @@
                                     <p>
                                         At Watsols, we understand the power of a strong logo in shaping and representing your brand identity.
                                     </p>
-                                    <a href="./Contact.php" class="btn btn-accent">
+                                    <a href="contact" class="btn btn-accent">
                                         <div class="btn-title">
                                             <span>Contact Us</span>
                                         </div>
@@ -292,7 +292,7 @@
                                         <div>
                                             <div class="service-icon-wrapper">
                                                 <div class="service-icon">
-                                                    <img src="assets/image/home/computer-installations.png" alt="Service Icon" class="img-fluid">
+                                                    <img loading="lazy" decoding="async" src="assets/image/home/computer-installations.png" alt="Service Icon" class="img-fluid">
                                                 </div>
                                             </div>
                                         </div>
@@ -301,7 +301,7 @@
                                         </div>
                                     </div>
                                     <p>At Watsols, we create responsive websites that elevate your online presence and reflect your brand’s vision.</p>
-                                    <a href="./Contact.php" class="btn btn-accent">
+                                    <a href="contact" class="btn btn-accent">
                                         <div class="btn-title">
                                             <span>Contact Us</span>
                                         </div>
@@ -317,7 +317,7 @@
                                         <div>
                                             <div class="service-icon-wrapper">
                                                 <div class="service-icon">
-                                                    <img src="assets/image/home/data-center.png" alt="Service Icon" class="img-fluid">
+                                                    <img loading="lazy" decoding="async" src="assets/image/home/data-center.png" alt="Service Icon" class="img-fluid">
                                                 </div>
                                             </div>
                                         </div>
@@ -326,7 +326,7 @@
                                         </div>
                                     </div>
                                     <p>At Watsols, we craft data-driven digital marketing strategies that boost visibility and drive meaningful business growth.</p>
-                                    <a href="./Contact.php" class="btn btn-accent">
+                                    <a href="contact" class="btn btn-accent">
                                         <div class="btn-title">
                                             <span>Contact Us</span>
                                         </div>
@@ -342,7 +342,7 @@
                                         <div>
                                             <div class="service-icon-wrapper">
                                                 <div class="service-icon">
-                                                    <img src="assets/image/home/web-development.png" alt="Service Icon" class="img-fluid">
+                                                    <img loading="lazy" decoding="async" src="assets/image/home/web-development.png" alt="Service Icon" class="img-fluid">
                                                 </div>
                                             </div>
                                         </div>
@@ -353,7 +353,7 @@
                                     <p>
                                         At Watsols, we develop impactful branding strategies that define your identity and leave a lasting impression.
                                     </p>
-                                    <a href="./contact.php" class="btn btn-accent">
+                                    <a href="contact" class="btn btn-accent">
                                         <div class="btn-title">
                                             <span>Contact Us</span>
                                         </div>
@@ -369,7 +369,7 @@
                                         <div>
                                             <div class="service-icon-wrapper">
                                                 <div class="service-icon">
-                                                    <img src="assets/image/home/it-support.png" alt="Service Icon" class="img-fluid">
+                                                    <img loading="lazy" decoding="async" src="assets/image/home/it-support.png" alt="Service Icon" class="img-fluid">
                                                 </div>
                                             </div>
                                         </div>
@@ -378,7 +378,7 @@
                                         </div>
                                     </div>
                                     <p>At Watsols, we build user-friendly mobile apps that boost engagement and growth.</p>
-                                    <a href="./contact.php" class="btn btn-accent">
+                                    <a href="contact" class="btn btn-accent">
                                         <div class="btn-title">
                                             <span>Contact Us</span>
                                         </div>
@@ -394,7 +394,7 @@
                                         <div>
                                             <div class="service-icon-wrapper">
                                                 <div class="service-icon">
-                                                    <img src="assets/image/home/digital-mar.png" alt="Service Icon" class="img-fluid">
+                                                    <img loading="lazy" decoding="async" src="assets/image/home/digital-mar.png" alt="Service Icon" class="img-fluid">
                                                 </div>
                                             </div>
                                         </div>
@@ -403,7 +403,7 @@
                                         </div>
                                     </div>
                                     <p>At Watsols, we develop reliable and scalable software solutions tailored to meet your business needs.</p>
-                                    <a href="./Contact.php" class="btn btn-accent">
+                                    <a href="contact" class="btn btn-accent">
                                         <div class="btn-title">
                                             <span>Contact Us</span>
                                         </div>
@@ -416,7 +416,7 @@
                         </div>
                     </div>
                     <div class="service-link-footer">
-                        <p>Need a custom solution? Let's create a strategy tailored for your business. <a href="./contact.php">Get a Free Strategy Call</a></p>
+                        <p>Need a custom solution? Let's create a strategy tailored for your business. <a href="contact">Get a Free Strategy Call</a></p>
                     </div>
                 </div>
             </div>
@@ -449,7 +449,7 @@
                                     <div class="chooseus-spacer above"></div>
                                     <div class="chooseus-icon-layout">
                                         <div class="chooseus-icon">
-                                            <img src="assets/image/home/mission.png" alt="Why Choose Us Icon" class="img-fluid">
+                                            <img loading="lazy" decoding="async" src="assets/image/home/mission.png" alt="Why Choose Us Icon" class="img-fluid">
                                         </div>
                                     </div>
                                     <div class="chooseus-spacer below"></div>
@@ -458,7 +458,7 @@
                                     <h4 class="chooseus-title">Mission</h4>
                                     <p>To empower businesses with innovative solutions and strategies that drive growth, create impact, and elevate their digital presence.</p>
                                     <div class="link-wrapper">
-                                        <a href="about.php">Read More</a>
+                                        <a href="about">Read More</a>
                                         <i class="fa-solid fa-arrow-circle-right accent-color"></i>
                                     </div>
                                 </div>
@@ -468,7 +468,7 @@
                                     <div class="chooseus-spacer above"></div>
                                     <div class="chooseus-icon-layout">
                                         <div class="chooseus-icon">
-                                            <img src="assets/image/home/vision.png" alt="Why Choose Us Icon" class="img-fluid">
+                                            <img loading="lazy" decoding="async" src="assets/image/home/vision.png" alt="Why Choose Us Icon" class="img-fluid">
                                         </div>
                                     </div>
                                     <div class="chooseus-spacer below"></div>
@@ -477,7 +477,7 @@
                                     <h4 class="chooseus-title">Vision</h4>
                                     <p>To be a global leader in digital innovation, inspiring progress and helping brands thrive in a fast-evolving world.</p>
                                     <div class="link-wrapper">
-                                        <a href="about.php">Read More</a>
+                                        <a href="about">Read More</a>
                                         <i class="fa-solid fa-arrow-circle-right accent-color"></i>
                                     </div>
                                 </div>
@@ -487,7 +487,7 @@
                                     <div class="chooseus-spacer above"></div>
                                     <div class="chooseus-icon-layout">
                                         <div class="chooseus-icon">
-                                            <img src="assets/image/home/core-values.png" alt="Why Choose Us Icon" class="img-fluid">
+                                            <img loading="lazy" decoding="async" src="assets/image/home/core-values.png" alt="Why Choose Us Icon" class="img-fluid">
                                         </div>
                                     </div>
                                     <div class="chooseus-spacer below"></div>
@@ -496,7 +496,7 @@
                                     <h4 class="chooseus-title">Core Values</h4>
                                     <p>Innovation, integrity, collaboration, and excellence guide everything we do, shaping lasting partnerships and impactful solutions.</p>
                                     <div class="link-wrapper">
-                                        <a href="about.php">Read More</a>
+                                        <a href="about">Read More</a>
                                         <i class="fa-solid fa-arrow-circle-right accent-color"></i>
                                     </div>
                                 </div>
@@ -514,7 +514,7 @@
                                 <p class="mb-0 animate-box animated animate__animated" data-animate="animate__fadeInDown">At Watsols, we are dedicated to delivering outstanding quality and impactful results. With a global presence and a talented team, we combine innovation and expertise to drive meaningful business growth and digital excellence.</p>
                             </div>
                             <div class="image-container">
-                                <img src="assets/image/home/why-choose.png" alt="Why Choose Us Image" class="chooseus-img">
+                                <img loading="lazy" decoding="async" src="assets/image/home/why-choose.webp" alt="Why Choose Us Image" class="chooseus-img">
                                 <div class="card-chooseus-cta-layout">
                                     <div class="chooseus-cta-spacer"></div>
                                     <div class="d-flex flex-column align-items-end">
@@ -523,7 +523,7 @@
                                             <div class="card card-chooseus-cta animate-box animated animate__animated" data-animate="animate__fadeInUp">
                                                 <h5>Partner with Watsols & take your brand to the next level.</h5>
                                                 <div class="link-wrapper">
-                                                    <a href="./contact.php">Let's Talk Strategy</a>
+                                                    <a href="contact">Let's Talk Strategy</a>
                                                     <i class="fa-solid fa-circle-arrow-right"></i>
                                                 </div>
                                             </div>
@@ -608,7 +608,7 @@
                                             <div class="d-flex flex-row align-items-center justify-content-between">
                                                 <div class="d-flex flex-row gspace-2">
                                                     <div class="testimonial-image">
-                                                        <img src="assets/image/testimonials/emma.jpg" alt="Testimonial Person Image" class="img-fluid">
+                                                        <img loading="lazy" decoding="async" src="assets/image/testimonials/emma.jpg" alt="Testimonial Person Image" class="img-fluid">
                                                     </div>
                                                     <div class="d-flex flex-column">
                                                         <span class="profile-name">Emma Richard</span>
@@ -634,7 +634,7 @@
                                             <div class="d-flex flex-row align-items-center justify-content-between">
                                                 <div class="d-flex flex-row gspace-2">
                                                     <div class="testimonial-image">
-                                                        <img src="assets/image/testimonials/david.jpg" alt="Testimonial Person Image" class="img-fluid">
+                                                        <img loading="lazy" decoding="async" src="assets/image/testimonials/david.jpg" alt="Testimonial Person Image" class="img-fluid">
                                                     </div>
                                                     <div class="d-flex flex-column">
                                                         <span class="profile-name">David</span>
@@ -659,7 +659,7 @@
                                             <div class="d-flex flex-row align-items-center justify-content-between">
                                                 <div class="d-flex flex-row gspace-2">
                                                     <div class="testimonial-image">
-                                                        <img src="assets/image/testimonials/sophia.jpg" alt="Testimonial Person Image" class="img-fluid">
+                                                        <img loading="lazy" decoding="async" src="assets/image/testimonials/sophia.jpg" alt="Testimonial Person Image" class="img-fluid">
                                                     </div>
                                                     <div class="d-flex flex-column">
                                                         <span class="profile-name">Sophia</span>
@@ -684,7 +684,7 @@
                                             <div class="d-flex flex-row align-items-center justify-content-between">
                                                 <div class="d-flex flex-row gspace-2">
                                                     <div class="testimonial-image">
-                                                        <img src="assets/image/testimonials/james.jpg" alt="Testimonial Person Image" class="img-fluid">
+                                                        <img loading="lazy" decoding="async" src="assets/image/testimonials/james.jpg" alt="Testimonial Person Image" class="img-fluid">
                                                     </div>
                                                     <div class="d-flex flex-column">
                                                         <span class="profile-name">James</span>
@@ -721,14 +721,16 @@
                                 <p class="text-center">Thank you! Form submitted successfully.</p>
                             </div>
 
-                            <div id="newsletter-error" class="alert error hidden">
+                            <div id="newsletter-error" class="alert error<?= isset($_GET['error']) ? '' : ' hidden' ?>">
                                 <span class="cross-icon"><i class="fa-solid fa-2xl fa-xmark"></i></span>
                                 <p class="text-center">Oops! Form submission failed. Please try again.</p>
                             </div>
 
-                            <form action="./php/newsletter_process.php" method="POST" id="newsletterForm" class="needs-validation animate-box animated animate__animated" data-animate="animate__fadeInRight">
+                            <form action="backend/action/action" method="POST" id="newsletterForm" class="needs-validation animate-box animated animate__animated" data-animate="animate__fadeInRight">
                                 <div class="input-container">
-                                    <input type="tel" name="newsletter-email" id="newsletter-email" placeholder="Provide Phone Number" required>
+                                    <input type="hidden" name="type" value="callRequest">
+                                    <input type="text" name="website" class="d-none" tabindex="-1" autocomplete="off">
+                                    <input type="tel" name="phone" id="newsletter-email" placeholder="Provide Phone Number" pattern="[0-9+\-\s()]{7,30}" title="Enter a valid phone number" required>
                                     <p class="error-text hidden"></p>
                                 </div>
                                 <button class="btn btn-accent" type="submit">
